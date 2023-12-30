@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>forgetful engineer</title>
+  <icon>https://forgetfulengineer.github.io/img/favicon.svg</icon>
+  
+  <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://forgetfulengineer.github.io/"/>
+  <updated>2023-12-30T07:27:36.295Z</updated>
+  <id>https://forgetfulengineer.github.io/</id>
+  
+  <author>
+    <name>健忘工程師</name>
+    <email>thatforgetfulengineer@gmail.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【PHP】4種判斷變數或陣列是否存在的方法</title>
+    <link href="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"/>
+    <id>https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/</id>
+    <published>2023-12-30T07:17:13.000Z</published>
+    <updated>2023-12-30T07:27:36.295Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;本篇要處理的問題&quot;&gt;&lt;a href=&quot;#本篇要處理的問題&quot; class=&quot;headerlink&quot; title=&quot;本篇要處理的問題&quot;&gt;&lt;/a&gt;本篇要處理的問題&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數是否存在&lt;/li&gt;
+&lt;li&gt;資料檢查甚麼時候會有錯誤訊息</summary>
+    
+    
+    
+    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://forgetfulengineer.github.io/tags/PHP/"/>
+    
+    <category term="debug" scheme="https://forgetfulengineer.github.io/tags/debug/"/>
+    
+    <category term="後端" scheme="https://forgetfulengineer.github.io/tags/%E5%BE%8C%E7%AB%AF/"/>
+    
+    <category term="統整" scheme="https://forgetfulengineer.github.io/tags/%E7%B5%B1%E6%95%B4/"/>
+    
+  </entry>
+  
+</feed>
