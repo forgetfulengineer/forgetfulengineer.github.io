@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2023-12-30T07:27:36.295Z</updated>
+  <updated>2024-01-11T15:09:46.296Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -21,12 +21,10 @@
     <link href="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"/>
     <id>https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/</id>
     <published>2023-12-30T07:17:13.000Z</published>
-    <updated>2023-12-30T07:27:36.295Z</updated>
+    <updated>2024-01-11T15:09:46.296Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;本篇要處理的問題&quot;&gt;&lt;a href=&quot;#本篇要處理的問題&quot; class=&quot;headerlink&quot; title=&quot;本篇要處理的問題&quot;&gt;&lt;/a&gt;本篇要處理的問題&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數是否存在&lt;/li&gt;
-&lt;li&gt;資料檢查甚麼時候會有錯誤訊息</summary>
+    <summary type="html">【PHP】1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error)</summary>
     
     
     
