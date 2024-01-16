@@ -105,6 +105,28 @@ mark {
   border-radius: 10px;
   border-width: 0 0 0 6px;
 }
+.table-scroll {
+  height: 65vh;
+  overflow-y: auto;
+}
+.table-scroll td:first-child,
+.table-scroll th:first-child {
+  position: sticky;
+  z-index: 1;
+  left: 0;
+  background-color: #fff;
+}
+.table-scroll thead tr th {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+.table-scroll th:first-child {
+  z-index: 2;
+}
+figure.highlight {
+  border-radius: 10px;
+}
 .menu-list a {
   border-radius: 10px;
 }
@@ -150,7 +172,7 @@ footer.footer {
 }
 mobile()
 desktop()
-article i {
+i {
   margin-right: 5px;
 }
 .notification {
