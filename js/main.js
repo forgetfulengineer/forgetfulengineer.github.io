@@ -147,7 +147,7 @@
     })
 
     // 複製文章連結
-    new ClipboardJS('#share'); // eslint-disable-line no-new
+    new ClipboardJS('#share');
 
     // 複製完成提示
     $('.copy').click(function () {
@@ -164,5 +164,5 @@
     });
 
     // 文章內表格 - 新增樣式
-    $('table').addClass("table is-hoverable");
+    $('.table-scroll table').addClass("table is-hoverable");
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));
