@@ -11747,6 +11747,15 @@ a:hover {
 article .link-muted:hover {
   color: #927f6c !important;
 }
+article .gallery-item img {
+  border-radius: 13px;
+}
+article .content {
+  text-align: justify;
+}
+article .content .no_justify {
+  text-align: left;
+}
 .article-licensing {
   border-radius: 15px;
 }
@@ -11818,6 +11827,10 @@ mark {
 figure.highlight {
   border-radius: 10px;
 }
+.lg-image {
+  max-width: 60vw !important;
+  border-radius: 13px;
+}
 .menu-list a {
   border-radius: 10px;
 }
@@ -11887,6 +11900,9 @@ footer.footer {
 }
 i {
   margin-right: 5px;
+}
+#back-to-top i {
+  margin-right: 0px;
 }
 .notification {
   position: fixed;

@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://forgetfulengineer.github.io/VSCode/Using-Git-Bash-in-VSCode/</loc>
+    
+    <lastmod>2024-02-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/</loc>
     
-    <lastmod>2024-01-23</lastmod>
+    <lastmod>2024-02-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,36 +22,50 @@
 
   <url>
     <loc>https://forgetfulengineer.github.io/</loc>
-    <lastmod>2024-01-27</lastmod>
+    <lastmod>2024-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://forgetfulengineer.github.io/tags/VSCode/</loc>
+    <lastmod>2024-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://forgetfulengineer.github.io/tags/git-bash/</loc>
+    <lastmod>2024-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://forgetfulengineer.github.io/tags/terminal/</loc>
+    <lastmod>2024-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://forgetfulengineer.github.io/tags/PHP/</loc>
-    <lastmod>2024-01-27</lastmod>
+    <lastmod>2024-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://forgetfulengineer.github.io/tags/debug/</loc>
-    <lastmod>2024-01-27</lastmod>
+    <lastmod>2024-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://forgetfulengineer.github.io/tags/%E5%BE%8C%E7%AB%AF/</loc>
-    <lastmod>2024-01-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://forgetfulengineer.github.io/tags/%E7%B5%B1%E6%95%B4/</loc>
-    <lastmod>2024-01-27</lastmod>
+    <lastmod>2024-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -50,8 +73,15 @@
 
   
   <url>
+    <loc>https://forgetfulengineer.github.io/categories/VSCode/</loc>
+    <lastmod>2024-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://forgetfulengineer.github.io/categories/PHP/</loc>
-    <lastmod>2024-01-27</lastmod>
+    <lastmod>2024-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
