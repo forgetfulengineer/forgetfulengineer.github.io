@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-02-16T10:09:06.475Z</updated>
+  <updated>2024-02-17T01:59:04.461Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://forgetfulengineer.github.io/VSCode/Using-Git-Bash-in-VSCode/"/>
     <id>https://forgetfulengineer.github.io/VSCode/Using-Git-Bash-in-VSCode/</id>
     <published>2024-02-11T15:11:31.000Z</published>
-    <updated>2024-02-16T10:09:06.475Z</updated>
+    <updated>2024-02-17T01:59:04.461Z</updated>
     
     
     <summary type="html">1.為什麼要使用 git bash。2.VSCode terminal 選項新增 git bash。3.將 git bash 設定為 VSCode 的預設終端機</summary>
@@ -44,7 +44,7 @@
     <link href="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"/>
     <id>https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/</id>
     <published>2023-12-30T07:17:13.000Z</published>
-    <updated>2024-02-06T10:07:01.176Z</updated>
+    <updated>2024-02-17T01:59:04.461Z</updated>
     
     
     <summary type="html">1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error)</summary>
