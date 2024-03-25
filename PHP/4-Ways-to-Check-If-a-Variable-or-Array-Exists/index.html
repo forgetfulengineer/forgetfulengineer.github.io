@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>【PHP】4種判斷變數或陣列是否存在的方法 - 健忘工程師</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="健忘工程師"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="健忘工程師"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error)"><meta property="og:type" content="article"><meta property="og:title" content="【PHP】4種判斷變數或陣列是否存在的方法"><meta property="og:url" content="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"><meta property="og:site_name" content="健忘工程師"><meta property="og:description" content="1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error)"><meta property="og:locale" content="zh_TW"><meta property="og:image" content="https://forgetfulengineer.github.io/img/og_image.png"><meta property="article:published_time" content="2023-12-30T07:17:13.000Z"><meta property="article:modified_time" content="2024-02-08T10:56:21.482Z"><meta property="article:author" content="健忘工程師"><meta property="article:tag" content="PHP"><meta property="article:tag" content="debug"><meta property="article:tag" content="後端"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://forgetfulengineer.github.io/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"},"headline":"【PHP】4種判斷變數或陣列是否存在的方法","image":["https://forgetfulengineer.github.io/img/og_image.png"],"datePublished":"2023-12-30T07:17:13.000Z","dateModified":"2024-02-08T10:56:21.482Z","author":{"@type":"Person","name":"健忘工程師"},"publisher":{"@type":"Organization","name":"健忘工程師","logo":{"@type":"ImageObject","url":"https://forgetfulengineer.github.io/img/logo.svg"}},"description":"1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error)"}</script><link rel="canonical" href="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code&amp;family=Noto+Sans+TC:wght@500&amp;display=swap"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=G-BS6F1Q01DB" async></script><script>window.dataLayer = window.dataLayer || [];
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>【PHP】4種判斷變數或陣列是否存在的方法 - 健忘工程師</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="健忘工程師"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="健忘工程師"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error)"><meta property="og:type" content="article"><meta property="og:title" content="【PHP】4種判斷變數或陣列是否存在的方法"><meta property="og:url" content="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"><meta property="og:site_name" content="健忘工程師"><meta property="og:description" content="1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error)"><meta property="og:locale" content="zh_TW"><meta property="og:image" content="https://forgetfulengineer.github.io/img/og_image.png"><meta property="article:published_time" content="2023-12-30T07:17:13.000Z"><meta property="article:modified_time" content="2024-03-25T14:41:35.427Z"><meta property="article:author" content="健忘工程師"><meta property="article:tag" content="php"><meta property="article:tag" content="debug"><meta property="article:tag" content="backend"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://forgetfulengineer.github.io/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"},"headline":"【PHP】4種判斷變數或陣列是否存在的方法","image":["https://forgetfulengineer.github.io/img/og_image.png"],"datePublished":"2023-12-30T07:17:13.000Z","dateModified":"2024-03-25T14:41:35.427Z","author":{"@type":"Person","name":"健忘工程師"},"publisher":{"@type":"Organization","name":"健忘工程師","logo":{"@type":"ImageObject","url":"https://forgetfulengineer.github.io/img/logo.svg"}},"description":"1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error)"}</script><link rel="canonical" href="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&amp;display=swap&amp;family=Inconsolata:wdth,wght@112.5,600"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=G-BS6F1Q01DB" async></script><script>window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
     
@@ -34,7 +34,7 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="健忘工程師" type="application/atom+xml">
-<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="健忘工程師" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/categories/PHP">PHP</a><a class="navbar-item" href="/categories/VSCode">VSCode</a><a class="navbar-item" href="/archives">所有文章</a></div><div class="navbar-end"><a class="navbar-item is-hidden-tablet catalogue" title="文章目錄" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜尋" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-9-tablet is-9-desktop is-6-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/categories">分類</a></li><li><a href="/categories/PHP/">PHP</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><h1 class="title is-3 is-size-4-mobile mb-3">【PHP】4種判斷變數或陣列是否存在的方法</h1><div class="article-meta is-size-7 level is-mobile mb-3"><div class="level-left"><span class="level-item"><i class="fa-regular fa-calendar-days"></i><time dateTime="2024-02-08T10:56:21.482Z" title="更新於2024/2/8 下午6:56:21">2024-02-08</time></span><span class="level-item" id="replay" style="cursor: pointer;"><i class="fa-regular fa-comment-dots"></i>回覆文章</span><span class="level-item copy" id="share" style="cursor: pointer;" title="複製連結" data-clipboard-text="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"><i class="fa-solid fa-link"></i>分享</span></div></div><div class="content"><h2 id="本篇重點"><a href="#本篇重點" class="headerlink" title="本篇重點"></a>本篇重點</h2><ul>
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="健忘工程師" height="28"></a><div class="navbar-end is-flex"><a class="navbar-item is-hidden-tablet catalogue" title="文章目錄" href="javascript:;"><button class="button is-small"><span class="icon is-small"><i class="fas fa-list-ul"></i></span><span>文章目錄</span></button></a><a class="navbar-item is-hidden-desktop search" title="搜尋" href="javascript:;"><i class="fas fa-search"></i></a></div><a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/categories/PHP">PHP</a><a class="navbar-item" href="/categories/VSCode">VSCode</a><div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Frontend</a><div class="navbar-dropdown"><a class="navbar-item" href="/categories/Frontend/Css">Css</a><a class="navbar-item" href="/categories/Frontend/JQuery">JQuery</a></div></div><a class="navbar-item" href="/archives">所有文章</a></div><div class="navbar-end is-hidden-touch"><a class="navbar-item search" title="搜尋" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-9-tablet is-9-desktop is-6-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/categories">分類</a></li><li><a href="/categories/PHP/">PHP</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><h1 class="title is-3 is-size-4-mobile mb-3">【PHP】4種判斷變數或陣列是否存在的方法</h1><div class="article-meta is-size-7 level is-mobile mb-3"><div class="level-left"><span class="level-item"><i class="fa-regular fa-calendar-days"></i><time dateTime="2024-03-25T14:41:35.427Z" title="更新於2024/3/25 下午10:41:35">2024-03-25</time></span><span class="level-item" id="replay" style="cursor: pointer;"><i class="fa-regular fa-comment-dots"></i>回覆文章</span><span class="level-item copy" id="share" style="cursor: pointer;" title="複製連結" data-clipboard-text="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"><i class="fa-solid fa-link"></i>分享</span></div></div><div class="content"><h2 id="本篇重點"><a href="#本篇重點" class="headerlink" title="本篇重點"></a>本篇重點</h2><ul>
 <li>使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在</li>
 <li>資料檢查甚麼時候會有錯誤訊息(php error)<span id="more"></span></li>
 </ul>
@@ -209,8 +209,7 @@
 <li><code>isset()</code> 和 <code>is_null()</code> 的判斷結果相反</li>
 </ul>
 <article class="message">
-        <div class="message-header"><p><i class="fa-regular fa-lightbulb mr-2"></i>健忘筆記</p>
-</div>
+        
         <div class="message-body">
             <p><mark>螢光標記</mark>是我覺得特別要注意的判斷結果</p>
 
@@ -220,77 +219,217 @@
 <h3 id="範例"><a href="#範例" class="headerlink" title="範例"></a>範例</h3><ol>
 <li>用戶填寫表格資料並送出資料，這些資料會從前端傳到後端程式，此時我們需要驗證是否有填入資料或是資料是否正確</li>
 </ol>
-<figure class="highlight php"><figcaption><span>php</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// 使用 isset() 搭配 intval() 確認是否有參數傳入且為大於 0 的數值</span></span><br><span class="line"><span class="variable">$age</span> = <span class="keyword">isset</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;age&#x27;</span>]) &amp;&amp; <span class="title function_ invoke__">intval</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;age&#x27;</span>]) &gt; <span class="number">0</span> ? <span class="title function_ invoke__">intval</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;age&#x27;</span>]) : <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 初步整理$age值後，檢查是否需要返回前端重新填寫$age</span></span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$age</span> == <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="comment">// 返回前端請用戶重新填寫年齡</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><figcaption><span>php</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// 使用 isset() 搭配 intval() 確認是否有參數傳入且為大於 0 的數值</span></span><br><span class="line"><span class="variable">$age</span> = <span class="keyword">isset</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;age&#x27;</span>]) &amp;&amp; <span class="title function_ invoke__">intval</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;age&#x27;</span>]) &gt; <span class="number">0</span> ? <span class="title function_ invoke__">intval</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;age&#x27;</span>]) : <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 初步整理 $age 值後，檢查是否需要返回前端重新填寫年齡</span></span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$age</span> == <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="comment">// 返回前端請用戶重新填寫年齡</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <ul>
-<li>情境一，填寫年齡 30 傳入後端，isset()為 true，且 intval() 後數值大於零，$age &#x3D; 30</li>
-<li>情境二，填寫年齡 0 傳入後端，isset()為 true，但 intval() 後數值等於零，$age &#x3D; 0</li>
-<li>情境三，無填寫年齡傳入後端，isset()為 false，$age &#x3D; 0</li>
+<li>情境一，填寫年齡 30 傳入後端，isset() 為 true，且 intval() 後數值大於零，$age &#x3D; 30 往下接續處理</li>
+<li>情境二，填寫年齡 0 傳入後端，isset() 為 true，但 intval() 後數值等於零，$age &#x3D; 0 返回前端處理</li>
+<li>情境三，無填寫年齡傳入後端，isset() 為 false，$age &#x3D; 0 返回前端處理</li>
 </ul>
 <article class="message">
         <div class="message-header"><p><i class="fa-regular fa-lightbulb mr-2"></i>健忘筆記</p>
 </div>
         <div class="message-body">
-            <p><code>: ?</code> 是條件運算符，稱為 <a href="https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary" target="_blank" rel="noopener external nofollow noreferrer">三元運算符</a>，可以用來做因果判斷</p>
+            <p><code>? :</code> 是一種條件運算符，稱為 <a href="https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary" target="_blank" rel="noopener external nofollow noreferrer">三元運算符</a>，可以用來做因果判斷</p>
 
         </div>
     </article>
+
+<button class="modal-trigger button is-dark is-rounded" data-target="modal-1">
+    <span class="icon">
+        <i class="fa-regular fa-hand-peace"></i>
+    </span>
+    <span>動手做做看</span>
+</button>
+<div class="modal" id="modal-1">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <div class="modal-card-title">前端資料傳入後端後做資料檢查</div>
+            <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <iframe src="https://onecompiler.com/embed/php/4285dkcy4?hideLanguageSelection=true&hideNew=true&hideStdin=true&hideTitle=true" width="100%" height="400" frameborder="0" loading="lazy" allowfullscreen></iframe>
+        </section>
+        <footer class="modal-card-foot">
+            <p>情境一，填寫年齡 30 傳入後端，isset() 為 true，且 intval() 後數值大於零，$age = 30 往下接續處理<br>情境二，填寫年齡 0 傳入後端，isset() 為 true，但 intval() 後數值等於零，$age = 0 返回前端處理<br>情境三，無填寫年齡傳入後端，isset() 為 false，$age = 0 返回前端處理</p>
+        </footer>
+    </div>
+</div>
 
 <ol start="2">
 <li>從資料庫撈取資料，並檢測是否有資料，如果為無資料需要做處理</li>
 </ol>
 <ul>
-<li>情境一，從資料庫撈取會員資訊 $user_data (正確撈到會員資訊)</li>
+<li>情境一，從資料庫撈取會員資訊，並取得完整資料</li>
 </ul>
-<figure class="highlight php"><figcaption><span>php</span><a target="_blank" rel="noopener" href="https://onlinephp.io/c/1bc4d">執行實例</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$user_data</span> = <span class="keyword">array</span>(</span><br><span class="line">    <span class="string">&#x27;name&#x27;</span>   =&gt; <span class="string">&#x27;小名&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;gender&#x27;</span> =&gt; <span class="string">&#x27;Male&#x27;</span>,</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用 if ($user_data) 確認變數內是否有資料</span></span><br><span class="line"><span class="keyword">if</span> (!<span class="variable">$user_data</span>) &#123; <span class="comment">// if ($user_data) 判斷為 true，但是碰到驚嘆號反轉布林值結果，因此為 false 跳過判斷</span></span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用 is_array($user_data) 搭配 empty() 確認變數內是否有資料</span></span><br><span class="line"><span class="keyword">if</span> (!<span class="title function_ invoke__">is_array</span>(<span class="variable">$user_data</span>) || <span class="keyword">empty</span>(<span class="variable">$user_data</span>)) &#123; <span class="comment">// !is_array()為 false，empty() 也為 false，因此跳過判斷</span></span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><figcaption><span>php</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$user_data</span> = <span class="keyword">array</span>(</span><br><span class="line">    <span class="string">&#x27;name&#x27;</span>   =&gt; <span class="string">&#x27;小明&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;gender&#x27;</span> =&gt; <span class="string">&#x27;Male&#x27;</span>,</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用 if (!$user_data) 確認變數內是否有資料</span></span><br><span class="line"><span class="keyword">if</span> (!<span class="variable">$user_data</span>) &#123;</span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 結果：if (!$user_data) 判斷為 false，原本 if ($user_data) 為 true，但碰到驚嘆號反轉布林值結果，因此為 false 跳過判斷</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用 !is_array($user_data) 搭配 empty($user_data) 確認變數內是否有資料</span></span><br><span class="line"><span class="keyword">if</span> (!<span class="title function_ invoke__">is_array</span>(<span class="variable">$user_data</span>) || <span class="keyword">empty</span>(<span class="variable">$user_data</span>)) &#123;</span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 結果：!is_array($user_data) 為 false，empty($user_data) 也為 false，因此跳過判斷</span></span><br></pre></td></tr></table></figure>
+
+<button class="modal-trigger button is-dark is-rounded" data-target="modal-2">
+    <span class="icon">
+        <i class="fa-regular fa-hand-peace"></i>
+    </span>
+    <span>動手做做看</span>
+</button>
+<div class="modal" id="modal-2">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <div class="modal-card-title">情境一，從資料庫撈取會員資訊，並取得完整資料</div>
+            <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <iframe src="https://onecompiler.com/embed/php/4282kaakg?hideLanguageSelection=true&hideNew=true&hideStdin=true&hideTitle=true" width="100%" height="400" frameborder="0" loading="lazy" allowfullscreen></iframe>
+        </section>
+        <footer class="modal-card-foot">
+            <p>資料檢查1：if (!$user_data) 判斷為 false，原本 if ($user_data) 為 true，但碰到驚嘆號反轉布林值結果，因此為 false 跳過判斷<br>資料檢查2：!is_array($user_data) 為 false，empty($user_data) 也為 false，因此跳過判斷</p>
+        </footer>
+    </div>
+</div>
 
 <ul>
-<li>情境二，從資料庫撈取會員資訊，但無資料寫入空陣列</li>
+<li>情境二，從資料庫撈取會員資訊，但沒有撈到資料寫入空陣列</li>
 </ul>
-<figure class="highlight php"><figcaption><span>php</span><a target="_blank" rel="noopener" href="https://onlinephp.io/c/1bc4d">執行實例</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$user_data</span> = <span class="keyword">array</span>();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用 if ($user_data) 確認變數內是否有資料</span></span><br><span class="line"><span class="keyword">if</span> (!<span class="variable">$user_data</span>) &#123; <span class="comment">// !if ($user_data) 判斷為 true 進入無資料處理</span></span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用 is_array($user_data) 搭配 empty() 確認變數內是否有資料</span></span><br><span class="line"><span class="keyword">if</span> (!<span class="title function_ invoke__">is_array</span>(<span class="variable">$user_data</span>) || <span class="keyword">empty</span>(<span class="variable">$user_data</span>)) &#123; <span class="comment">// !is_array()為 false，但 empty() 為 true，因此進入無資料處理</span></span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><figcaption><span>php</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$user_data</span> = <span class="keyword">array</span>();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用 if (!$user_data) 確認變數內是否有資料</span></span><br><span class="line"><span class="keyword">if</span> (!<span class="variable">$user_data</span>) &#123;</span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 結果：if (!$user_data) 判斷為 true 進入無資料處理</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用 !is_array($user_data) 搭配 empty($user_data) 確認變數內是否有資料</span></span><br><span class="line"><span class="keyword">if</span> (!<span class="title function_ invoke__">is_array</span>(<span class="variable">$user_data</span>) || <span class="keyword">empty</span>(<span class="variable">$user_data</span>)) &#123;</span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 結果：!is_array($user_data)為 false，但 empty($user_data) 為 true，因此進入無資料處理</span></span><br></pre></td></tr></table></figure>
+<button class="modal-trigger button is-dark is-rounded" data-target="modal-3">
+    <span class="icon">
+        <i class="fa-regular fa-hand-peace"></i>
+    </span>
+    <span>動手做做看</span>
+</button>
+<div class="modal" id="modal-3">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <div class="modal-card-title">情境二，從資料庫撈取會員資訊，但沒有撈到資料寫入空陣列</div>
+            <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <iframe src="https://onecompiler.com/embed/php/428588fuq?hideLanguageSelection=true&hideNew=true&hideStdin=true&hideTitle=true" width="100%" height="400" frameborder="0" loading="lazy" allowfullscreen></iframe>
+        </section>
+        <footer class="modal-card-foot">
+            <p>資料檢查1：if (!$user_data) 判斷為 true 進入無資料處理<br>資料檢查2：!is_array($user_data)為 false，但 empty($user_data) 為 true，因此進入無資料處理</p>
+        </footer>
+    </div>
+</div>
 
 <ul>
-<li>情境三，從資料庫撈取會員資訊，但無資料寫入字串</li>
+<li>情境三，從資料庫撈取會員資訊，但沒有撈到資料寫入字串</li>
 </ul>
-<figure class="highlight php"><figcaption><span>php</span><a target="_blank" rel="noopener" href="https://onlinephp.io/c/1bc4d">執行實例</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$user_data</span> = <span class="string">&#x27;no_data&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (!<span class="variable">$user_data</span>) &#123; <span class="comment">// !if ($x) 判斷為 false 跳過判斷</span></span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (!<span class="title function_ invoke__">is_array</span>(<span class="variable">$user_data</span>) || <span class="keyword">empty</span>(<span class="variable">$user_data</span>)) &#123; <span class="comment">// !is_array()為 true，因此進入無資料處理</span></span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><figcaption><span>php</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$user_data</span> = <span class="string">&#x27;no_data&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (!<span class="variable">$user_data</span>) &#123;</span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 結果：if (!$user_data) 判斷為 false 跳過判斷</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (!<span class="title function_ invoke__">is_array</span>(<span class="variable">$user_data</span>) || <span class="keyword">empty</span>(<span class="variable">$user_data</span>)) &#123; <span class="comment">// !is_array()為 true，因此進入無資料處理</span></span><br><span class="line">    <span class="comment">// 無資料時的處理</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 結果：!is_array($user_data) 判斷為 true，因此進入無資料處理</span></span><br></pre></td></tr></table></figure>
 
 <article class="message">
         <div class="message-header"><p><i class="fa-regular fa-lightbulb mr-2"></i>健忘筆記</p>
 </div>
         <div class="message-body">
-            <p>如果查找資料庫，沒有取得資料，是寫入 array 以外的型態，那使用 !is_array($x) 搭配 empty() 來檢查資料會是更謹慎的做法</p>
+            <p>如果查找資料庫，沒有取得資料會寫入 array 以外的型態，那使用 !is_array($x) 搭配 empty() 來檢查資料會是更謹慎的做法</p>
 
         </div>
     </article>
 
-<article class="message">
-        <div class="message-header"><p><i class="fa-regular fa-hand-peace mr-2"></i>動手做做看</p>
+<button class="modal-trigger button is-dark is-rounded" data-target="modal-4">
+    <span class="icon">
+        <i class="fa-regular fa-hand-peace"></i>
+    </span>
+    <span>動手做做看</span>
+</button>
+<div class="modal" id="modal-4">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <div class="modal-card-title">情境三，從資料庫撈取會員資訊，但沒有撈到資料寫入字串</div>
+            <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <iframe src="https://onecompiler.com/embed/php/4285f9khk?hideLanguageSelection=true&hideNew=true&hideStdin=true&hideTitle=true" width="100%" height="400" frameborder="0" loading="lazy" allowfullscreen></iframe>
+        </section>
+        <footer class="modal-card-foot">
+            <p>資料檢查1：if (!$user_data) 判斷為 false 跳過判斷<br>資料檢查2：!is_array($user_data) 判斷為 true，因此進入無資料處理</p>
+        </footer>
+    </div>
 </div>
-        <div class="message-body">
-            <p><a href="https://onlinephp.io/c/1bc4d" target="_blank" rel="noopener external nofollow noreferrer">資料檢查實作範例</a></p>
-
-        </div>
-    </article>
 
 <h2 id="錯誤訊息"><a href="#錯誤訊息" class="headerlink" title="錯誤訊息"></a>錯誤訊息</h2><p>在進行資料完整性檢查時，要確保資料的完整性，但又不希望出現錯誤訊息，那麼應該採用哪種函數?</p>
 <p>這四種驗證方式除了兩兩相反外，還有一個很重要的差異 “錯誤訊息” 也就是<a href="https://www.php.net/manual/en/errorfunc.constants.php" target="_blank" rel="noopener external nofollow noreferrer">PHP error</a>。<br>當變數 <code>$x</code> 沒有被賦值時，使用 <code>if ($x)</code> 和 <code>is_null($x)</code> 會引發錯誤訊息，但使用 <code>isset($x)</code> 和 <code>empty($x)</code> 不會，不過<mark>這些錯誤屬於較輕微的 <code>E_NOTICE</code> 級別，所以在沒有開啟PHP的所有錯誤提示的情況下是不會對網頁造成影響</mark>，但還是應該盡量處理這些錯誤。</p>
 <h3 id="範例-1"><a href="#範例-1" class="headerlink" title="範例"></a>範例</h3><ul>
-<li>情境一，判斷陣列中不存在的索引</li>
+<li>情境一，檢查陣列中不存在的索引</li>
 </ul>
-<figure class="highlight php"><figcaption><span>php</span><a target="_blank" rel="noopener" href="https://onlinephp.io/c/d0301">執行實例</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$a</span> = [];</span><br><span class="line"></span><br><span class="line"><span class="title function_ invoke__">var_dump</span>(<span class="variable">$a</span>[<span class="number">1</span>]); <span class="comment">// NULL，錯誤訊息 Notice: Undefined offset: 1</span></span><br><span class="line"><span class="title function_ invoke__">var_dump</span>(<span class="keyword">isset</span>(<span class="variable">$a</span>[<span class="number">1</span>])); <span class="comment">// bool(false)，無錯誤訊息</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><figcaption><span>php</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$a</span> = [];</span><br><span class="line"></span><br><span class="line"><span class="title function_ invoke__">var_dump</span>(<span class="variable">$a</span>[<span class="number">1</span>]); <span class="comment">// NULL，錯誤訊息 Notice: Undefined offset: 1</span></span><br><span class="line"><span class="title function_ invoke__">var_dump</span>(<span class="keyword">isset</span>(<span class="variable">$a</span>[<span class="number">1</span>])); <span class="comment">// bool(false)，無錯誤訊息</span></span><br></pre></td></tr></table></figure>
+<article class="message">
+        
+        <div class="message-body">
+            <p><code>$a</code> 設定為一個空陣列，卻指定不存在的索引1，因此在 <code>var_dump($a[1])</code> 的情況下會出現錯誤訊息</p>
 
-<p>▲ <code>$a</code> 設定為一個空陣列，卻指定不存在的索引1，因此在 <code>if ($a[1])</code> 的情況下會出現錯誤訊息</p>
+        </div>
+    </article>
+
+<button class="modal-trigger button is-dark is-rounded" data-target="modal-5">
+    <span class="icon">
+        <i class="fa-regular fa-hand-peace"></i>
+    </span>
+    <span>動手做做看</span>
+</button>
+<div class="modal" id="modal-5">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <div class="modal-card-title">情境一，檢查陣列中不存在的索引</div>
+            <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <iframe src="https://onecompiler.com/embed/php/4285g3hgy?hideLanguageSelection=true&hideNew=true&hideStdin=true&hideTitle=true" width="100%" height="400" frameborder="0" loading="lazy" allowfullscreen></iframe>
+        </section>
+        <footer class="modal-card-foot">
+            <p><code>$a</code> 設定為一個空陣列，卻指定不存在的索引1，因此在 <code>var_dump($a[1])</code> 的情況下會出現錯誤訊息</p>
+        </footer>
+    </div>
+</div>
+
 <ul>
 <li>情境二，判斷不存在的變數</li>
 </ul>
-<figure class="highlight php"><figcaption><span>php</span><a target="_blank" rel="noopener" href="https://onlinephp.io/c/d0301">執行實例</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// $b 沒有被賦值</span></span><br><span class="line"><span class="title function_ invoke__">var_dump</span>(<span class="title function_ invoke__">is_null</span>(<span class="variable">$b</span>)); <span class="comment">// bool(true)，Notice: Undefined variable: b </span></span><br><span class="line"><span class="title function_ invoke__">var_dump</span>(<span class="keyword">empty</span>(<span class="variable">$b</span>)); <span class="comment">// bool(true)，無錯誤訊息</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><figcaption><span>php</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// $b 沒有被賦值</span></span><br><span class="line"><span class="title function_ invoke__">var_dump</span>(<span class="title function_ invoke__">is_null</span>(<span class="variable">$b</span>)); <span class="comment">// bool(true)，Notice: Undefined variable: b </span></span><br><span class="line"><span class="title function_ invoke__">var_dump</span>(<span class="keyword">empty</span>(<span class="variable">$b</span>)); <span class="comment">// bool(true)，無錯誤訊息</span></span><br></pre></td></tr></table></figure>
+<article class="message">
+        
+        <div class="message-body">
+            <p><code>$b</code> 沒有被賦值，因此在 <code>is_null($b)</code> 的情況下會出現錯誤訊息。</p>
 
-<p>▲ <code>$b</code> 沒有被賦值，因此在 <code>if (is_null($b))</code> 的情況下會出現錯誤訊息。</p>
+        </div>
+    </article>
+
+<button class="modal-trigger button is-dark is-rounded" data-target="modal-6">
+    <span class="icon">
+        <i class="fa-regular fa-hand-peace"></i>
+    </span>
+    <span>動手做做看</span>
+</button>
+<div class="modal" id="modal-6">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <div class="modal-card-title">情境二，檢查不存在的變數</div>
+            <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <iframe src="https://onecompiler.com/embed/php/4285gg5p4?hideLanguageSelection=true&hideNew=true&hideStdin=true&hideTitle=true" width="100%" height="400" frameborder="0" loading="lazy" allowfullscreen></iframe>
+        </section>
+        <footer class="modal-card-foot">
+            <p><code>$b</code> 沒有被賦值，因此在 <code>is_null($b)</code> 的情況下會出現錯誤訊息</p>
+        </footer>
+    </div>
+</div>
+
 <ul>
-<li>情境三，有個陣列內的值需要做處理，但這個值不一定存在，如果陣列內沒有值就不需要處理</li>
+<li>情境三，有個陣列內的值需要做處理，但這個值不一定存在，如果不存在就不需要處理</li>
 </ul>
-<figure class="highlight php"><figcaption><span>php</span><a target="_blank" rel="noopener" href="https://onlinephp.io/c/d0301">執行實例</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// 如果$user內沒有&#x27;age&#x27;</span></span><br><span class="line"><span class="variable">$user</span> = <span class="keyword">array</span>(</span><br><span class="line">    <span class="string">&#x27;name&#x27;</span> =&gt; <span class="string">&#x27;小明&#x27;</span></span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>]) &#123;</span><br><span class="line">    <span class="variable">$user</span>[<span class="string">&#x27;adult&#x27;</span>] = (<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>] &gt;= <span class="number">18</span>) ? <span class="literal">true</span> : <span class="literal">false</span>;</span><br><span class="line">&#125; <span class="comment">// 出現錯誤訊息 Notice: Undefined index: age 並跳出判斷，&#x27;adult&#x27;沒有寫入資料</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 為了不跳出錯誤訊息且正常判斷，可以改成!empty()</span></span><br><span class="line"><span class="keyword">if</span> (!<span class="keyword">empty</span>(<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>])) &#123;</span><br><span class="line">    <span class="variable">$user</span>[<span class="string">&#x27;adult&#x27;</span>] = (<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>] &gt;= <span class="number">18</span>) ? <span class="literal">true</span> : <span class="literal">false</span>;</span><br><span class="line">&#125; <span class="comment">// 無錯誤訊息跳出判斷</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 如果$user內有&#x27;age&#x27;</span></span><br><span class="line"><span class="variable">$user</span> = <span class="keyword">array</span>(</span><br><span class="line">    <span class="string">&#x27;name&#x27;</span> =&gt; <span class="string">&#x27;小明&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;age&#x27;</span> =&gt; <span class="number">10</span></span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (!<span class="keyword">empty</span>(<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>])) &#123;</span><br><span class="line">    <span class="variable">$user</span>[<span class="string">&#x27;adult&#x27;</span>] = (<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>] &gt;= <span class="number">18</span>) ? <span class="literal">true</span> : <span class="literal">false</span>;</span><br><span class="line">&#125; <span class="comment">// $user[&#x27;adult&#x27;] = false</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><figcaption><span>php</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// 如果$user內沒有&#x27;age&#x27;</span></span><br><span class="line"><span class="variable">$user</span> = <span class="keyword">array</span>(</span><br><span class="line">    <span class="string">&#x27;name&#x27;</span> =&gt; <span class="string">&#x27;小明&#x27;</span></span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>]) &#123;</span><br><span class="line">    <span class="variable">$user</span>[<span class="string">&#x27;adult&#x27;</span>] = (<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>] &gt;= <span class="number">18</span>) ? <span class="literal">true</span> : <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 結果：出現錯誤訊息 Notice: Undefined index: age 並跳出判斷，&#x27;adult&#x27;沒有寫入資料</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 為了不跳出錯誤訊息且正常判斷，可以改成!empty($user[&#x27;age&#x27;])</span></span><br><span class="line"><span class="keyword">if</span> (!<span class="keyword">empty</span>(<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>])) &#123;</span><br><span class="line">    <span class="variable">$user</span>[<span class="string">&#x27;adult&#x27;</span>] = (<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>] &gt;= <span class="number">18</span>) ? <span class="literal">true</span> : <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 結果：無錯誤訊息跳出判斷</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 如果$user內有&#x27;age&#x27;</span></span><br><span class="line"><span class="variable">$user</span> = <span class="keyword">array</span>(</span><br><span class="line">    <span class="string">&#x27;name&#x27;</span> =&gt; <span class="string">&#x27;小明&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;age&#x27;</span> =&gt; <span class="number">10</span></span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (!<span class="keyword">empty</span>(<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>])) &#123;</span><br><span class="line">    <span class="variable">$user</span>[<span class="string">&#x27;adult&#x27;</span>] = (<span class="variable">$user</span>[<span class="string">&#x27;age&#x27;</span>] &gt;= <span class="number">18</span>) ? <span class="literal">true</span> : <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 結果：!empty($user[&#x27;age&#x27;])判斷為true，$user[&#x27;adult&#x27;] 寫入 false</span></span><br></pre></td></tr></table></figure>
+<article class="message">
+        
+        <div class="message-body">
+            <p>判斷用戶是否成年，而 $user 內 ‘age’ 的值不一定存在，因此需要檢查 ‘age’ 是否存在再做處理</p>
 
-<p>▲ 判斷用戶是否成年，而 $user 內 ‘age’ 的值不一定存在，因此需要檢查 ‘age’ 是否存在再做處理</p>
+        </div>
+    </article>
+
 <article class="message">
         <div class="message-header"><p><i class="fa-regular fa-lightbulb mr-2"></i>健忘筆記</p>
 </div>
@@ -300,19 +439,32 @@
         </div>
     </article>
 
-<article class="message">
-        <div class="message-header"><p><i class="fa-regular fa-hand-peace mr-2"></i>動手做做看</p>
+<button class="modal-trigger button is-dark is-rounded" data-target="modal-7">
+    <span class="icon">
+        <i class="fa-regular fa-hand-peace"></i>
+    </span>
+    <span>動手做做看</span>
+</button>
+<div class="modal" id="modal-7">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <div class="modal-card-title">情境三，有個陣列內的值需要做處理，但這個值不一定存在，如果不存在就不需要處理</div>
+            <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <iframe src="https://onecompiler.com/embed/php/4285h3gx6?hideLanguageSelection=true&hideNew=true&hideStdin=true&hideTitle=true" width="100%" height="400" frameborder="0" loading="lazy" allowfullscreen></iframe>
+        </section>
+        <footer class="modal-card-foot">
+            <p>資料檢查1：出現錯誤訊息 Notice: Undefined index: age 並跳出判斷，'adult'沒有寫入資料<br>資料檢查2：無錯誤訊息跳出判斷<br>資料檢查3：!empty($user['age'])判斷為true，$user['adult'] 寫入 false</p>
+        </footer>
+    </div>
 </div>
-        <div class="message-body">
-            <p><a href="https://onlinephp.io/c/d0301" target="_blank" rel="noopener external nofollow noreferrer">錯誤訊息實作範例</a></p>
-
-        </div>
-    </article>
 
 <h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>依不同的需求，使用function 來判斷變數或陣列的完整性。</p>
 <ul>
-<li><code>if ($x)</code> 和 <code>empty()</code> 的判斷結果相反</li>
-<li><code>isset()</code> 和 <code>is_null()</code> 的判斷結果相反</li>
+<li><code>if ($x)</code> 和 <code>empty($x)</code> 的判斷結果相反</li>
+<li><code>isset($x)</code> 和 <code>is_null($x)</code> 的判斷結果相反</li>
 </ul>
 <p>無設定 <code>$x</code> 值的狀況下</p>
 <ul>
@@ -321,6 +473,15 @@
 </ul>
 <p>檢查完整性可以減少 bug 的發生，不用修 bug 就是開心😆～</p>
 <p>你平常會檢查變數或陣列的資料完整性嗎? 是用甚麼方法處理呢? 歡迎留言跟大家分享！</p>
+<article class="message">
+        <div class="message-header"><p><i class="fa-regular fa-hand-peace mr-2"></i>動手做做看</p>
+</div>
+        <div class="message-body">
+            <p><a href="https://onecompiler.com/php" target="_blank" rel="noopener external nofollow noreferrer">PHP 線上編輯器</a></p>
+
+        </div>
+    </article>
+
 <h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><ul>
 <li><a href="https://www.php.net/manual/en/types.comparisons.php" target="_blank" rel="noopener external nofollow noreferrer">【官方文件】PHP類型比較表</a></li>
 </ul>
@@ -330,7 +491,7 @@
 <li><a href="https://www.php.net/manual/en/language.types.boolean.php#language.types.boolean.casting" target="_blank" rel="noopener external nofollow noreferrer">【官方文件】布林值false的定義</a></li>
 <li><a href="https://www.php.net/manual/en/errorfunc.constants.php" target="_blank" rel="noopener external nofollow noreferrer">【官方文件】PHP error 介紹</a></li>
 </ul>
-</div><div class="article-licensing box"><div class="licensing-title"><p>【PHP】4種判斷變數或陣列是否存在的方法</p><p><a href="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/">https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>健忘工程師</p></div></div><div class="level-item is-narrow"><div><h6>發表於</h6><p>2023-12-30</p></div></div><div class="level-item is-narrow"><div><h6>更新於</h6><p>2024-02-08</p></div></div><div class="level-item is-narrow"><div><h6>許可協議</h6><p><a class="icons" rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hant"><i class="icon fab fa-creative-commons"></i><i class="icon fab fa-creative-commons-by"></i><i class="icon fab fa-creative-commons-nc"></i><i class="icon fab fa-creative-commons-sa"></i></a></p></div></div></div></div></div><hr><div class="level is-flex"><div class="article-tags is-size-7"><i class="fa-solid fa-tags"></i><a class="link-muted mr-2" rel="tag" href="/tags/PHP/"># PHP</a><a class="link-muted mr-2" rel="tag" href="/tags/debug/"># debug</a><a class="link-muted mr-2" rel="tag" href="/tags/%E5%BE%8C%E7%AB%AF/"># 後端</a></div></div><div class="sharethis-inline-share-buttons"></div><script src="https://platform-api.sharethis.com/js/sharethis.js#property=65796d91954d790019bcd8b6&amp;product=inline-share-buttons&amp;source=platform" defer></script></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/VSCode/Using-Git-Bash-in-VSCode/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">【VSCode】在 VSCode terminal 使用 git bash</span></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">評論</h3><div class="content twikoo" id="twikoo"></div><script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.27/dist/twikoo.all.min.js"></script><script>twikoo.init({
+</div><div class="article-licensing box"><div class="licensing-title"><p>【PHP】4種判斷變數或陣列是否存在的方法</p><p><a href="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/">https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>健忘工程師</p></div></div><div class="level-item is-narrow"><div><h6>發表於</h6><p>2023-12-30</p></div></div><div class="level-item is-narrow"><div><h6>更新於</h6><p>2024-03-25</p></div></div><div class="level-item is-narrow"><div><h6>許可協議</h6><p><a class="icons" rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hant"><i class="icon fab fa-creative-commons"></i><i class="icon fab fa-creative-commons-by"></i><i class="icon fab fa-creative-commons-nc"></i><i class="icon fab fa-creative-commons-sa"></i></a></p></div></div></div></div></div><hr><div class="level is-flex"><div class="article-tags is-size-7"><i class="fa-solid fa-tags"></i><a class="link-muted mr-2" rel="tag" href="/tags/php/"># php</a><a class="link-muted mr-2" rel="tag" href="/tags/debug/"># debug</a><a class="link-muted mr-2" rel="tag" href="/tags/backend/"># backend</a></div></div><div class="sharethis-inline-share-buttons"></div><script src="https://platform-api.sharethis.com/js/sharethis.js#property=65796d91954d790019bcd8b6&amp;product=inline-share-buttons&amp;source=platform" defer></script></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/VSCode/Using-Git-Bash-in-VSCode/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">【VSCode】在 VSCode terminal 使用 git bash</span></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">評論</h3><div class="content twikoo" id="twikoo"></div><script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.27/dist/twikoo.all.min.js"></script><script>twikoo.init({
             envId: 'https://forgetfulengineer-twikoo.netlify.app/.netlify/functions/twikoo',
             onCommentLoaded: function () {
                 var commentContents = document.getElementsByClassName('tk-content');
@@ -356,7 +517,7 @@
                     }
                 }
             }
-        });</script></div></div></div><div class="column column-left is-3-tablet is-3-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">文章目錄</h3><ul class="menu-list"><li><a class="level is-mobile" href="#本篇重點"><span class="level-left"><span class="level-item">本篇重點</span></span></a></li><li><a class="level is-mobile" href="#判斷差異表"><span class="level-left"><span class="level-item">判斷差異表</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#範例"><span class="level-left"><span class="level-item">範例</span></span></a></li></ul></li><li><a class="level is-mobile" href="#錯誤訊息"><span class="level-left"><span class="level-item">錯誤訊息</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#範例-1"><span class="level-left"><span class="level-item">範例</span></span></a></li></ul></li><li><a class="level is-mobile" href="#結論"><span class="level-left"><span class="level-item">結論</span></span></a></li><li><a class="level is-mobile" href="#參考資料"><span class="level-left"><span class="level-item">參考資料</span></span></a></li><li><a class="level is-mobile" href="#延伸閱讀"><span class="level-left"><span class="level-item">延伸閱讀</span></span></a></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">follow.it</h3><form action="https://api.follow.it/subscription-form/bUQxT0dsMEE0T1h0YWpOLzZVMDhSaGM3OTNxa2xIeW9jRWxFV1J4V0xZdzh2YWlJTzhCQW84Nm9wQ1htK0JFWHBDUkhUaThoekZwT3VzdFFQS3JGNHhDSTdXMk12eW5NRkY4U3JqN0psL3h6Z0lvSjBFNE85UUVUbGx5b3U0YnV8S1ROSWxhZXlXT0VEdnc1cHRYaHlYY0FZU2pUS3oycGlBS1pzL1hhZ3IzUT0=/8" method="post" target="_blank"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="訂閱"></div></div><p class="help">歡迎訂閱電子報！追蹤【健忘工程師】的最新資訊～</p></form></div></div></div><div class="column-right-shadow is-hidden-widescreen is-sticky"></div></div><div class="column column-right is-3-tablet is-3-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3 is-sticky"><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2024-02-11T15:11:31.000Z">2024-02-11</time></p><p class="title"><a href="/VSCode/Using-Git-Bash-in-VSCode/">【VSCode】在 VSCode terminal 使用 git bash</a></p><p class="categories"><a href="/categories/VSCode/">VSCode</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-12-30T07:17:13.000Z">2023-12-30</time></p><p class="title"><a href="/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/">【PHP】4種判斷變數或陣列是否存在的方法</a></p><p class="categories"><a href="/categories/PHP/">PHP</a></p></div></article></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.svg" alt="健忘工程師" height="28"></a><p class="is-size-7"><span>&copy; 2024 健忘工程師</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hant"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i> <i class="fab fa-creative-commons-sa"></i> </a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-tw");</script><script>var IcarusThemeSettings = {
+        });</script></div></div></div><div class="column column-left is-3-tablet is-3-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">文章目錄</h3><ul class="menu-list"><li><a class="level is-mobile" href="#本篇重點"><span class="level-left"><span class="level-item">本篇重點</span></span></a></li><li><a class="level is-mobile" href="#判斷差異表"><span class="level-left"><span class="level-item">判斷差異表</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#範例"><span class="level-left"><span class="level-item">範例</span></span></a></li></ul></li><li><a class="level is-mobile" href="#錯誤訊息"><span class="level-left"><span class="level-item">錯誤訊息</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#範例-1"><span class="level-left"><span class="level-item">範例</span></span></a></li></ul></li><li><a class="level is-mobile" href="#結論"><span class="level-left"><span class="level-item">結論</span></span></a></li><li><a class="level is-mobile" href="#參考資料"><span class="level-left"><span class="level-item">參考資料</span></span></a></li><li><a class="level is-mobile" href="#延伸閱讀"><span class="level-left"><span class="level-item">延伸閱讀</span></span></a></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">follow.it</h3><form action="https://api.follow.it/subscription-form/bUQxT0dsMEE0T1h0YWpOLzZVMDhSaGM3OTNxa2xIeW9jRWxFV1J4V0xZdzh2YWlJTzhCQW84Nm9wQ1htK0JFWHBDUkhUaThoekZwT3VzdFFQS3JGNHhDSTdXMk12eW5NRkY4U3JqN0psL3h6Z0lvSjBFNE85UUVUbGx5b3U0YnV8S1ROSWxhZXlXT0VEdnc1cHRYaHlYY0FZU2pUS3oycGlBS1pzL1hhZ3IzUT0=/8" method="post" target="_blank"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="訂閱"></div></div><p class="help">歡迎訂閱電子報！追蹤【健忘工程師】的最新資訊～</p></form></div></div></div><div class="column-right-shadow is-hidden-widescreen is-sticky"></div></div><div class="column column-right is-3-tablet is-3-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3 is-sticky"><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2024-03-25T10:02:37.000Z">2024-03-25</time></p><p class="title"><a href="/Frontend/JQuery/Analyzing-Six-Types-of-Combinator/">【jQuery、css】解析六種組合選擇器：相連、空格、+、～、&gt;、,</a></p><p class="categories"><a href="/categories/Frontend/">Frontend</a> / <a href="/categories/Frontend/Css/">Css</a> / <a href="/categories/Frontend/JQuery/">JQuery</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2024-02-11T15:11:31.000Z">2024-02-11</time></p><p class="title"><a href="/VSCode/Using-Git-Bash-in-VSCode/">【VSCode】在 VSCode terminal 使用 git bash</a></p><p class="categories"><a href="/categories/VSCode/">VSCode</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-12-30T07:17:13.000Z">2023-12-30</time></p><p class="title"><a href="/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/">【PHP】4種判斷變數或陣列是否存在的方法</a></p><p class="categories"><a href="/categories/PHP/">PHP</a></p></div></article></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.svg" alt="健忘工程師" height="28"></a><p class="is-size-7"><span>&copy; 2024 健忘工程師</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hant"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i> <i class="fab fa-creative-commons-sa"></i> </a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-tw");</script><script>var IcarusThemeSettings = {
             article: {
                 highlight: {
                     clipboard: true,

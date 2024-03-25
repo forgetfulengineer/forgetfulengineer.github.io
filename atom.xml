@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-02-11T16:23:20.220Z</updated>
+  <updated>2024-03-25T14:41:35.427Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【jQuery、css】解析六種組合選擇器：相連、空格、+、～、&gt;、,</title>
+    <link href="https://forgetfulengineer.github.io/Frontend/JQuery/Analyzing-Six-Types-of-Combinator/"/>
+    <id>https://forgetfulengineer.github.io/Frontend/JQuery/Analyzing-Six-Types-of-Combinator/</id>
+    <published>2024-03-25T10:02:37.000Z</published>
+    <updated>2024-03-25T14:41:35.427Z</updated>
+    
+    
+    <summary type="html">1.組合選擇器是甚麼 2.選擇器內的符號( +、~、&gt; 、, 等)有甚麼含意 3.jQuery 要使用組合選擇器還是原生的函式</summary>
+    
+    
+    
+    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="Css" scheme="https://forgetfulengineer.github.io/categories/Frontend/Css/"/>
+    
+    <category term="JQuery" scheme="https://forgetfulengineer.github.io/categories/Frontend/JQuery/"/>
+    
+    
+    <category term="css" scheme="https://forgetfulengineer.github.io/tags/css/"/>
+    
+    <category term="jquery" scheme="https://forgetfulengineer.github.io/tags/jquery/"/>
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【VSCode】在 VSCode terminal 使用 git bash</title>
     <link href="https://forgetfulengineer.github.io/VSCode/Using-Git-Bash-in-VSCode/"/>
     <id>https://forgetfulengineer.github.io/VSCode/Using-Git-Bash-in-VSCode/</id>
     <published>2024-02-11T15:11:31.000Z</published>
-    <updated>2024-02-11T16:23:20.220Z</updated>
+    <updated>2024-03-25T14:41:35.427Z</updated>
     
     
     <summary type="html">1.為什麼要使用 git bash。2.VSCode terminal 選項新增 git bash。3.將 git bash 設定為 VSCode 的預設終端機</summary>
@@ -31,7 +58,7 @@
     <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/VSCode/"/>
     
     
-    <category term="VSCode" scheme="https://forgetfulengineer.github.io/tags/VSCode/"/>
+    <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
     
     <category term="git bash" scheme="https://forgetfulengineer.github.io/tags/git-bash/"/>
     
@@ -44,7 +71,7 @@
     <link href="https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"/>
     <id>https://forgetfulengineer.github.io/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/</id>
     <published>2023-12-30T07:17:13.000Z</published>
-    <updated>2024-02-08T10:56:21.482Z</updated>
+    <updated>2024-03-25T14:41:35.427Z</updated>
     
     
     <summary type="html">1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error)</summary>
@@ -54,11 +81,11 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/PHP/"/>
     
     
-    <category term="PHP" scheme="https://forgetfulengineer.github.io/tags/PHP/"/>
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
     <category term="debug" scheme="https://forgetfulengineer.github.io/tags/debug/"/>
     
-    <category term="後端" scheme="https://forgetfulengineer.github.io/tags/%E5%BE%8C%E7%AB%AF/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   

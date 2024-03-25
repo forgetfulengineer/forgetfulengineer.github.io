@@ -2,11 +2,8 @@
  *   自訂義樣式
  * --------------------------------- */
 widescreen()
-@media screen and (min-width: $screen-onek) {
-  .container {
-    max-width: 1500px;
-  }
-}
+from($screen-onek)
+until($phone)
 html {
   scroll-padding-top: 150px;
 }
@@ -18,22 +15,24 @@ widescreen()
   position: sticky;
   top: 0;
 }
-.navbar-menu .navbar-item {
-  background-image: linear-gradient(transparent calc(100% - 1px), $primary-color-hover 1px);
-  background-repeat: no-repeat;
-  background-size: 0 85%;
-  transition: all 0.25s ease-in-out;
-}
 .navbar-menu .navbar-item.is-active {
-  color: $primary-color-hover;
   font-weight: bold;
 }
-.navbar-menu .navbar-item:hover {
-  color: $primary-color-hover;
-  background-color: transparent;
-  background-size: 100% 100%;
+.navbar-menu .navbar-link.is-active {
+  font-weight: bold;
 }
-mobile()
+.navbar-menu .navbar-link:not(.is-arrowless)::after {
+  transition: transform 0.5s;
+}
+.dropdown-icon-rotate::after {
+  transform: rotate(-225deg) !important;
+}
+.navbar-burger {
+  height: unset;
+  margin-left: 0;
+}
+from($navbar-breakpoint)
+until($navbar-breakpoint)
 a {
   color: $primary-color-hover;
 }
@@ -62,7 +61,10 @@ article .gallery-item img {
 article .content {
   text-align: justify;
 }
-article .content .no_justify {
+article .content .no_justify,
+article .content h1,
+article .content h2,
+article .content h3 {
   text-align: left;
 }
 .article-licensing {
@@ -104,16 +106,6 @@ mark {
 .message a:not(.button):not(.tag):not(.dropdown-item):hover {
   background-size: 100% 100%;
 }
-.message {
-  border-radius: 10px;
-}
-.message .message-header {
-  border-radius: 10px 10px 0 0;
-}
-.message-body {
-  border-radius: 10px;
-  border-width: 0 0 0 6px;
-}
 .table-scroll {
   height: 65vh;
   overflow-y: auto;
@@ -133,20 +125,19 @@ mark {
 .table-scroll th:first-child {
   z-index: 2;
 }
-figure.highlight {
+figure.highlight,
+iframe {
   border-radius: 10px;
 }
 .lg-image {
   max-width: 60vw !important;
   border-radius: 13px;
 }
-.menu-list a {
-  border-radius: 10px;
-}
 .menu-list a.is-active {
-  background-color: $body-background-color;
-  color: $primary-color-hover;
   font-weight: bold;
+}
+.menu-label {
+  text-transform: none !important;
 }
 .tag:not(body) {
   border-radius: 7px;
@@ -166,22 +157,13 @@ figure.highlight {
   color: $primary-color-hover;
   transition: all 0.3s;
 }
-.pagination-link.is-current {
-  background-color: $primary-color-hover;
+.pagination-link {
+  border-radius: 7px;
 }
-tablet()
-.menu-label {
-  font-size: 1rem;
-  text-transform: none !important;
-}
-.card {
-  border-radius: 15px;
-}
+desktop()
+tablet-only()
 .card:hover {
-  box-shadow: 0 15px 15px rgba(0,0,0,0.15), 0 0 7px rgba(0,0,0,0.1);
-}
-footer.footer {
-  padding: 2rem;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.15), 0 0 10px rgba(0,0,0,0.1);
 }
 mobile()
 desktop()
@@ -193,13 +175,10 @@ i {
 }
 .notification {
   position: fixed;
-  border-radius: 10px;
-  padding: 1rem;
   bottom: -15%;
   left: 50%;
   transform: translateX(-50%);
   color: $white;
-  background-color: $primary-color-hover;
 }
 .level-item {
   align-items: baseline;

@@ -11,7 +11,10 @@
     });
 
     if (typeof $.fn.lightGallery === 'function') {
-        $('.article').lightGallery({ selector: '.gallery-item' });
+        $('.article').lightGallery({
+            selector: '.gallery-item',
+            download: false
+        });
     }
     if (typeof $.fn.justifiedGallery === 'function') {
         if ($('.justified-gallery > p > .gallery-item').length) {
@@ -165,4 +168,56 @@
 
     // 文章內表格 - 新增樣式
     $('.table-scroll table').addClass("table is-hoverable");
+
+    // 點擊 navbar burger icon
+    $(".navbar-burger").click(function() {
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        $(".navbar-burger, .navbar-menu").toggleClass("is-active");
+    });
+
+    // navbar 伸縮選單狀態 (觸控裝置)
+    if ($(window).width() < 1088) {
+        // 點擊 navbar 內層的選單
+        $(".navbar-item.has-dropdown").click(function() {
+            $('.navbar-dropdown').toggle('normal');
+            $('.navbar-link:not(.is-arrowless)').toggleClass('dropdown-icon-rotate');
+        });
+    } else { // navbar 正常狀態 (寬螢幕)
+        $(".navbar-item.has-dropdown").hover(function() {
+            $('.navbar-link:not(.is-arrowless)').toggleClass('dropdown-icon-rotate');
+        })
+    }
+
+    // modal 控制 (https://bulma.io/documentation/components/modal/)
+    function closeModal(el) {
+        el.removeClass('is-active');
+    }
+
+    // Add a click event on buttons to open a specific modal
+    $('.modal-trigger').each(function() {
+        const modal  = $(this).data('target');
+        const target = $('#' + modal);
+
+        $(this).on('click', function() {
+            target.addClass('is-active');
+        });
+    });
+
+    // Add a click event on various child elements to close the parent modal
+    $('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button').each(function() {
+        const target  = $(this).closest('.modal');
+
+        $(this).on('click', function() {
+            closeModal(target);
+        });
+    });
+
+    // Add a keyboard event to close all modals
+    $(document).on('keydown', (event) => {
+        if (event.key === "Escape") {
+            $('.modal').each(function() {
+                closeModal($(this));
+            });
+        }
+    });
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));
