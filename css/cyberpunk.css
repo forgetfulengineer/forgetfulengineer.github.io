@@ -11753,6 +11753,11 @@ html {
     border-left: 1px solid #dbdbdb;
   }
 }
+@media screen and (max-width: 425px) {
+  .navbar-brand .navbar-item {
+    padding: 0.5rem 0.45rem;
+  }
+}
 a {
   color: #927f6c;
 }

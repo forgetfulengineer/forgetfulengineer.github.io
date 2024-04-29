@@ -33,6 +33,7 @@ widescreen()
 }
 from($navbar-breakpoint)
 until($navbar-breakpoint)
+until($phone)
 a {
   color: $primary-color-hover;
 }
