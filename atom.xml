@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-05-30T15:01:52.273Z</updated>
+  <updated>2024-06-10T10:11:20.569Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【Git、Hexo】deploy github 檔名大小寫問題</title>
+    <link href="https://forgetfulengineer.github.io/Other/Hexo/Handling-Case-Sensitivity-Issues-in-GitHub-Deployment/"/>
+    <id>https://forgetfulengineer.github.io/Other/Hexo/Handling-Case-Sensitivity-Issues-in-GitHub-Deployment/</id>
+    <published>2024-06-10T09:48:10.000Z</published>
+    <updated>2024-06-10T10:11:20.569Z</updated>
+    
+    
+    <summary type="html">1.hexo deploy 檔名大小寫不同，導致網頁404 2.git 忽略檔名大小寫的原因 3.解決 hexo deploy github 檔名大小寫問題</summary>
+    
+    
+    
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
+    
+    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    
+    
+    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
+    
+    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
+    
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Git】了解 git config 設定</title>
     <link href="https://forgetfulengineer.github.io/Other/Git/Understanding-Git-Config-Settings/"/>
     <id>https://forgetfulengineer.github.io/Other/Git/Understanding-Git-Config-Settings/</id>
     <published>2024-05-30T15:01:13.000Z</published>
-    <updated>2024-05-30T15:01:52.273Z</updated>
+    <updated>2024-06-10T10:07:48.296Z</updated>
     
     
     <summary type="html">1.了解設定區域：--system、--global、--local 2.git config 常見設定 3.查詢 git config 設定 4.刪除 git config 設定</summary>

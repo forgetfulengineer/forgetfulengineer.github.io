@@ -8,17 +8,6 @@ html {
   scroll-padding-top: 150px;
 }
 widescreen()
-article.media .title a,
-.message a:not(.button):not(.tag):not(.dropdown-item) {
-  background-image: linear-gradient(transparent calc(100% - 1px), $primary 1px);
-  background-repeat: no-repeat;
-  background-size: 0 100%;
-  transition: all 0.25s ease-in-out;
-}
-article.media .title a:hover,
-.message a:not(.button):not(.tag):not(.dropdown-item):hover {
-  background-size: 100% 100%;
-}
 .navbar {
   z-index: 100;
   position: sticky;
@@ -54,7 +43,7 @@ a {
   border-radius: 7px !important;
 }
 article .gallery-item img {
-  border-radius: 13px;
+  border-radius: 15px;
 }
 article .content {
   text-align: justify;
@@ -68,6 +57,15 @@ article .content h3 {
 .article-licensing {
   border-radius: 15px;
 }
+article.media .title a {
+  background-image: linear-gradient(transparent calc(100% - 1px), $primary 1px);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: all 0.25s ease-in-out;
+}
+article.media .title a:hover {
+  background-size: 100% 100%;
+}
 article.media .categories {
   text-transform: none !important;
 }
@@ -77,8 +75,15 @@ mark {
   padding: 2px;
 }
 .message a:not(.button):not(.tag):not(.dropdown-item) {
+  background-image: linear-gradient(transparent calc(100% - 1px), $primary 1px);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: all 0.25s ease-in-out;
   color: $primary;
   text-decoration: none;
+}
+.message a:not(.button):not(.tag):not(.dropdown-item):hover {
+  background-size: 100% 100%;
 }
 .table-scroll {
   height: 65vh;
@@ -105,7 +110,7 @@ iframe {
 }
 .lg-image {
   max-width: 60vw !important;
-  border-radius: 13px;
+  border-radius: 15px;
 }
 .menu-list a.is-active {
   font-weight: bold;
@@ -120,6 +125,10 @@ desktop()
 tablet-only()
 .card:hover {
   box-shadow: 0 10px 15px rgba(0,0,0,0.15), 0 0 10px rgba(0,0,0,0.1);
+}
+.card .card-image {
+  margin-bottom: 1rem;
+  border-radius: 15px;
 }
 mobile()
 desktop()
