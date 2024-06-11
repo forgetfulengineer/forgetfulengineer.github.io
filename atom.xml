@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-06-10T10:11:20.569Z</updated>
+  <updated>2024-06-11T01:45:40.781Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://forgetfulengineer.github.io/Other/Hexo/Handling-Case-Sensitivity-Issues-in-GitHub-Deployment/"/>
     <id>https://forgetfulengineer.github.io/Other/Hexo/Handling-Case-Sensitivity-Issues-in-GitHub-Deployment/</id>
     <published>2024-06-10T09:48:10.000Z</published>
-    <updated>2024-06-10T10:11:20.569Z</updated>
+    <updated>2024-06-11T01:45:40.781Z</updated>
     
     
     <summary type="html">1.hexo deploy 檔名大小寫不同，導致網頁404 2.git 忽略檔名大小寫的原因 3.解決 hexo deploy github 檔名大小寫問題</summary>
@@ -50,7 +50,7 @@
     <link href="https://forgetfulengineer.github.io/Other/Git/Understanding-Git-Config-Settings/"/>
     <id>https://forgetfulengineer.github.io/Other/Git/Understanding-Git-Config-Settings/</id>
     <published>2024-05-30T15:01:13.000Z</published>
-    <updated>2024-06-10T10:07:48.296Z</updated>
+    <updated>2024-06-11T10:09:29.996Z</updated>
     
     
     <summary type="html">1.了解設定區域：--system、--global、--local 2.git config 常見設定 3.查詢 git config 設定 4.刪除 git config 設定</summary>
@@ -75,7 +75,7 @@
     <link href="https://forgetfulengineer.github.io/Backend/PHP/Comparing-the-Differences-Between-Logical-Operators/"/>
     <id>https://forgetfulengineer.github.io/Backend/PHP/Comparing-the-Differences-Between-Logical-Operators/</id>
     <published>2024-04-29T14:49:15.000Z</published>
-    <updated>2024-05-30T14:47:25.558Z</updated>
+    <updated>2024-06-11T01:45:40.780Z</updated>
     
     
     <summary type="html">1.and 和 &amp;&amp;之間有什麼差別，它們分別代表什麼意思？2.or 和 || 之間有什麼差別，它們分別代表什麼意思？3.邏輯運算子的執行順序4.邏輯運算子使用建議</summary>
@@ -98,7 +98,7 @@
     <link href="https://forgetfulengineer.github.io/Backend/MySQL/Analyzing-4-Types-of-Database-Language/"/>
     <id>https://forgetfulengineer.github.io/Backend/MySQL/Analyzing-4-Types-of-Database-Language/</id>
     <published>2024-04-11T09:52:42.000Z</published>
-    <updated>2024-05-30T14:47:25.557Z</updated>
+    <updated>2024-06-11T01:45:40.769Z</updated>
     
     
     <summary type="html">1.了解 DML、DDL、DCL 和 DQL 分別是資料庫裡的哪些功能</summary>
@@ -123,7 +123,7 @@
     <link href="https://forgetfulengineer.github.io/Frontend/JQuery/Analyzing-Six-Types-of-Combinator/"/>
     <id>https://forgetfulengineer.github.io/Frontend/JQuery/Analyzing-Six-Types-of-Combinator/</id>
     <published>2024-03-25T10:02:37.000Z</published>
-    <updated>2024-05-30T14:47:25.557Z</updated>
+    <updated>2024-06-11T01:45:40.763Z</updated>
     
     
     <summary type="html">1.組合選擇器是甚麼 2.選擇器內的符號( +、~、&gt; 、, 等)有甚麼含意 3.jQuery 要使用組合選擇器還是原生的函式</summary>
@@ -150,7 +150,7 @@
     <link href="https://forgetfulengineer.github.io/Other/VSCode/Using-Git-Bash-in-VSCode/"/>
     <id>https://forgetfulengineer.github.io/Other/VSCode/Using-Git-Bash-in-VSCode/</id>
     <published>2024-02-11T15:11:31.000Z</published>
-    <updated>2024-05-30T14:47:25.555Z</updated>
+    <updated>2024-06-11T01:45:40.749Z</updated>
     
     
     <summary type="html">1.為什麼要使用 git bash。2.VSCode terminal 選項新增 git bash。3.將 git bash 設定為 VSCode 的預設終端機</summary>
@@ -177,7 +177,7 @@
     <link href="https://forgetfulengineer.github.io/Backend/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"/>
     <id>https://forgetfulengineer.github.io/Backend/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/</id>
     <published>2023-12-30T07:17:13.000Z</published>
-    <updated>2024-05-30T14:47:25.555Z</updated>
+    <updated>2024-06-11T01:45:40.738Z</updated>
     
     
     <summary type="html">1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error)</summary>
