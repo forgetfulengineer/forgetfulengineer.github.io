@@ -41,13 +41,4 @@
             $('.searchbox').removeClass('show');
         }
     });
-
-    // 調整標題全型符號造成的縮行
-    $('h1.title').each(function() {
-        let title = $(this).text().trim();
-        let firStr = title.slice(0, 1);
-        if (firStr.match(/\u3010/)) {
-            $(this).css('margin-left', '-0.5em');
-        }
-    })
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));

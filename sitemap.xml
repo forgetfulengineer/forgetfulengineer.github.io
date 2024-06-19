@@ -202,14 +202,14 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Backend/PHP/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Backend/MySQL/</loc>
     <lastmod>2024-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Backend/MySQL/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Backend/PHP/</loc>
     <lastmod>2024-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -230,6 +230,13 @@
   </url>
   
   <url>
+    <loc>https://forgetfulengineer.github.io/categories/Other/Hexo/</loc>
+    <lastmod>2024-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://forgetfulengineer.github.io/categories/Frontend/Css/</loc>
     <lastmod>2024-06-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -238,13 +245,6 @@
   
   <url>
     <loc>https://forgetfulengineer.github.io/categories/Frontend/JQuery/</loc>
-    <lastmod>2024-06-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://forgetfulengineer.github.io/categories/Other/Hexo/</loc>
     <lastmod>2024-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
