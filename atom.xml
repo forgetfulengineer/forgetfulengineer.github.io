@@ -18,8 +18,8 @@
   
   <entry>
     <title>【Git、Hexo】deploy github 檔名大小寫問題</title>
-    <link href="https://forgetfulengineer.github.io/Other/Hexo/Handling-Case-Sensitivity-Issues-in-GitHub-Deployment/"/>
-    <id>https://forgetfulengineer.github.io/Other/Hexo/Handling-Case-Sensitivity-Issues-in-GitHub-Deployment/</id>
+    <link href="https://forgetfulengineer.github.io/Other/Git/Handling-Case-Sensitivity-Issues-in-GitHub-Deployment/"/>
+    <id>https://forgetfulengineer.github.io/Other/Git/Handling-Case-Sensitivity-Issues-in-GitHub-Deployment/</id>
     <published>2024-06-10T09:48:10.000Z</published>
     <updated>2024-06-10T09:48:10.000Z</updated>
     
@@ -30,9 +30,9 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
     
     
     <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
