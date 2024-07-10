@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-06-10T09:48:10.000Z</updated>
+  <updated>2024-07-03T10:06:07.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Linux】解析資料重定向</title>
+    <link href="https://forgetfulengineer.github.io/Backend/Linux/Understanding-Data-Redirection/"/>
+    <id>https://forgetfulengineer.github.io/Backend/Linux/Understanding-Data-Redirection/</id>
+    <published>2024-07-03T10:06:07.000Z</published>
+    <updated>2024-07-03T10:06:07.000Z</updated>
+    
+    
+    <summary type="html">1.基本重定向用法：&amp;lt;、&amp;lt;&amp;lt;、&amp;gt;、&amp;gt;&amp;gt;、2&amp;gt;、2&amp;gt;&amp;gt; 2.重定向的判讀方式 3.重定向符號的前後順序不影響命令的結果 4.特殊重定向用法：&amp;amp;#x2F;dev&amp;amp;#x2F;null、&amp;amp;&amp;gt;、2&amp;gt;&amp;amp;1 、1&amp;gt;&amp;amp;2</summary>
+    
+    
+    
+    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
+    
+    <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
+    
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
+    
+    <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
+    
+  </entry>
   
   <entry>
     <title>【Git、Hexo】deploy github 檔名大小寫問題</title>
@@ -35,7 +62,7 @@
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     
     
-    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
@@ -62,7 +89,7 @@
     <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
     
     
-    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
@@ -168,8 +195,6 @@
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
-    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
-    
   </entry>
   
   <entry>
@@ -190,8 +215,6 @@
     
     
     <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
-    <category term="debug" scheme="https://forgetfulengineer.github.io/tags/debug/"/>
     
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
