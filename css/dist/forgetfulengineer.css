@@ -1,0 +1,10 @@
+/* ---------------------------------
+ *   自訂義樣式
+ * --------------------------------- */
+.navbar {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
