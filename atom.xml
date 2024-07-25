@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-07-03T10:06:07.000Z</updated>
+  <updated>2024-07-25T09:52:24.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Hexo】多台電腦佈署 GitHub page 的問題</title>
+    <link href="https://forgetfulengineer.github.io/Other/Hexo/Multi-Computer-Deployment-Issues-on-GitHub-Page/"/>
+    <id>https://forgetfulengineer.github.io/Other/Hexo/Multi-Computer-Deployment-Issues-on-GitHub-Page/</id>
+    <published>2024-07-25T09:52:24.000Z</published>
+    <updated>2024-07-25T09:52:24.000Z</updated>
+    
+    
+    <summary type="html">1.了解 Hexo 佈署的流程。2.多台電腦佈署網站，導致 git 紀錄被覆蓋。3.使用腳本解決 git 紀錄被覆蓋的問題</summary>
+    
+    
+    
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    
+    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
+    
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
+    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>【Linux】解析資料重定向</title>
@@ -64,11 +93,11 @@
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
   </entry>
   
