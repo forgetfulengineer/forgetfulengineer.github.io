@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-07-25T09:52:24.000Z</updated>
+  <updated>2024-08-11T09:44:08.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【PHP】陣列合併應用：array + array、array_merge()、array_replace()</title>
+    <link href="https://forgetfulengineer.github.io/Backend/PHP/Analyzing-Three-Methods-of-Merging-Array/"/>
+    <id>https://forgetfulengineer.github.io/Backend/PHP/Analyzing-Three-Methods-of-Merging-Array/</id>
+    <published>2024-08-11T09:44:08.000Z</published>
+    <updated>2024-08-11T09:44:08.000Z</updated>
+    
+    
+    <summary type="html">1.陣列的自定義鍵值和流水號鍵值。 2.array + array、array_merge()、array_replace() 的使用方式和差異。</summary>
+    
+    
+    
+    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
+    
+    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
+    
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+  </entry>
   
   <entry>
     <title>【Hexo】多台電腦佈署 GitHub page 的問題</title>
@@ -39,9 +62,9 @@
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
+    
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -62,9 +85,9 @@
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
     
     
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -143,9 +166,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   
@@ -166,11 +189,11 @@
     <category term="MySQL" scheme="https://forgetfulengineer.github.io/categories/Backend/MySQL/"/>
     
     
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
     <category term="mysql" scheme="https://forgetfulengineer.github.io/tags/mysql/"/>
     
     <category term="database" scheme="https://forgetfulengineer.github.io/tags/database/"/>
-    
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   
@@ -243,9 +266,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   
