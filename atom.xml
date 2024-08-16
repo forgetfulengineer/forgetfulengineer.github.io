@@ -62,9 +62,9 @@
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
-    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
-    
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
+    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
   </entry>
   
@@ -109,9 +109,9 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
