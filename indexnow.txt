@@ -1,3 +1,4 @@
+https://forgetfulengineer.github.io/Frontend/Html/Difference-Between-button-Inside-and-Outside-of-a-form/
 https://forgetfulengineer.github.io/Backend/PHP/Analyzing-Three-Methods-of-Merging-Array/
 https://forgetfulengineer.github.io/Other/Git/Understanding-Git-Config-Settings/
 https://forgetfulengineer.github.io/Other/Hexo/Multi-Computer-Deployment-Issues-on-GitHub-Page/
@@ -7,4 +8,3 @@ https://forgetfulengineer.github.io/Backend/PHP/Comparing-the-Differences-Betwee
 https://forgetfulengineer.github.io/Backend/MySQL/Analyzing-4-Types-of-Database-Language/
 https://forgetfulengineer.github.io/Frontend/JQuery/Analyzing-Six-Types-of-Combinator/
 https://forgetfulengineer.github.io/Other/VSCode/Using-Git-Bash-in-VSCode/
-https://forgetfulengineer.github.io/Backend/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/

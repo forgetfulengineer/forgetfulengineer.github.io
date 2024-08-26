@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-08-11T09:44:08.000Z</updated>
+  <updated>2024-08-18T06:56:12.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【HTML】&lt;button&gt; 在 &lt;form&gt; 裡和在 &lt;form&gt; 以外的差別</title>
+    <link href="https://forgetfulengineer.github.io/Frontend/Html/Difference-Between-button-Inside-and-Outside-of-a-form/"/>
+    <id>https://forgetfulengineer.github.io/Frontend/Html/Difference-Between-button-Inside-and-Outside-of-a-form/</id>
+    <published>2024-08-18T06:56:12.000Z</published>
+    <updated>2024-08-18T06:56:12.000Z</updated>
+    
+    
+    <summary type="html">1.了解 &amp;lt;button&amp;gt; 在 &amp;lt;form&amp;gt; 裡與 &amp;lt;form&amp;gt; 以外的差別 2.了解 &amp;lt;form&amp;gt; 的預設 method 和 action</summary>
+    
+    
+    
+    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="Html" scheme="https://forgetfulengineer.github.io/categories/Frontend/Html/"/>
+    
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="html" scheme="https://forgetfulengineer.github.io/tags/html/"/>
+    
+  </entry>
   
   <entry>
     <title>【PHP】陣列合併應用：array + array、array_merge()、array_replace()</title>
@@ -58,11 +81,11 @@
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -109,18 +132,18 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
-    
     <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
+    
+    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
   </entry>
   

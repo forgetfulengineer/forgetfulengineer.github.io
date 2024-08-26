@@ -4,6 +4,7 @@ Disallow: /archives/
 Disallow: /tags/
 Disallow: /css/
 Disallow: /js/
+Disallow: /cookie-policy/
 Disallow: /404.html
 
 Sitemap: https://forgetfulengineer.github.io/sitemap.xml
