@@ -9435,6 +9435,9 @@ iframe {
 i {
   margin-right: 5px;
 }
+#back-to-top {
+  z-index: 100;
+}
 #back-to-top i {
   margin-right: 0px;
 }
