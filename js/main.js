@@ -49,11 +49,11 @@ window.onload = function() {
         $('ins.adsbygoogle').each(function(){
             if ($(this).data('ad-status')) {
                 if ($(this).data('ad-status') == 'unfilled') {
-                    $(this).closest('.card-content').remove();
+                    $(this).closest('.card').remove();
                 }
                 ad_flag = true;
             } else {
-                $(this).closest('.card-content').remove();
+                $(this).closest('.card').remove();
             }
         });
 
