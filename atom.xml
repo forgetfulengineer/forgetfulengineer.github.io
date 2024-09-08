@@ -132,9 +132,9 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
-    
     <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
+    
+    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
