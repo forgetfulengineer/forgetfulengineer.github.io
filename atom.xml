@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-08-18T06:56:12.000Z</updated>
+  <updated>2024-09-15T06:02:44.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【jQuery】click 事件綁定方式比較</title>
+    <link href="https://forgetfulengineer.github.io/Frontend/JQuery/Comparison-of-Click-Event-Binding-Methods/"/>
+    <id>https://forgetfulengineer.github.io/Frontend/JQuery/Comparison-of-Click-Event-Binding-Methods/</id>
+    <published>2024-09-15T06:02:44.000Z</published>
+    <updated>2024-09-15T06:02:44.000Z</updated>
+    
+    
+    <summary type="html">1.$(&#39;選擇器&#39;).click() 的應用和使用時機 2.$(document).on(&#39;click&#39;, &#39;選擇器&#39;, function(){}) 的應用和使用時機 3. .on(&#39;click&#39;, function() {}) 不是委派給 document 就無法適用在動態生成的元素</summary>
+    
+    
+    
+    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="JQuery" scheme="https://forgetfulengineer.github.io/categories/Frontend/JQuery/"/>
+    
+    
+    <category term="jquery" scheme="https://forgetfulengineer.github.io/tags/jquery/"/>
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+  </entry>
   
   <entry>
     <title>【HTML】button 在 form 裡和在 form 以外的差別</title>
@@ -85,9 +108,9 @@
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
-    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
-    
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
+    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
   </entry>
   
@@ -132,9 +155,9 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
