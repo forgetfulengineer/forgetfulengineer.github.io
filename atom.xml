@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-09-15T06:02:44.000Z</updated>
+  <updated>2024-09-25T09:36:14.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【jQuery】尋找父元素、同層元素和子元素的方法</title>
+    <link href="https://forgetfulengineer.github.io/Frontend/JQuery/Methods-for-Finding-Parent-and-Sibling-and-Child-Elements/"/>
+    <id>https://forgetfulengineer.github.io/Frontend/JQuery/Methods-for-Finding-Parent-and-Sibling-and-Child-Elements/</id>
+    <published>2024-09-25T09:36:14.000Z</published>
+    <updated>2024-09-25T09:36:14.000Z</updated>
+    
+    
+    <summary type="html">1.尋找父元素的常用方法：.parent()、.parents()、.closest() 2.尋找同層元素的常用方法：.siblings()、.next()、.prev() 3.尋找子元素的常用方法：.children() 、.find() 4.每個方法的具體用途和應用場景</summary>
+    
+    
+    
+    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="JQuery" scheme="https://forgetfulengineer.github.io/categories/Frontend/JQuery/"/>
+    
+    
+    <category term="jquery" scheme="https://forgetfulengineer.github.io/tags/jquery/"/>
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+  </entry>
   
   <entry>
     <title>【jQuery】click 事件綁定方式比較</title>
@@ -79,9 +102,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
   </entry>
   
@@ -131,9 +154,9 @@
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
     
     
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -155,9 +178,9 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
@@ -212,9 +235,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
   </entry>
   
@@ -235,11 +258,11 @@
     <category term="MySQL" scheme="https://forgetfulengineer.github.io/categories/Backend/MySQL/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="mysql" scheme="https://forgetfulengineer.github.io/tags/mysql/"/>
     
     <category term="database" scheme="https://forgetfulengineer.github.io/tags/database/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   
@@ -312,9 +335,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
   </entry>
   
