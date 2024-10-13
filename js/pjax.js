@@ -19,7 +19,8 @@
                     '.searchbox script',
                     '#back-to-top',
                     '#comments link',
-                    '#comments script'
+                    '#comments script',
+                    'a[target="_blnk"]'
                 ],
                 cacheBust: false
             });
