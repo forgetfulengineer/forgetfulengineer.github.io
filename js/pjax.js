@@ -6,6 +6,7 @@
         try {
             const Pjax = window.Pjax || function() {};
             pjax = new Pjax({
+                elements: 'a:not(a[target="_blank"])', // default is "a[href], form[action]"
                 selectors: [
                     '[data-pjax]',
                     '.pjax-reload',
@@ -19,8 +20,7 @@
                     '.searchbox script',
                     '#back-to-top',
                     '#comments link',
-                    '#comments script',
-                    'a[target="_blnk"]'
+                    '#comments script'
                 ],
                 cacheBust: false
             });
