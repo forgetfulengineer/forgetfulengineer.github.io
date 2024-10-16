@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-09-25T09:36:14.000Z</updated>
+  <updated>2024-10-16T02:11:48.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【HTML】解析 &lt;a&gt; 的 rel 屬性</title>
+    <link href="https://forgetfulengineer.github.io/Frontend/Html/Understanding-the-rel-Attribute-of-the-a-Tag/"/>
+    <id>https://forgetfulengineer.github.io/Frontend/Html/Understanding-the-rel-Attribute-of-the-a-Tag/</id>
+    <published>2024-10-16T02:11:48.000Z</published>
+    <updated>2024-10-16T02:11:48.000Z</updated>
+    
+    
+    <summary type="html">1.了解 &amp;lt;a&amp;gt; 的 rel 屬性 2.&amp;lt;a&amp;gt; 常見的 rel 屬性值和用途 3.不同情境下 &amp;lt;a&amp;gt; rel 屬性的使用方式 4.現代瀏覽器在大部分情況下已經自動為帶有 target=&amp;quot;_blank&amp;quot; 的連結加上 rel=&amp;quot;noopener&amp;quot; 5.調用 window.opener 的方法</summary>
+    
+    
+    
+    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="Html" scheme="https://forgetfulengineer.github.io/categories/Frontend/Html/"/>
+    
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="html" scheme="https://forgetfulengineer.github.io/tags/html/"/>
+    
+    <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
+    
+    <category term="security" scheme="https://forgetfulengineer.github.io/tags/security/"/>
+    
+  </entry>
   
   <entry>
     <title>【jQuery】尋找父元素、同層元素和子元素的方法</title>
@@ -127,13 +154,13 @@
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
-    
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -178,18 +205,18 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
   </entry>
   
