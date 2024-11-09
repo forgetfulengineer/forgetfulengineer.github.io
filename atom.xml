@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-10-31T02:03:37.000Z</updated>
+  <updated>2024-11-09T02:09:42.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Css】解析五種常見的相對單位</title>
+    <link href="https://forgetfulengineer.github.io/Frontend/Css/Understanding-five-Common-Relative-Units/"/>
+    <id>https://forgetfulengineer.github.io/Frontend/Css/Understanding-five-Common-Relative-Units/</id>
+    <published>2024-11-09T02:09:42.000Z</published>
+    <updated>2024-11-09T02:09:42.000Z</updated>
+    
+    
+    <summary type="html">1.常見的相對單位：%、em、rem、vh、vw 2.相對單位的使用方式和時機</summary>
+    
+    
+    
+    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="Css" scheme="https://forgetfulengineer.github.io/categories/Frontend/Css/"/>
+    
+    
+    <category term="css" scheme="https://forgetfulengineer.github.io/tags/css/"/>
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+  </entry>
   
   <entry>
     <title>【linux】使用 less 查看檔案</title>
@@ -232,9 +255,9 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
-    
     <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
+    
+    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
