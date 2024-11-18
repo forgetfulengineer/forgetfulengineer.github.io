@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-11-09T02:09:42.000Z</updated>
+  <updated>2024-11-18T09:44:48.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【GitHub】追蹤檔案修改紀錄</title>
+    <link href="https://forgetfulengineer.github.io/Other/GitHub/Tracking-File-Modification-History/"/>
+    <id>https://forgetfulengineer.github.io/Other/GitHub/Tracking-File-Modification-History/</id>
+    <published>2024-11-18T09:44:48.000Z</published>
+    <updated>2024-11-18T09:44:48.000Z</updated>
+    
+    
+    <summary type="html">1.查看檔案的 commit 紀錄 2.依作者或時間詢 commit 紀錄 3.使用 blame 查看檔案的逐行修改紀錄 4.blame 模式下，還原檔案至指定 commit 前的狀態，查看修改前的內容 5.Git 的 git blame 查看檔案的逐行修改紀錄</summary>
+    
+    
+    
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    
+    <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
+    
+    
+    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
+    
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>【Css】解析五種常見的相對單位</title>
@@ -56,9 +79,9 @@
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -208,9 +231,9 @@
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
+    
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -231,9 +254,9 @@
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
