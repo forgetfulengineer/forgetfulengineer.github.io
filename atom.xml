@@ -24,7 +24,7 @@
     <updated>2024-11-18T09:44:48.000Z</updated>
     
     
-    <summary type="html">1.查看檔案的 commit 紀錄 2.依作者或時間詢 commit 紀錄 3.使用 blame 查看檔案的逐行修改紀錄 4.blame 模式下，還原檔案至指定 commit 前的狀態，查看修改前的內容 5.Git 的 git blame 查看檔案的逐行修改紀錄</summary>
+    <summary type="html">1.查看檔案的 commit 紀錄 2.依作者或時間詢 commit 紀錄 3.使用 blame 查看檔案的逐行修改紀錄 4.blame 模式下，還原檔案至指定 commit 前的狀態，查看修改前的內容 5.Git 的 git blame 查看檔案的逐行修改紀錄 【GitHub】</summary>
     
     
     
@@ -47,7 +47,7 @@
     <updated>2024-11-09T02:09:42.000Z</updated>
     
     
-    <summary type="html">1.常見的相對單位：%、em、rem、vh、vw 2.相對單位的使用方式和時機</summary>
+    <summary type="html">1.常見的相對單位：%、em、rem、vh、vw 2.相對單位的使用方式和時機 【Css】</summary>
     
     
     
@@ -70,7 +70,7 @@
     <updated>2024-10-31T02:03:37.000Z</updated>
     
     
-    <summary type="html">1.less 基本使用方法 2.less 的實用選項：-N、-S、+F、-p、-i、-m 3.less 檢視模式內的快捷鍵：/pattern、?pattern、&amp;amp;pattern、n、N、g、G、F、q、h 4.比較 less 和 more 的差異</summary>
+    <summary type="html">1.less 基本使用方法 2.less 的實用選項：-N、-S、+F、-p、-i、-m 3.less 檢視模式內的快捷鍵：/pattern、?pattern、&amp;amp;pattern、n、N、g、G、F、q、h 4.比較 less 和 more 的差異 【linux】</summary>
     
     
     
@@ -79,9 +79,9 @@
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
     
     
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -97,7 +97,7 @@
     <updated>2024-10-16T02:11:48.000Z</updated>
     
     
-    <summary type="html">1.了解 &amp;lt;a&amp;gt; 的 rel 屬性 2.&amp;lt;a&amp;gt; 常見的 rel 屬性值和用途 3.不同情境下 &amp;lt;a&amp;gt; rel 屬性的使用方式 4.現代瀏覽器在大部分情況下已經自動為帶有 target=&amp;quot;_blank&amp;quot; 的連結加上 rel=&amp;quot;noopener&amp;quot; 5.調用 window.opener 的方法</summary>
+    <summary type="html">1.了解 &amp;lt;a&amp;gt; 的 rel 屬性 2.&amp;lt;a&amp;gt; 常見的 rel 屬性值和用途 3.不同情境下 &amp;lt;a&amp;gt; rel 屬性的使用方式 4.現代瀏覽器在大部分情況下已經自動為帶有 target=&amp;quot;_blank&amp;quot; 的連結加上 rel=&amp;quot;noopener&amp;quot; 5.調用 window.opener 的方法 【HTML】</summary>
     
     
     
@@ -124,7 +124,7 @@
     <updated>2024-09-25T09:36:14.000Z</updated>
     
     
-    <summary type="html">1.尋找父元素的常用方法：.parent()、.parents()、.closest() 2.尋找同層元素的常用方法：.siblings()、.next()、.prev() 3.尋找子元素的常用方法：.children() 、.find() 4.每個方法的具體用途和應用場景</summary>
+    <summary type="html">1.尋找父元素的常用方法：.parent()、.parents()、.closest() 2.尋找同層元素的常用方法：.siblings()、.next()、.prev() 3.尋找子元素的常用方法：.children()、.find() 4.每個方法的具體用途和應用場景 【jQuery】</summary>
     
     
     
@@ -147,7 +147,7 @@
     <updated>2024-09-15T06:02:44.000Z</updated>
     
     
-    <summary type="html">1.$(&#39;選擇器&#39;).click() 的應用和使用時機 2.$(document).on(&#39;click&#39;, &#39;選擇器&#39;, function(){}) 的應用和使用時機 3. .on(&#39;click&#39;, function() {}) 不是委派給 document 就無法適用在動態生成的元素</summary>
+    <summary type="html">1.$(&#39;選擇器&#39;).click() 的應用和使用時機 2.$(document).on(&#39;click&#39;, &#39;選擇器&#39;, function(){}) 的應用和使用時機 3. .on(&#39;click&#39;, function() {}) 不是委派給 document 就無法適用在動態生成的元素 【jQuery】</summary>
     
     
     
@@ -170,7 +170,7 @@
     <updated>2024-08-18T06:56:12.000Z</updated>
     
     
-    <summary type="html">1.了解 &amp;lt;button&amp;gt; 在 &amp;lt;form&amp;gt; 裡與 &amp;lt;form&amp;gt; 以外的差別 2.了解 &amp;lt;form&amp;gt; 的預設 method 和 action</summary>
+    <summary type="html">1.了解 &amp;lt;button&amp;gt; 在 &amp;lt;form&amp;gt; 裡與 &amp;lt;form&amp;gt; 以外的差別 2.了解 &amp;lt;form&amp;gt; 的預設 method 和 action 【HTML】</summary>
     
     
     
@@ -193,7 +193,7 @@
     <updated>2024-08-11T09:44:08.000Z</updated>
     
     
-    <summary type="html">1.陣列的自定義鍵值和流水號鍵值。 2.array + array、array_merge()、array_replace() 的使用方式和差異。</summary>
+    <summary type="html">1.陣列的自定義鍵值和流水號鍵值。 2.array + array、array_merge()、array_replace() 的使用方式和差異。 【PHP】</summary>
     
     
     
@@ -216,7 +216,7 @@
     <updated>2024-07-25T09:52:24.000Z</updated>
     
     
-    <summary type="html">1.了解 Hexo 佈署的流程。2.多台電腦佈署網站，導致 git 紀錄被覆蓋。3.使用腳本解決 git 紀錄被覆蓋的問題</summary>
+    <summary type="html">1.了解 Hexo 佈署的流程。2.多台電腦佈署網站，導致 git 紀錄被覆蓋。3.使用腳本解決 git 紀錄被覆蓋的問題 【Hexo】</summary>
     
     
     
@@ -231,9 +231,9 @@
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
-    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
-    
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
+    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
   </entry>
   
@@ -245,7 +245,7 @@
     <updated>2024-07-03T10:06:07.000Z</updated>
     
     
-    <summary type="html">1.基本重定向用法：&amp;lt;、&amp;lt;&amp;lt;、&amp;gt;、&amp;gt;&amp;gt;、2&amp;gt;、2&amp;gt;&amp;gt; 2.重定向的判讀方式 3.重定向符號的前後順序不影響命令的結果 4.特殊重定向用法：&amp;amp;#x2F;dev&amp;amp;#x2F;null、&amp;amp;&amp;gt;、2&amp;gt;&amp;amp;1 、1&amp;gt;&amp;amp;2</summary>
+    <summary type="html">1.基本重定向用法：&amp;lt;、&amp;lt;&amp;lt;、&amp;gt;、&amp;gt;&amp;gt;、2&amp;gt;、2&amp;gt;&amp;gt; 2.重定向的判讀方式 3.重定向符號的前後順序不影響命令的結果 4.特殊重定向用法：&amp;amp;#x2F;dev&amp;amp;#x2F;null、&amp;amp;&amp;gt;、2&amp;gt;&amp;amp;1 、1&amp;gt;&amp;amp;2 【Linux】</summary>
     
     
     
@@ -254,9 +254,9 @@
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
     
     
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -272,7 +272,7 @@
     <updated>2024-06-10T09:48:10.000Z</updated>
     
     
-    <summary type="html">1.hexo deploy 檔名大小寫不同，導致網頁404 2.git 忽略檔名大小寫的原因 3.解決 hexo deploy github 檔名大小寫問題</summary>
+    <summary type="html">1.hexo deploy 檔名大小寫不同，導致網頁404 2.git 忽略檔名大小寫的原因 3.解決 hexo deploy github 檔名大小寫問題 【Git、Hexo】</summary>
     
     
     
@@ -301,7 +301,7 @@
     <updated>2024-07-29T15:01:13.000Z</updated>
     
     
-    <summary type="html">1.了解設定區域：--system、--global、--local 2.git config 常見設定 3.查詢 git config 設定 4.刪除 git config 設定</summary>
+    <summary type="html">1.了解設定區域：--system、--global、--local 2.git config 常見設定 3.查詢 git config 設定 4.刪除 git config 設定 【Git】</summary>
     
     
     
@@ -326,7 +326,7 @@
     <updated>2024-04-29T14:49:15.000Z</updated>
     
     
-    <summary type="html">1.and 和 &amp;&amp;之間有什麼差別，它們分別代表什麼意思？2.or 和 || 之間有什麼差別，它們分別代表什麼意思？3.邏輯運算子的執行順序4.邏輯運算子使用建議</summary>
+    <summary type="html">1.and 和 &amp;&amp;之間有什麼差別，它們分別代表什麼意思？2.or 和 || 之間有什麼差別，它們分別代表什麼意思？3.邏輯運算子的執行順序4.邏輯運算子使用建議 【PHP】</summary>
     
     
     
@@ -349,7 +349,7 @@
     <updated>2024-04-11T09:52:42.000Z</updated>
     
     
-    <summary type="html">1.了解 DML、DDL、DCL 和 DQL 分別是資料庫裡的哪些功能</summary>
+    <summary type="html">1.了解 DML、DDL、DCL 和 DQL 分別是資料庫裡的哪些功能 【MySQL】</summary>
     
     
     
@@ -374,7 +374,7 @@
     <updated>2024-03-25T10:02:37.000Z</updated>
     
     
-    <summary type="html">1.組合選擇器是甚麼 2.選擇器內的符號( +、~、&gt; 、, 等)有甚麼含意 3.jQuery 要使用組合選擇器還是原生的函式</summary>
+    <summary type="html">1.組合選擇器是甚麼 2.選擇器內的符號( +、~、&gt; 、, 等)有甚麼含意 3.jQuery 要使用組合選擇器還是原生的函式 【jQuery、css】</summary>
     
     
     
@@ -401,7 +401,7 @@
     <updated>2024-02-11T15:11:31.000Z</updated>
     
     
-    <summary type="html">1.為什麼要使用 git bash。2.VSCode terminal 選項新增 git bash。3.將 git bash 設定為 VSCode 的預設終端機</summary>
+    <summary type="html">1.為什麼要使用 git bash。2.VSCode terminal 選項新增 git bash。3.將 git bash 設定為 VSCode 的預設終端機 【VSCode】</summary>
     
     
     
@@ -426,7 +426,7 @@
     <updated>2023-12-30T07:17:13.000Z</updated>
     
     
-    <summary type="html">1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error)</summary>
+    <summary type="html">1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error) 【PHP】</summary>
     
     
     
