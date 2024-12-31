@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-12-20T02:01:32.000Z</updated>
+  <updated>2024-12-31T01:40:21.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【NPM、GitHub】解決 npm 版本落後 GitHub 版本的問題</title>
+    <link href="https://forgetfulengineer.github.io/Other/NPM/Resolving-the-Issue-of-npm-Version-Lagging-Behind-the-GitHub-Version/"/>
+    <id>https://forgetfulengineer.github.io/Other/NPM/Resolving-the-Issue-of-npm-Version-Lagging-Behind-the-GitHub-Version/</id>
+    <published>2024-12-31T01:40:21.000Z</published>
+    <updated>2024-12-31T01:40:21.000Z</updated>
+    
+    
+    <summary type="html">1.如果發現 npm 套件的版本有 bug，但 GitHub 上的版本已修正，應該如何安裝修正版套件？ 2.怎麼處理 npm 版本落後於 GitHub 版本的狀況 3.怎麼使用 npm 安裝 GitHub 套件的指定版本？ 4.怎麼使用 npm 更新 GitHub 套件？ 5.hexo-generator-sitemap 的 3.0.1 版本存在 bug，導致沒有設定 sitemap 檔案，影響網站 seo【NPM、GitHub】</summary>
+    
+    
+    
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    
+    <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
+    
+    <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
+    
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
+    <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
+    
+  </entry>
   
   <entry>
     <title>【Git】強制更新遠端分支進度到本地分支</title>
@@ -289,9 +318,9 @@
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
+    
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
   </entry>
   
