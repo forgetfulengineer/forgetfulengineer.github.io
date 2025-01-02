@@ -24,7 +24,7 @@
     <updated>2024-12-31T01:40:21.000Z</updated>
     
     
-    <summary type="html">1.如果發現 npm 套件的版本有 bug，但 GitHub 上的版本已修正，應該如何安裝修正版套件？ 2.怎麼處理 npm 版本落後於 GitHub 版本的狀況 3.怎麼使用 npm 安裝 GitHub 套件的指定版本？ 4.怎麼使用 npm 更新 GitHub 套件？ 5.hexo-generator-sitemap 的 3.0.1 版本存在 bug，導致沒有設定 sitemap 檔案，影響網站 seo【NPM、GitHub】</summary>
+    <summary type="html">1.怎麼處理 npm 版本落後於 GitHub 版本的狀況 2.怎麼使用 npm 安裝 GitHub 套件的指定版本？ 3.怎麼使用 npm 更新 GitHub 套件？ 4.hexo-generator-sitemap 的 3.0.1 版本存在 bug，導致沒有設定 sitemap 檔案，影響網站 seo【NPM、GitHub】</summary>
     
     
     
@@ -91,9 +91,9 @@
     <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     
@@ -289,9 +289,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
   </entry>
   
@@ -318,9 +318,9 @@
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
-    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
-    
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
+    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
   </entry>
   
@@ -365,9 +365,9 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
@@ -422,9 +422,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
   </entry>
   
@@ -445,13 +445,13 @@
     <category term="MySQL" scheme="https://forgetfulengineer.github.io/categories/Backend/MySQL/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="mysql" scheme="https://forgetfulengineer.github.io/tags/mysql/"/>
     
     <category term="database" scheme="https://forgetfulengineer.github.io/tags/database/"/>
     
     <category term="db" scheme="https://forgetfulengineer.github.io/tags/db/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   
@@ -469,9 +469,9 @@
     
     <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
     
-    <category term="Css" scheme="https://forgetfulengineer.github.io/categories/Frontend/Css/"/>
-    
     <category term="JQuery" scheme="https://forgetfulengineer.github.io/categories/Frontend/JQuery/"/>
+    
+    <category term="Css" scheme="https://forgetfulengineer.github.io/categories/Frontend/Css/"/>
     
     
     <category term="css" scheme="https://forgetfulengineer.github.io/tags/css/"/>
@@ -524,9 +524,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
   </entry>
   
