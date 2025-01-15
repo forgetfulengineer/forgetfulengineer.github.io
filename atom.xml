@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2024-12-31T01:40:21.000Z</updated>
+  <updated>2025-01-15T01:00:55.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Git】使用 git commit 修改提交（commit）的資訊或是內容</title>
+    <link href="https://forgetfulengineer.github.io/Other/Git/Using-git-commit-to-Modify-Commit-Data-or-Content/"/>
+    <id>https://forgetfulengineer.github.io/Other/Git/Using-git-commit-to-Modify-Commit-Data-or-Content/</id>
+    <published>2025-01-15T01:00:55.000Z</published>
+    <updated>2025-01-15T01:00:55.000Z</updated>
+    
+    
+    <summary type="html">1.修改最新一次提交（commit）的資訊或是內容 2.git commit --amend --author 修改提交的作者和信箱 3.git commit --amend --reset-author 重置提交的作者和信箱 4.git commit --amend -m 修改提交訊息 5.--no-editor 不修改提交的訊息 6.每次修改提交都會產生新的提交 ID【Git】</summary>
+    
+    
+    
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
+    
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
+    
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>【NPM、GitHub】解決 npm 版本落後 GitHub 版本的問題</title>
@@ -37,9 +62,9 @@
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     
@@ -314,13 +339,13 @@
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
-    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
-    
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
-    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
+    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
+    
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
   </entry>
   
@@ -372,11 +397,11 @@
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -504,29 +529,6 @@
     <category term="git bash" scheme="https://forgetfulengineer.github.io/tags/git-bash/"/>
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【PHP】4種判斷變數或陣列是否存在的方法</title>
-    <link href="https://forgetfulengineer.github.io/Backend/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/"/>
-    <id>https://forgetfulengineer.github.io/Backend/PHP/4-Ways-to-Check-If-a-Variable-or-Array-Exists/</id>
-    <published>2023-12-30T07:17:13.000Z</published>
-    <updated>2023-12-30T07:17:13.000Z</updated>
-    
-    
-    <summary type="html">1.使用 empty()、is_null()、isset() 或是直接使用if ($variable) 判斷式來判斷變數或陣列是否存在，比較各方法的差異。2.資料檢查甚麼時候會有錯誤訊息(php error) 【PHP】</summary>
-    
-    
-    
-    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
-    
-    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
-    
-    
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   
