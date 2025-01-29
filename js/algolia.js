@@ -15,7 +15,7 @@ function loadAlgolia(config, translation) {
   search.addWidget(
     instantsearch.widgets.searchBox({
       container: '#algolia-input',
-      placeholder: translation.hint,  
+      placeholder: translation.hint,
       showReset: false,
       showSubmit: false,
       showLoadingIndicator: false,
@@ -67,7 +67,7 @@ function loadAlgolia(config, translation) {
         },
       },
     }),
-  ); 
+  );
 
   search.addWidget(
     instantsearch.widgets.pagination({
