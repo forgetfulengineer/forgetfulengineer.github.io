@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2025-03-13T00:18:33.000Z</updated>
+  <updated>2025-03-25T05:33:40.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【MySQL】DQL 指令的執行順序與效能優化</title>
+    <link href="https://forgetfulengineer.github.io/Backend/MySQL/Execution-Order-and-Performance-Optimization-of-DQL-Commands/"/>
+    <id>https://forgetfulengineer.github.io/Backend/MySQL/Execution-Order-and-Performance-Optimization-of-DQL-Commands/</id>
+    <published>2025-03-25T05:33:40.000Z</published>
+    <updated>2025-03-25T05:33:40.000Z</updated>
+    
+    
+    <summary type="html">1.了解 DQL 指令的執行順序，從 FROM 到 LIMIT、OFFSET 2.每個步驟會產生一張虛擬表供下一步驟使用，透過執行順序，可以減少不必要的資料處理，提升查詢效能 3.各個 DQL 指令的使用重點【MySQL】</summary>
+    
+    
+    
+    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
+    
+    <category term="MySQL" scheme="https://forgetfulengineer.github.io/categories/Backend/MySQL/"/>
+    
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="mysql" scheme="https://forgetfulengineer.github.io/tags/mysql/"/>
+    
+    <category term="database" scheme="https://forgetfulengineer.github.io/tags/database/"/>
+    
+    <category term="db" scheme="https://forgetfulengineer.github.io/tags/db/"/>
+    
+  </entry>
   
   <entry>
     <title>【Html】自定義屬性：data-* 的命名規則和取值方法</title>
@@ -60,9 +87,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="timestamp" scheme="https://forgetfulengineer.github.io/tags/timestamp/"/>
     
@@ -224,9 +251,9 @@
     <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     
@@ -299,9 +326,9 @@
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -422,9 +449,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   
@@ -474,9 +501,9 @@
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -498,9 +525,9 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
-    
     <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
+    
+    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
@@ -510,31 +537,6 @@
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Git】了解 git config 設定</title>
-    <link href="https://forgetfulengineer.github.io/Other/Git/Understanding-Git-Config-Settings/"/>
-    <id>https://forgetfulengineer.github.io/Other/Git/Understanding-Git-Config-Settings/</id>
-    <published>2024-05-30T15:01:13.000Z</published>
-    <updated>2024-07-29T15:01:13.000Z</updated>
-    
-    
-    <summary type="html">1.了解設定區域：--system、--global、--local 2.git config 常見設定 3.查詢 git config 設定 4.刪除 git config 設定 【Git】</summary>
-    
-    
-    
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    
-    
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
-    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
-    
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
   </entry>
   
