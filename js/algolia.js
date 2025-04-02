@@ -8,7 +8,7 @@ function loadAlgolia(config, translation) {
 
   search.addWidgets([
     instantsearch.widgets.configure({
-      attributesToSnippet: ['excerpt'],
+      attributesToSnippet: ['descriptionStrip'],
     }),
   ]);
 
