@@ -145,9 +145,9 @@
     
     <category term="js" scheme="https://forgetfulengineer.github.io/tags/js/"/>
     
-    <category term="timestamp" scheme="https://forgetfulengineer.github.io/tags/timestamp/"/>
-    
     <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
+    
+    <category term="timestamp" scheme="https://forgetfulengineer.github.io/tags/timestamp/"/>
     
   </entry>
   
@@ -326,9 +326,9 @@
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
     
     
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -501,9 +501,9 @@
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
     
     
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -525,9 +525,9 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
