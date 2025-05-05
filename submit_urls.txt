@@ -1,6 +1,6 @@
 https://forgetfulengineer.github.io/Backend/PHP/Three-Useful-Symbol-Operators/
 https://forgetfulengineer.github.io/Frontend/Html/Fixing-Scroll-Effect-Misalignment-Caused-by-Lazy-Loading/
-https://forgetfulengineer.github.io/Backend/MySQL/Execution-Order-and-Performance-Optimization-of-DQL-Commands/
+https://forgetfulengineer.github.io/Backend/MySQL/DQL-Execution-Order/
 https://forgetfulengineer.github.io/Frontend/Html/Data-Attribute-Naming-Conventions-and-Retrieval-Methods/
 https://forgetfulengineer.github.io/Backend/PHP/Five-Useful-Date-and-Time-Functions/
 https://forgetfulengineer.github.io/Other/Git/Using-Git-Rebase-to-Organize-Commit-History/

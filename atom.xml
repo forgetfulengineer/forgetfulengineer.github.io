@@ -77,8 +77,8 @@
   
   <entry>
     <title>【MySQL】DQL 指令的執行順序與效能優化</title>
-    <link href="https://forgetfulengineer.github.io/Backend/MySQL/Execution-Order-and-Performance-Optimization-of-DQL-Commands/"/>
-    <id>https://forgetfulengineer.github.io/Backend/MySQL/Execution-Order-and-Performance-Optimization-of-DQL-Commands/</id>
+    <link href="https://forgetfulengineer.github.io/Backend/MySQL/DQL-Execution-Order/"/>
+    <id>https://forgetfulengineer.github.io/Backend/MySQL/DQL-Execution-Order/</id>
     <published>2025-03-25T05:33:40.000Z</published>
     <updated>2025-03-25T05:33:40.000Z</updated>
     
@@ -256,9 +256,9 @@
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     
@@ -533,11 +533,11 @@
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
