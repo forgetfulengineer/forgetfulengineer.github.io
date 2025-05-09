@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2025-04-29T07:32:20.000Z</updated>
+  <updated>2025-05-09T02:38:38.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【jQuery】解析六種添加元素方法</title>
+    <link href="https://forgetfulengineer.github.io/Frontend/JQuery/Analyzing-Six-Methods-for-Adding-Elements/"/>
+    <id>https://forgetfulengineer.github.io/Frontend/JQuery/Analyzing-Six-Methods-for-Adding-Elements/</id>
+    <published>2025-05-09T02:38:38.000Z</published>
+    <updated>2025-05-09T02:38:38.000Z</updated>
+    
+    
+    <summary type="html">1.常見的添加元素方法 2.添加到指定元素內部：.append()、.prepend()、.appendTo()、.prependTo() 3.添加到指定元素外部：.after()、.before() 4.介紹各方法的使用效果及適用情境【jQuery】</summary>
+    
+    
+    
+    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="JQuery" scheme="https://forgetfulengineer.github.io/categories/Frontend/JQuery/"/>
+    
+    
+    <category term="jquery" scheme="https://forgetfulengineer.github.io/tags/jquery/"/>
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+  </entry>
   
   <entry>
     <title>【PHP、JavaScript】三種實用的符號運算子 ?:、??、??=</title>
@@ -511,35 +534,6 @@
     <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Hexo】多台電腦佈署 GitHub page 的問題</title>
-    <link href="https://forgetfulengineer.github.io/Other/Hexo/Multi-Computer-Deployment-Issues-on-GitHub-Page/"/>
-    <id>https://forgetfulengineer.github.io/Other/Hexo/Multi-Computer-Deployment-Issues-on-GitHub-Page/</id>
-    <published>2024-07-25T09:52:24.000Z</published>
-    <updated>2024-07-25T09:52:24.000Z</updated>
-    
-    
-    <summary type="html">1.了解 Hexo 佈署的流程。2.多台電腦佈署網站，導致 git 紀錄被覆蓋。3.使用腳本解決 git 紀錄被覆蓋的問題 【Hexo】</summary>
-    
-    
-    
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    
-    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
-    
-    
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
-    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
-    
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    
-    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
   </entry>
   
