@@ -1,1 +1,60 @@
-!function(){let a;document.addEventListener("pjax:complete",(()=>{if(window.MathJax)try{window.MathJax.typesetPromise&&window.MathJax.typesetPromise()}catch(a){console.error("MathJax reload error:",a)}window.bszCaller&&window.bszTag&&window.bszCaller.fetch("//busuanzi.ibruce.info/busuanzi?jsonpCallback=BusuanziCallback",(a=>{window.bszTag.texts(a),window.bszTag.shows()}))})),document.addEventListener("DOMContentLoaded",(()=>function(){try{const e=window.Pjax||function(){};a=new e({elements:'a:not(a[target="_blank"])',selectors:["[data-pjax]",".pjax-reload","head title",".columns",".navbar-start",".navbar-end",".navbar-burger",".navbar-menu",".searchbox link",".searchbox script","#back-to-top","#comments link","#comments script"],cacheBust:!1})}catch(a){console.warn("PJAX error: "+a)}}()))}();
+(function() {
+    // eslint-disable-next-line no-unused-vars
+    let pjax;
+
+    function initPjax() {
+        try {
+            const Pjax = window.Pjax || function() {};
+            pjax = new Pjax({
+                elements: 'a:not(a[target="_blank"])', // default is "a[href], form[action]"
+                selectors: [
+                    '[data-pjax]',
+                    '.pjax-reload',
+                    'head title',
+                    '.columns',
+                    '.navbar-start',
+                    '.navbar-end',
+                    '.navbar-burger',
+                    '.navbar-menu',
+                    '.searchbox link',
+                    '.searchbox script',
+                    '#back-to-top',
+                    '#comments link',
+                    '#comments script'
+                ],
+                cacheBust: false
+            });
+        } catch (e) {
+            console.warn('PJAX error: ' + e);
+        }
+    }
+
+    // // Listen for start of Pjax
+    // document.addEventListener('pjax:send', function() {
+    //     return;
+    //     // TODO pace start loading animation
+    // })
+
+    // Listen for completion of Pjax
+    document.addEventListener('pjax:complete', () => {
+        // Plugin [MathJax] reload logic
+        if (window.MathJax) {
+            try {
+                window.MathJax.typesetPromise && window.MathJax.typesetPromise();
+            } catch (e) {
+                console.error('MathJax reload error:', e);
+            }
+        }
+        // Plugin [Busuanzi] reload logic
+        if (window.bszCaller && window.bszTag) {
+            window.bszCaller.fetch('//busuanzi.ibruce.info/busuanzi?jsonpCallback=BusuanziCallback', a => {
+                window.bszTag.texts(a);
+                window.bszTag.shows();
+            });
+        }
+
+        // TODO pace stop loading animation
+    });
+
+    document.addEventListener('DOMContentLoaded', () => initPjax());
+}());

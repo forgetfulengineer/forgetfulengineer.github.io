@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2025-05-09T02:38:38.000Z</updated>
+  <updated>2025-05-30T10:14:32.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Tool】cron 表達式（排程時間）轉換</title>
+    <link href="https://forgetfulengineer.github.io/Other/Tool/Cron-Expression-Conversion/"/>
+    <id>https://forgetfulengineer.github.io/Other/Tool/Cron-Expression-Conversion/</id>
+    <published>2025-05-30T10:14:32.000Z</published>
+    <updated>2025-05-30T10:14:32.000Z</updated>
+    
+    
+    <summary type="html">1.cron 表達式（排程時間）生成工具 2.cron 表達式轉換工具 3.介紹 cron 和 cron 表達式 4.cron 表達式符號語法使用方式 5.查詢所有或指定排程（crontab）的方法 6.新增、修改、刪除排程（crontab）的方法【Tool】</summary>
+    
+    
+    
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    
+    <category term="Tool" scheme="https://forgetfulengineer.github.io/categories/Other/Tool/"/>
+    
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
+    
+    <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
+    
+    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
+    
+  </entry>
   
   <entry>
     <title>【jQuery】解析六種添加元素方法</title>
@@ -408,9 +437,9 @@
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
     
     
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -511,29 +540,6 @@
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     
     <category term="html" scheme="https://forgetfulengineer.github.io/tags/html/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【PHP】陣列合併應用：array + array、array_merge()、array_replace()</title>
-    <link href="https://forgetfulengineer.github.io/Backend/PHP/Analyzing-Three-Methods-of-Merging-Array/"/>
-    <id>https://forgetfulengineer.github.io/Backend/PHP/Analyzing-Three-Methods-of-Merging-Array/</id>
-    <published>2024-08-11T09:44:08.000Z</published>
-    <updated>2024-08-11T09:44:08.000Z</updated>
-    
-    
-    <summary type="html">1.陣列的自定義鍵值和流水號鍵值。 2.array + array、array_merge()、array_replace() 的使用方式和差異。 【PHP】</summary>
-    
-    
-    
-    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
-    
-    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
-    
-    
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   
