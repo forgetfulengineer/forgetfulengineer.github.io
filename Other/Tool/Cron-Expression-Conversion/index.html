@@ -656,8 +656,8 @@
 
                 if (every == '') {
                     value = '*';
-                } else if (every === '*' || Number(every) == every) {
-                    value = (every === '*' || Number(every) > 0) && validator(step) && Number(step) > 0 ? `${every}/${step}` : every;
+                } else if (every === '*' || validator(every)) {
+                    value = validator(step) && Number(step) > 0 ? `${every}/${step}` : every;
                 }
             } else if (tabId === `${unitPrefix}range`) {
                 const min = $(`#${unitPrefix}range_min`).val().trim();
