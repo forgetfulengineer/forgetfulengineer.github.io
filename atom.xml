@@ -347,9 +347,9 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
-    
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
+    
+    <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
