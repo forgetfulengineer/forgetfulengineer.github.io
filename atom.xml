@@ -129,9 +129,9 @@
     
     <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
     
-    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
-    
     <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
     
@@ -347,16 +347,16 @@
     
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     
-    <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    
     <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
+    
+    <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     
@@ -401,9 +401,9 @@
     
     <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
     
-    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
-    
     <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
     
