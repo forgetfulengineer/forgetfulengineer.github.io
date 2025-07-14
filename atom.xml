@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2025-06-27T09:52:08.000Z</updated>
+  <updated>2025-07-14T07:56:01.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【API】使用 Google Analytics Data API 架設網站 PV/UV 查詢 API</title>
+    <link href="https://forgetfulengineer.github.io/Backend/API/Building-a-PV-API-with-GA-Data-API/"/>
+    <id>https://forgetfulengineer.github.io/Backend/API/Building-a-PV-API-with-GA-Data-API/</id>
+    <published>2025-07-14T07:56:01.000Z</published>
+    <updated>2025-07-14T07:56:01.000Z</updated>
+    
+    
+    <summary type="html">1.如何使用 Google Analytics Data API 2.在 GA 中新增服務帳號，授權 API 存取 GA 數據 3.Fork GitHub 專案並部署至 Netlify，快速建立網站流量查詢 API 4.掌握 forgetfulengineer/google-analytics-data-api-netlify 專案使用方式【API】</summary>
+    
+    
+    
+    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
+    
+    <category term="API" scheme="https://forgetfulengineer.github.io/categories/Backend/API/"/>
+    
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
+    
+    <category term="api" scheme="https://forgetfulengineer.github.io/tags/api/"/>
+    
+    <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
+    
+    <category term="ga" scheme="https://forgetfulengineer.github.io/tags/ga/"/>
+    
+    <category term="netlify" scheme="https://forgetfulengineer.github.io/tags/netlify/"/>
+    
+  </entry>
   
   <entry>
     <title>【Html】實用的 &lt;input&gt; 表單屬性</title>
@@ -302,9 +333,9 @@
     
     <category term="js" scheme="https://forgetfulengineer.github.io/tags/js/"/>
     
-    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
-    
     <category term="timestamp" scheme="https://forgetfulengineer.github.io/tags/timestamp/"/>
+    
+    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
     
   </entry>
   
@@ -359,6 +390,8 @@
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
+    
+    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
     
   </entry>
   
@@ -517,29 +550,6 @@
     <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
     
     <category term="security" scheme="https://forgetfulengineer.github.io/tags/security/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【jQuery】尋找父元素、同層元素和子元素的方法</title>
-    <link href="https://forgetfulengineer.github.io/Frontend/JQuery/Methods-for-Finding-Parent-and-Sibling-and-Child-Elements/"/>
-    <id>https://forgetfulengineer.github.io/Frontend/JQuery/Methods-for-Finding-Parent-and-Sibling-and-Child-Elements/</id>
-    <published>2024-09-25T09:36:14.000Z</published>
-    <updated>2024-09-25T09:36:14.000Z</updated>
-    
-    
-    <summary type="html">1.尋找父元素的常用方法：.parent()、.parents()、.closest() 2.尋找同層元素的常用方法：.siblings()、.next()、.prev() 3.尋找子元素的常用方法：.children()、.find() 4.每個方法的具體用途和應用場景 【jQuery】</summary>
-    
-    
-    
-    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
-    
-    <category term="JQuery" scheme="https://forgetfulengineer.github.io/categories/Frontend/JQuery/"/>
-    
-    
-    <category term="jquery" scheme="https://forgetfulengineer.github.io/tags/jquery/"/>
-    
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     
   </entry>
   
