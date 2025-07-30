@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2025-07-14T07:56:01.000Z</updated>
+  <updated>2025-07-30T09:22:17.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Hexo】Icarus 主題串接 GA 顯示網站 PV 和 UV</title>
+    <link href="https://forgetfulengineer.github.io/Other/Hexo/Icarus-Integrate-Ga-Api-Pv-Uv/"/>
+    <id>https://forgetfulengineer.github.io/Other/Hexo/Icarus-Integrate-Ga-Api-Pv-Uv/</id>
+    <published>2025-07-30T09:22:17.000Z</published>
+    <updated>2025-07-30T09:22:17.000Z</updated>
+    
+    
+    <summary type="html">1.如何修改 Icarus 主題、新增自訂插件 2.Icarus 主題串接 Google Analytics 顯示網站 PV 和 UV 3.使用 forgetfulengineer/google-analytics-data-api-netlify API 取得網站數據 4.使用 countUp.js 建立數字的動畫效果【Hexo】</summary>
+    
+    
+    
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    
+    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    
+    <category term="api" scheme="https://forgetfulengineer.github.io/tags/api/"/>
+    
+    <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
+    
+    <category term="ga" scheme="https://forgetfulengineer.github.io/tags/ga/"/>
+    
+    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
+    
+  </entry>
   
   <entry>
     <title>【API】使用 Google Analytics Data API 架設網站 PV/UV 查詢 API</title>
@@ -87,9 +118,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
   </entry>
   
@@ -167,11 +198,11 @@
     <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
     <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
     
@@ -221,13 +252,13 @@
     <category term="MySQL" scheme="https://forgetfulengineer.github.io/categories/Backend/MySQL/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="mysql" scheme="https://forgetfulengineer.github.io/tags/mysql/"/>
     
     <category term="database" scheme="https://forgetfulengineer.github.io/tags/database/"/>
     
     <category term="db" scheme="https://forgetfulengineer.github.io/tags/db/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   
@@ -275,9 +306,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
     <category term="timestamp" scheme="https://forgetfulengineer.github.io/tags/timestamp/"/>
     
@@ -333,9 +364,9 @@
     
     <category term="js" scheme="https://forgetfulengineer.github.io/tags/js/"/>
     
-    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
-    
     <category term="timestamp" scheme="https://forgetfulengineer.github.io/tags/timestamp/"/>
+    
+    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
     
   </entry>
   
@@ -441,11 +472,11 @@
     <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
     <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
     
@@ -523,33 +554,6 @@
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
     <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【HTML】解析 &lt;a&gt; 的 rel 屬性</title>
-    <link href="https://forgetfulengineer.github.io/Frontend/Html/Understanding-the-rel-Attribute-of-the-a-Tag/"/>
-    <id>https://forgetfulengineer.github.io/Frontend/Html/Understanding-the-rel-Attribute-of-the-a-Tag/</id>
-    <published>2024-10-16T02:11:48.000Z</published>
-    <updated>2024-10-16T02:11:48.000Z</updated>
-    
-    
-    <summary type="html">1.了解 &amp;lt;a&amp;gt; 的 rel 屬性 2.&amp;lt;a&amp;gt; 常見的 rel 屬性值和用途 3.不同情境下 &amp;lt;a&amp;gt; rel 屬性的使用方式 4.現代瀏覽器在大部分情況下已經自動為帶有 target=&amp;quot;_blank&amp;quot; 的連結加上 rel=&amp;quot;noopener&amp;quot; 5.調用 window.opener 的方法 【HTML】</summary>
-    
-    
-    
-    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
-    
-    <category term="Html" scheme="https://forgetfulengineer.github.io/categories/Frontend/Html/"/>
-    
-    
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    
-    <category term="html" scheme="https://forgetfulengineer.github.io/tags/html/"/>
-    
-    <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
-    
-    <category term="security" scheme="https://forgetfulengineer.github.io/tags/security/"/>
     
   </entry>
   
