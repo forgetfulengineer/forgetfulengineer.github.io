@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2025-08-14T02:47:21.000Z</updated>
+  <updated>2025-08-28T10:43:49.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Git】使用 git revert 一次性還原多個提交</title>
+    <link href="https://forgetfulengineer.github.io/Other/Git/Git-Revert-Multiple-Commits/"/>
+    <id>https://forgetfulengineer.github.io/Other/Git/Git-Revert-Multiple-Commits/</id>
+    <published>2025-08-28T10:43:49.000Z</published>
+    <updated>2025-08-28T10:43:49.000Z</updated>
+    
+    
+    <summary type="html">1.git revert 的用途以及使用情境 2.還原指定或多個提交的方法 3.調整容易混淆的還原範圍寫法 4.多個還原合併成一次提交 5.git revert 和 git reset 的差異【Git】</summary>
+    
+    
+    
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
+    
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
+    
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>【JavaScript】字串比大小的型別陷阱</title>
@@ -441,9 +466,9 @@
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     
@@ -529,29 +554,6 @@
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Css】解析五種常見的相對單位</title>
-    <link href="https://forgetfulengineer.github.io/Frontend/Css/Understanding-five-Common-Relative-Units/"/>
-    <id>https://forgetfulengineer.github.io/Frontend/Css/Understanding-five-Common-Relative-Units/</id>
-    <published>2024-11-09T02:09:42.000Z</published>
-    <updated>2024-11-09T02:09:42.000Z</updated>
-    
-    
-    <summary type="html">1.常見的相對單位：%、em、rem、vh、vw 2.相對單位的使用方式和時機 【Css】</summary>
-    
-    
-    
-    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
-    
-    <category term="Css" scheme="https://forgetfulengineer.github.io/categories/Frontend/Css/"/>
-    
-    
-    <category term="css" scheme="https://forgetfulengineer.github.io/tags/css/"/>
-    
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     
   </entry>
   
