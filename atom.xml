@@ -116,13 +116,13 @@
     
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
-    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
-    
     <category term="api" scheme="https://forgetfulengineer.github.io/tags/api/"/>
     
     <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
     
     <category term="ga" scheme="https://forgetfulengineer.github.io/tags/ga/"/>
+    
+    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
     
     <category term="netlify" scheme="https://forgetfulengineer.github.io/tags/netlify/"/>
     
@@ -466,13 +466,13 @@
     
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
-    <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
     <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
+    
+    <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     
   </entry>
   
