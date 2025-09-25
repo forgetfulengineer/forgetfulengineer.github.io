@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2025-09-15T10:14:52.000Z</updated>
+  <updated>2025-09-24T10:30:01.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Netlify】環境變數更新無效的除錯流程</title>
+    <link href="https://forgetfulengineer.github.io/Backend/Netlify/Netlify-Env-Variables-Debugging/"/>
+    <id>https://forgetfulengineer.github.io/Backend/Netlify/Netlify-Env-Variables-Debugging/</id>
+    <published>2025-09-24T10:30:01.000Z</published>
+    <updated>2025-09-24T10:30:01.000Z</updated>
+    
+    
+    <summary type="html">1.Netlify function 更新程式碼後，新設定的環境變數未被正確讀取 2.檢查環境變數是否設定在正確的環境 3.確認環境變數名稱是否正確 4.透過 Deploy project without cache 解決問題【Netlify】</summary>
+    
+    
+    
+    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
+    
+    <category term="Netlify" scheme="https://forgetfulengineer.github.io/categories/Backend/Netlify/"/>
+    
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="netlify" scheme="https://forgetfulengineer.github.io/tags/netlify/"/>
+    
+  </entry>
   
   <entry>
     <title>【MySQL】欄位編碼設定影響查詢的大小寫敏感</title>
@@ -218,9 +241,9 @@
     <category term="Tool" scheme="https://forgetfulengineer.github.io/categories/Other/Tool/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -525,39 +548,6 @@
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【PHP、JavaScript】陣列自定義排序</title>
-    <link href="https://forgetfulengineer.github.io/Backend/PHP/Custom-Sorting-an-Array/"/>
-    <id>https://forgetfulengineer.github.io/Backend/PHP/Custom-Sorting-an-Array/</id>
-    <published>2024-12-11T07:16:44.000Z</published>
-    <updated>2024-12-11T07:16:44.000Z</updated>
-    
-    
-    <summary type="html">1.PHP 的 usort() 陣列自定義排序 2.JavaScript 的 .sort() 陣列自定義排序 3.自定義排序比較函數的規則 4.PHP usort() 和 JavaScript .sort() 的反向排序 5.陣列自定義排序應用範例 【PHP、JavaScript】</summary>
-    
-    
-    
-    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
-    
-    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
-    
-    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
-    
-    <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
-    
-    
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    
-    <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
-    
-    <category term="js" scheme="https://forgetfulengineer.github.io/tags/js/"/>
     
   </entry>
   
