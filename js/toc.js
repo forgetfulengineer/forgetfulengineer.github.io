@@ -56,14 +56,9 @@
         const $menu = headingToMenu.get($heading);
         $menu.setAttribute('data-href', $menu.getAttribute('href'));
         $menu.setAttribute('href', 'javascript:;');
-        $menu.addEventListener('click', function scrollIntoView() {
+        $menu.addEventListener('click', () => {
           if (typeof $heading.scrollIntoView === 'function') {
             $heading.scrollIntoView({ behavior: 'smooth' });
-            setTimeout(() => {
-              if (!isElementInViewport($heading)) {
-                scrollIntoView();
-              }
-            }, 300);
           }
           const anchor = $menu.getAttribute('data-href');
           if (history.pushState) {
@@ -75,14 +70,6 @@
         $heading.style.scrollMargin = '1em';
       }
     }
-  }
-
-  function isElementInViewport(el) {
-    const rect = el.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.top <= (window.innerHeight || document.documentElement.clientHeight)
-    );
   }
 
   if (typeof window.IntersectionObserver === 'undefined') {
