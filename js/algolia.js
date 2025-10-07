@@ -8,7 +8,7 @@ function loadAlgolia(config, translation) {
 
   search.addWidgets([
     instantsearch.widgets.configure({
-      attributesToSnippet: ['excerpt'],
+      attributesToSnippet: ['descriptionStrip'],
     }),
   ]);
 
@@ -47,7 +47,7 @@ function loadAlgolia(config, translation) {
         },
         item: function (hit) {
           let title = instantsearch.highlight({ attribute: 'title', hit });
-          let excerpt = instantsearch.highlight({ attribute: 'excerpt', hit });
+          let excerpt = instantsearch.highlight({ attribute: 'descriptionStrip', hit });
           title = title ? title : translation.untitled;
           excerpt = excerpt
             .replace(new RegExp('<em>', 'ig'), '[algolia-highlight]')
