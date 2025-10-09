@@ -291,9 +291,9 @@
     
     <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
     
-    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
-    
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
+    
+    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
     
     <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
     
