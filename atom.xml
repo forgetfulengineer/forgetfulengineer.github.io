@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2025-09-24T10:30:01.000Z</updated>
+  <updated>2025-10-15T09:49:45.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Html】解析 preconnect、preload、Fetch Priority API</title>
+    <link href="https://forgetfulengineer.github.io/Frontend/Html/Analyzing-Preconnect-Preloading-Fetch-Priority/"/>
+    <id>https://forgetfulengineer.github.io/Frontend/Html/Analyzing-Preconnect-Preloading-Fetch-Priority/</id>
+    <published>2025-10-15T09:49:45.000Z</published>
+    <updated>2025-10-15T09:49:45.000Z</updated>
+    
+    
+    <summary type="html">1.資源連線與載入的時間線 2.縮短首次繪製時間的方法 3.rel=&quot;preconnect&quot;、rel=&quot;preload&quot;、fetchpriority 的用意與差異 4.crossorigin 屬性的用途與使用時機 5.onload=&quot;this.rel=&#39;stylesheet&#39;&quot; 的動態載入樣式【HTML】</summary>
+    
+    
+    
+    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="Html" scheme="https://forgetfulengineer.github.io/categories/Frontend/Html/"/>
+    
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="html" scheme="https://forgetfulengineer.github.io/tags/html/"/>
+    
+    <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
+    
+  </entry>
   
   <entry>
     <title>【Netlify】環境變數更新無效的除錯流程</title>
@@ -291,9 +316,9 @@
     
     <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
     
-    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
-    
     <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
     
@@ -523,31 +548,6 @@
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     
     <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Git】強制更新遠端分支進度到本地分支</title>
-    <link href="https://forgetfulengineer.github.io/Other/Git/Force-Update-Local-Branch-with-Remote-Branch-Progress/"/>
-    <id>https://forgetfulengineer.github.io/Other/Git/Force-Update-Local-Branch-with-Remote-Branch-Progress/</id>
-    <published>2024-12-20T02:01:32.000Z</published>
-    <updated>2024-12-20T02:01:32.000Z</updated>
-    
-    
-    <summary type="html">1.強制更新遠端分支進度到本地分支的方法 2.git checkout -B 強制更新本地分支 3.刪除並重新建立本地分支 4.git reset --hard 強制更新本地分支 5.強制更新本地分支進度到遠端分支的方法 6.git push -f 強制更新遠端分支【Git】</summary>
-    
-    
-    
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    
-    
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
-    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
-    
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
   </entry>
   
