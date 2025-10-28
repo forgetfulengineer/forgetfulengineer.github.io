@@ -546,6 +546,13 @@
   </url>
   
   <url>
+    <loc>https://forgetfulengineer.github.io/tags/icarus/</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://forgetfulengineer.github.io/tags/api/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -568,13 +575,6 @@
   
   <url>
     <loc>https://forgetfulengineer.github.io/tags/netlify/</loc>
-    <lastmod>2025-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://forgetfulengineer.github.io/tags/icarus/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -639,14 +639,14 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Other/Hexo/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Frontend/Css/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Frontend/Css/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Other/Hexo/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
