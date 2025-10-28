@@ -427,20 +427,6 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/tags/git/</loc>
-    <lastmod>2025-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://forgetfulengineer.github.io/tags/github/</loc>
-    <lastmod>2025-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://forgetfulengineer.github.io/tags/mysql/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -456,6 +442,20 @@
   
   <url>
     <loc>https://forgetfulengineer.github.io/tags/db/</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://forgetfulengineer.github.io/tags/git/</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://forgetfulengineer.github.io/tags/github/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -618,14 +618,14 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Other/VSCode/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Other/Git/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Other/Git/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Other/VSCode/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -674,14 +674,14 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Other/NPM/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Frontend/JavaScript/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Frontend/JavaScript/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Other/NPM/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
