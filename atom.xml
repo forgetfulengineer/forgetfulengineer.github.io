@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2025-10-15T09:49:45.000Z</updated>
+  <updated>2025-10-29T02:57:33.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Html】解析 &lt;script&gt; 載入機制與 defer、async 屬性</title>
+    <link href="https://forgetfulengineer.github.io/Frontend/Html/script-loading-defer-async/"/>
+    <id>https://forgetfulengineer.github.io/Frontend/Html/script-loading-defer-async/</id>
+    <published>2025-10-29T02:57:33.000Z</published>
+    <updated>2025-10-29T02:57:33.000Z</updated>
+    
+    
+    <summary type="html">1.&lt;script&gt; 的載入與執行特性 2.defer 和 async 的功能與特性 3.type=&quot;module&quot; 與 defer 的關係【HTML】</summary>
+    
+    
+    
+    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="Html" scheme="https://forgetfulengineer.github.io/categories/Frontend/Html/"/>
+    
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="html" scheme="https://forgetfulengineer.github.io/tags/html/"/>
+    
+  </entry>
   
   <entry>
     <title>【Html】解析 preconnect、preload、Fetch Priority API</title>
@@ -81,13 +104,13 @@
     <category term="MySQL" scheme="https://forgetfulengineer.github.io/categories/Backend/MySQL/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="mysql" scheme="https://forgetfulengineer.github.io/tags/mysql/"/>
     
     <category term="database" scheme="https://forgetfulengineer.github.io/tags/database/"/>
     
     <category term="db" scheme="https://forgetfulengineer.github.io/tags/db/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   
@@ -162,13 +185,13 @@
     
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
-    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
-    
     <category term="api" scheme="https://forgetfulengineer.github.io/tags/api/"/>
     
     <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
     
     <category term="ga" scheme="https://forgetfulengineer.github.io/tags/ga/"/>
+    
+    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
     
   </entry>
   
@@ -243,9 +266,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
   </entry>
   
@@ -323,11 +346,11 @@
     <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
     <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
     
@@ -377,13 +400,13 @@
     <category term="MySQL" scheme="https://forgetfulengineer.github.io/categories/Backend/MySQL/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="mysql" scheme="https://forgetfulengineer.github.io/tags/mysql/"/>
     
     <category term="database" scheme="https://forgetfulengineer.github.io/tags/database/"/>
     
     <category term="db" scheme="https://forgetfulengineer.github.io/tags/db/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
   </entry>
   
@@ -431,9 +454,9 @@
     <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
     
     <category term="timestamp" scheme="https://forgetfulengineer.github.io/tags/timestamp/"/>
     
@@ -517,37 +540,6 @@
     <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
     
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【NPM、GitHub】解決 npm 版本落後 GitHub 版本的問題</title>
-    <link href="https://forgetfulengineer.github.io/Other/NPM/Resolving-the-Issue-of-npm-Version-Lagging-Behind-the-GitHub-Version/"/>
-    <id>https://forgetfulengineer.github.io/Other/NPM/Resolving-the-Issue-of-npm-Version-Lagging-Behind-the-GitHub-Version/</id>
-    <published>2024-12-31T01:40:21.000Z</published>
-    <updated>2024-12-31T01:40:21.000Z</updated>
-    
-    
-    <summary type="html">1.怎麼處理 npm 版本落後於 GitHub 版本的狀況 2.怎麼使用 npm 安裝 GitHub 套件的指定版本？ 3.怎麼使用 npm 更新 GitHub 套件？ 4.hexo-generator-sitemap 的 3.0.1 版本存在 bug，導致沒有設定 sitemap 檔案，影響網站 seo【NPM、GitHub】</summary>
-    
-    
-    
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    
-    <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
-    
-    <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    
-    
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    
-    <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
-    
-    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
     
   </entry>
   
