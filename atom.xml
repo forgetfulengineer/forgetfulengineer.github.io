@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2025-10-29T02:57:33.000Z</updated>
+  <updated>2025-11-12T09:36:55.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Regex】解析非捕獲分組與斷言語法</title>
+    <link href="https://forgetfulengineer.github.io/Other/regex-non-capturing-and-assertions/"/>
+    <id>https://forgetfulengineer.github.io/Other/regex-non-capturing-and-assertions/</id>
+    <published>2025-11-12T09:36:55.000Z</published>
+    <updated>2025-11-12T09:36:55.000Z</updated>
+    
+    
+    <summary type="html">1.說明擴充型分組的用途 2.說明非捕獲分組 ?: 的用途 3.說明先行斷言 ?=、?!、後行斷言 ?&amp;lt;=、?&amp;lt;! 的用途與差異 4.非捕獲分組有匹配、但不記錄分組結果 5.斷言只檢查條件、不匹配任何內容【Regex】</summary>
+    
+    
+    
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
+    
+    <category term="regex" scheme="https://forgetfulengineer.github.io/tags/regex/"/>
+    
+  </entry>
   
   <entry>
     <title>【Html】解析 &lt;script&gt; 載入機制與 defer、async 屬性</title>
@@ -512,34 +537,9 @@
     
     <category term="js" scheme="https://forgetfulengineer.github.io/tags/js/"/>
     
-    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
-    
     <category term="timestamp" scheme="https://forgetfulengineer.github.io/tags/timestamp/"/>
     
-  </entry>
-  
-  <entry>
-    <title>【Git】使用 git commit 修改提交（commit）的資訊或是內容</title>
-    <link href="https://forgetfulengineer.github.io/Other/Git/Using-git-commit-to-Modify-Commit-Data-or-Content/"/>
-    <id>https://forgetfulengineer.github.io/Other/Git/Using-git-commit-to-Modify-Commit-Data-or-Content/</id>
-    <published>2025-01-15T01:00:55.000Z</published>
-    <updated>2025-01-15T01:00:55.000Z</updated>
-    
-    
-    <summary type="html">1.修改最新一次提交（commit）的資訊或是內容 2.git commit --amend --author 修改提交的作者和信箱 3.git commit --amend --reset-author 重置提交的作者和信箱 4.git commit --amend -m 修改提交訊息 5.--no-editor 不修改提交的訊息 6.每次修改提交都會產生新的提交 ID【Git】</summary>
-    
-    
-    
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    
-    
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
-    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
-    
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
     
   </entry>
   
