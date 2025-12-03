@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2025-11-24T03:11:27.000Z</updated>
+  <updated>2025-12-03T06:30:37.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Develop】解析 Reverse Proxy 與 Forward Proxy</title>
+    <link href="https://forgetfulengineer.github.io/Backend/reverse-proxy-forward-proxy/"/>
+    <id>https://forgetfulengineer.github.io/Backend/reverse-proxy-forward-proxy/</id>
+    <published>2025-12-03T06:30:37.000Z</published>
+    <updated>2025-12-03T06:30:37.000Z</updated>
+    
+    
+    <summary type="html">1.Reverse Proxy 反向代理是在保護與加速後端伺服器，扮演對外單一入口 2.Forward Proxy 正向代理是用於存取控制與匿名化，扮演用戶端請求的單一出口 3.Reverse Proxy 和 Load Balancer 的關係 4.Forward Proxy 和 VPN 的相似之處【Develop】</summary>
+    
+    
+    
+    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
+    
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
+    
+    <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
+    
+    <category term="security" scheme="https://forgetfulengineer.github.io/tags/security/"/>
+    
+    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
+    
+  </entry>
   
   <entry>
     <title>【Develop】解析 CSR / SSR / SSG / ISR 網頁渲染架構</title>
@@ -505,31 +532,6 @@
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="timestamp" scheme="https://forgetfulengineer.github.io/tags/timestamp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Git】使用 git rebase 整理提交歷史</title>
-    <link href="https://forgetfulengineer.github.io/Other/Git/Using-Git-Rebase-to-Organize-Commit-History/"/>
-    <id>https://forgetfulengineer.github.io/Other/Git/Using-Git-Rebase-to-Organize-Commit-History/</id>
-    <published>2025-02-14T05:34:06.000Z</published>
-    <updated>2025-02-14T05:34:06.000Z</updated>
-    
-    
-    <summary type="html">1.如果有尚未提交的變更，無法使用 git rebase 2.git rebase 合併不會產生額外的合併提交，但是會變更原本的提交 ID 3.git rebase -i（互動式 rebase）編輯功能 4.使用 git rebase -i 調整提交順序、修改提交訊息、修改提交內容、合併提交、刪除提交【Git】</summary>
-    
-    
-    
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    
-    
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
-    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
-    
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
   </entry>
   
