@@ -258,13 +258,13 @@
     
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
-    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
-    
     <category term="api" scheme="https://forgetfulengineer.github.io/tags/api/"/>
     
     <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
     
     <category term="ga" scheme="https://forgetfulengineer.github.io/tags/ga/"/>
+    
+    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
     
   </entry>
   
