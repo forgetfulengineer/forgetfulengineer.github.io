@@ -617,14 +617,14 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/tags/regex/</loc>
+    <loc>https://forgetfulengineer.github.io/tags/develop/</loc>
     <lastmod>2025-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/tags/develop/</loc>
+    <loc>https://forgetfulengineer.github.io/tags/regex/</loc>
     <lastmod>2025-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -696,13 +696,6 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Other/Hexo/</loc>
-    <lastmod>2025-12-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://forgetfulengineer.github.io/categories/Frontend/Html/</loc>
     <lastmod>2025-12-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -717,6 +710,13 @@
   </url>
   
   <url>
+    <loc>https://forgetfulengineer.github.io/categories/Other/Hexo/</loc>
+    <lastmod>2025-12-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://forgetfulengineer.github.io/categories/Other/GitHub/</loc>
     <lastmod>2025-12-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -724,14 +724,14 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Frontend/JavaScript/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Other/NPM/</loc>
     <lastmod>2025-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Other/NPM/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Frontend/JavaScript/</loc>
     <lastmod>2025-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
