@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2026-01-05T07:16:09.000Z</updated>
+  <updated>2026-01-21T10:14:15.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【NPM】解析 npm 安裝和更新的行為</title>
+    <link href="https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/"/>
+    <id>https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/</id>
+    <published>2026-01-21T10:14:15.000Z</published>
+    <updated>2026-01-21T10:14:15.000Z</updated>
+    
+    
+    <summary type="html">1.npm install 行為機制 2.npm 設定檔的分工設計 3.npm 相依套件的分類 4.語意化版本（SemVer）、符號（^、~）的實際安裝範圍 5.npm update 是一個依版本規則自動前進的更新工具 6.npm 降版本需求使用 npm install，不能使用 npm update【NPM】</summary>
+    
+    
+    
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    
+    <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
+    
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
+    
+  </entry>
   
   <entry>
     <title>【NPM】常用指令速查表</title>
@@ -33,9 +60,9 @@
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     
     
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     
@@ -62,11 +89,11 @@
     <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
     
     
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     
     <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
     
@@ -120,6 +147,8 @@
     
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     
+    <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
+    
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     
   </entry>
@@ -169,6 +198,8 @@
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     
     <category term="html" scheme="https://forgetfulengineer.github.io/tags/html/"/>
+    
+    <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
     
   </entry>
   
@@ -314,9 +345,9 @@
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     
     
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     
     <category term="api" scheme="https://forgetfulengineer.github.io/tags/api/"/>
     
@@ -422,9 +453,9 @@
     <category term="Tool" scheme="https://forgetfulengineer.github.io/categories/Other/Tool/"/>
     
     
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -472,9 +503,9 @@
     
     <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
     
-    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
-    
     <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
+    
+    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
     
     <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
     
@@ -513,33 +544,6 @@
     <category term="html" scheme="https://forgetfulengineer.github.io/tags/html/"/>
     
     <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【MySQL】DQL 指令的執行順序與效能優化</title>
-    <link href="https://forgetfulengineer.github.io/Backend/MySQL/DQL-Execution-Order/"/>
-    <id>https://forgetfulengineer.github.io/Backend/MySQL/DQL-Execution-Order/</id>
-    <published>2025-03-25T05:33:40.000Z</published>
-    <updated>2025-03-25T05:33:40.000Z</updated>
-    
-    
-    <summary type="html">1.了解 DQL 指令的執行順序，從 FROM 到 LIMIT、OFFSET 2.每個步驟會產生一張虛擬表供下一步驟使用，透過執行順序，可以減少不必要的資料處理，提升查詢效能 3.各個 DQL 指令的使用重點【MySQL】</summary>
-    
-    
-    
-    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
-    
-    <category term="MySQL" scheme="https://forgetfulengineer.github.io/categories/Backend/MySQL/"/>
-    
-    
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
-    <category term="mysql" scheme="https://forgetfulengineer.github.io/tags/mysql/"/>
-    
-    <category term="database" scheme="https://forgetfulengineer.github.io/tags/database/"/>
-    
-    <category term="db" scheme="https://forgetfulengineer.github.io/tags/db/"/>
     
   </entry>
   
