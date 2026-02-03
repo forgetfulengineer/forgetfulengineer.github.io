@@ -6,7 +6,7 @@
   <link href="https://forgetfulengineer.github.io/atom.xml" rel="self"/>
   
   <link href="https://forgetfulengineer.github.io/"/>
-  <updated>2026-01-21T10:14:15.000Z</updated>
+  <updated>2026-02-03T04:56:37.000Z</updated>
   <id>https://forgetfulengineer.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【VSCode】自動移除行尾空白</title>
+    <link href="https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/"/>
+    <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
+    <published>2026-02-03T04:56:37.000Z</published>
+    <updated>2026-02-03T04:56:37.000Z</updated>
+    
+    
+    <summary type="html">1.VSCode 可以在存檔時自動移除行尾空白（Trim Trailing Whitespace） 2.基礎設定為全域生效 3.settings.json 可進行語言層級的進階控制 4.Render Whitespace 設定可以輔助檢視空白位置【VSCode】</summary>
+    
+    
+    
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    
+    <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
+    
+    
+    <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    
+    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
+    
+  </entry>
   
   <entry>
     <title>【NPM】解析 npm 安裝和更新的行為</title>
@@ -33,9 +60,9 @@
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     
@@ -60,9 +87,9 @@
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     
@@ -453,9 +480,9 @@
     <category term="Tool" scheme="https://forgetfulengineer.github.io/categories/Other/Tool/"/>
     
     
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     
@@ -519,31 +546,6 @@
     <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
     
     <category term="js" scheme="https://forgetfulengineer.github.io/tags/js/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【HTML】解決 Lazy loading 導致滾動定位不準的問題</title>
-    <link href="https://forgetfulengineer.github.io/Frontend/Html/Fixing-Scroll-Effect-Misalignment-Caused-by-Lazy-Loading/"/>
-    <id>https://forgetfulengineer.github.io/Frontend/Html/Fixing-Scroll-Effect-Misalignment-Caused-by-Lazy-Loading/</id>
-    <published>2025-04-14T02:08:16.000Z</published>
-    <updated>2025-04-14T02:08:16.000Z</updated>
-    
-    
-    <summary type="html">1.解決 Lazy loading 導致 .scrollIntoView() 滾動定位不準的問題 2.檢查目標元素是否進入視窗的方式 3.window.innerHeight、.getBoundingClientRect()、.clientHeight 的應用【HTML】</summary>
-    
-    
-    
-    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
-    
-    <category term="Html" scheme="https://forgetfulengineer.github.io/categories/Frontend/Html/"/>
-    
-    
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    
-    <category term="html" scheme="https://forgetfulengineer.github.io/tags/html/"/>
-    
-    <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
     
   </entry>
   
