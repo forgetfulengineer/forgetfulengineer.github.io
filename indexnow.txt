@@ -1,3 +1,4 @@
+https://forgetfulengineer.github.io/Backend/MySQL/DQL-Execution-Order/
 https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/
 https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/
 https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/
@@ -7,4 +8,3 @@ https://forgetfulengineer.github.io/Frontend/ssr-ssg-isr-csr-rendering-modes/
 https://forgetfulengineer.github.io/Other/regex-non-capturing-and-assertions/
 https://forgetfulengineer.github.io/Frontend/Html/script-loading-defer-async/
 https://forgetfulengineer.github.io/Frontend/Html/Analyzing-Preconnect-Preloading-Fetch-Priority/
-https://forgetfulengineer.github.io/Backend/Netlify/Netlify-Env-Variables-Debugging/
