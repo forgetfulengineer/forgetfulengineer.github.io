@@ -1,1 +1,93 @@
-!function(t,e){function o(o){const n=o.getBoundingClientRect();return n.top>=0&&n.top<=(t.innerHeight||e.documentElement.clientHeight)}void 0!==t.IntersectionObserver&&e.querySelectorAll("#toc").forEach((function(n){const s=new Set,r=new Map,i=Array.from(n.querySelectorAll(".menu-list > li > a"));for(const t of i){const o=t.getAttribute("href").trim().slice(1),n=e.getElementById(o);n&&r.set(n,t)}const l=Array.from(r.keys()),c=new IntersectionObserver((e=>{for(const t of e)t.isIntersecting?s.add(t.target):s.delete(t.target);let o;if(s.size?o=[...s].sort(((t,e)=>t.offsetTop-e.offsetTop))[0]:l.length&&(o=l.filter((e=>e.offsetTop<t.scrollY)).sort(((t,e)=>e.offsetTop-t.offsetTop))[0]),o&&r.has(o)){i.forEach((t=>t.classList.remove("is-active")));const t=r.get(o);t.classList.add("is-active");let e=t.parentElement.parentElement;for(;e.classList.contains("menu-list")&&"li"===e.parentElement.tagName.toLowerCase();)e.parentElement.children[0].classList.add("is-active"),e=e.parentElement.parentElement}}),{threshold:0});for(const t of l)if(c.observe(t),r.has(t)){const e=r.get(t);e.setAttribute("data-href",e.getAttribute("href")),e.setAttribute("href","javascript:;"),e.addEventListener("click",(function n(){"function"==typeof t.scrollIntoView&&(t.scrollIntoView({behavior:"smooth"}),setTimeout((()=>{o(t)||n()}),300));const s=e.getAttribute("data-href");history.pushState?history.pushState(null,null,s):location.hash=s})),t.style.scrollMargin="1em"}}))}(window,document);
+(function (window, document) {
+  function register($toc) {
+    const currentInView = new Set();
+    const headingToMenu = new Map();
+    const $menus = Array.from($toc.querySelectorAll('.menu-list > li > a'));
+
+    for (const $menu of $menus) {
+      const elementId = $menu.getAttribute('href').trim().slice(1);
+      const $heading = document.getElementById(elementId);
+      if ($heading) {
+        headingToMenu.set($heading, $menu);
+      }
+    }
+
+    const $headings = Array.from(headingToMenu.keys());
+
+    const callback = (entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) {
+          currentInView.add(entry.target);
+        } else {
+          currentInView.delete(entry.target);
+        }
+      }
+      let $heading;
+      if (currentInView.size) {
+        // heading is the first in-view heading
+        $heading = [...currentInView].sort(($el1, $el2) => $el1.offsetTop - $el2.offsetTop)[0];
+      } else if ($headings.length) {
+        // heading is the closest heading above the viewport top
+        $heading = $headings
+          .filter(($heading) => $heading.offsetTop < window.scrollY)
+          .sort(($el1, $el2) => $el2.offsetTop - $el1.offsetTop)[0];
+      }
+      if ($heading && headingToMenu.has($heading)) {
+        $menus.forEach(($menu) => $menu.classList.remove('is-active'));
+
+        const $menu = headingToMenu.get($heading);
+        $menu.classList.add('is-active');
+        let $menuList = $menu.parentElement.parentElement;
+        while (
+          $menuList.classList.contains('menu-list') &&
+          $menuList.parentElement.tagName.toLowerCase() === 'li'
+        ) {
+          $menuList.parentElement.children[0].classList.add('is-active');
+          $menuList = $menuList.parentElement.parentElement;
+        }
+      }
+    };
+    const observer = new IntersectionObserver(callback, { threshold: 0 });
+
+    for (const $heading of $headings) {
+      observer.observe($heading);
+      // smooth scroll to the heading
+      if (headingToMenu.has($heading)) {
+        const $menu = headingToMenu.get($heading);
+        $menu.setAttribute('data-href', $menu.getAttribute('href'));
+        $menu.setAttribute('href', 'javascript:;');
+        $menu.addEventListener('click', function scrollIntoView() {
+          if (typeof $heading.scrollIntoView === 'function') {
+            $heading.scrollIntoView({ behavior: 'smooth' });
+            setTimeout(() => {
+              if (!isElementInViewport($heading)) {
+                scrollIntoView();
+              }
+            }, 300);
+          }
+          const anchor = $menu.getAttribute('data-href');
+          if (history.pushState) {
+            history.pushState(null, null, anchor);
+          } else {
+            location.hash = anchor;
+          }
+        });
+        $heading.style.scrollMargin = '1em';
+      }
+    }
+  }
+
+  function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.top <= (window.innerHeight || document.documentElement.clientHeight)
+    );
+  }
+
+  if (typeof window.IntersectionObserver === 'undefined') {
+    return;
+  }
+
+  document.querySelectorAll('#toc').forEach(register);
+})(window, document);
