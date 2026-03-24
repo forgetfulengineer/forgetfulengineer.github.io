@@ -12,7 +12,25 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-03-05T02:46:47.000Z</updated>
+  <updated>2026-03-23T08:21:57.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
+    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
+    <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
+    <category term="netlify" scheme="https://forgetfulengineer.github.io/tags/netlify/"/>
+    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
+    <id>https://forgetfulengineer.github.io/Other/analyzing-five-cloud-service-models/</id>
+    <link href="https://forgetfulengineer.github.io/Other/analyzing-five-cloud-service-models/"/>
+    <published>2026-03-23T08:21:57.000Z</published>
+    <summary>1.定義五大雲端服務模型（IaaS、CaaS、PaaS、FaaS、SaaS）的核心架構 2.區分各服務硬體、虛擬化、作業系統、應用程式等層級的管理歸屬 3.各服務模型的代表性產品、管理複雜度及適用場景【Develop】</summary>
+    <title>【Develop】解析五大雲端服務模型</title>
+    <updated>2026-03-23T08:21:57.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -54,8 +72,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
     <link href="https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/"/>
@@ -72,8 +90,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/</id>
     <link href="https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/"/>
@@ -90,8 +108,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/</id>
     <link href="https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/"/>
@@ -289,10 +307,10 @@
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
     <category term="api" scheme="https://forgetfulengineer.github.io/tags/api/"/>
     <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
     <category term="ga" scheme="https://forgetfulengineer.github.io/tags/ga/"/>
-    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
     <id>https://forgetfulengineer.github.io/Other/Hexo/Icarus-Integrate-Ga-Api-Pv-Uv/</id>
     <link href="https://forgetfulengineer.github.io/Other/Hexo/Icarus-Integrate-Ga-Api-Pv-Uv/"/>
     <published>2025-07-30T09:22:17.000Z</published>
@@ -355,24 +373,5 @@
     <summary>1.認識 break 和 continue 可用在哪些地方 2.說明 break 和 continue 的基本語法 3.介紹 break n; 和 continue n; 在巢狀迴圈中的應用 4.終止或跳過的層數不能超過實際的巢狀層數，否則會有錯誤訊息 5.在 switch 裡控制外層迴圈【PHP】</summary>
     <title>【PHP】解析 break 和 continue 對迴圈的控制</title>
     <updated>2025-06-10T07:16:09.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="Tool" scheme="https://forgetfulengineer.github.io/categories/Other/Tool/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
-    <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
-    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
-    <id>https://forgetfulengineer.github.io/Other/Tool/Cron-Expression-Conversion/</id>
-    <link href="https://forgetfulengineer.github.io/Other/Tool/Cron-Expression-Conversion/"/>
-    <published>2025-05-30T10:14:32.000Z</published>
-    <summary>1.cron 表達式（排程時間）生成工具 2.cron 表達式轉換工具 3.介紹 cron 和 cron 表達式 4.cron 表達式符號語法使用方式 5.查詢所有或指定排程（crontab）的方法 6.新增、修改、刪除排程（crontab）的方法【Tool】</summary>
-    <title>【Tool】cron 表達式（排程時間）轉換</title>
-    <updated>2025-05-30T10:14:32.000Z</updated>
   </entry>
 </feed>
