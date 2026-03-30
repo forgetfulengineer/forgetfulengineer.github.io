@@ -124,8 +124,8 @@
       <email>thatforgetfulengineer@gmail.com</email>
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
