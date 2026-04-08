@@ -12,7 +12,26 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-03-23T08:21:57.000Z</updated>
+  <updated>2026-04-08T03:19:21.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
+    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
+    <category term="devops" scheme="https://forgetfulengineer.github.io/tags/devops/"/>
+    <category term="ci/cd" scheme="https://forgetfulengineer.github.io/tags/ci-cd/"/>
+    <id>https://forgetfulengineer.github.io/Other/devops-ci-cd-pipeline/</id>
+    <link href="https://forgetfulengineer.github.io/Other/devops-ci-cd-pipeline/"/>
+    <published>2026-04-08T03:19:21.000Z</published>
+    <summary>1.定義 DevOps、CI 與 CD 核心概念 2.解析 CI 與 CD 的差異 3.解析 CI/CD 流水線標準流程及應用場景 4.說明 CI 與 CD 的異常處理 5.說明 DevOps 與 CI/CD 的關係【Develop】</summary>
+    <title>【Develop】解析 DevOps 與 CI/CD 自動化流程</title>
+    <updated>2026-04-08T03:19:21.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -72,8 +91,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
     <link href="https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/"/>
@@ -90,8 +109,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/</id>
     <link href="https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/"/>
@@ -108,8 +127,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/</id>
     <link href="https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/"/>
@@ -357,21 +376,5 @@
       <![CDATA[【Html】實用的 <input> 表單屬性]]>
     </title>
     <updated>2025-06-27T09:52:08.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
-    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
-    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <id>https://forgetfulengineer.github.io/Backend/PHP/How-break-and-continue-Control-the-Flow-of-Loops/</id>
-    <link href="https://forgetfulengineer.github.io/Backend/PHP/How-break-and-continue-Control-the-Flow-of-Loops/"/>
-    <published>2025-06-10T07:16:09.000Z</published>
-    <summary>1.認識 break 和 continue 可用在哪些地方 2.說明 break 和 continue 的基本語法 3.介紹 break n; 和 continue n; 在巢狀迴圈中的應用 4.終止或跳過的層數不能超過實際的巢狀層數，否則會有錯誤訊息 5.在 switch 裡控制外層迴圈【PHP】</summary>
-    <title>【PHP】解析 break 和 continue 對迴圈的控制</title>
-    <updated>2025-06-10T07:16:09.000Z</updated>
   </entry>
 </feed>
