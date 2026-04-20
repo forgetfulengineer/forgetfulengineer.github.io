@@ -12,15 +12,34 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-04-08T03:19:21.000Z</updated>
+  <updated>2026-04-20T02:26:55.000Z</updated>
   <entry>
     <author>
       <name>健忘工程師</name>
       <email>thatforgetfulengineer@gmail.com</email>
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
+    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
+    <category term="json-ld" scheme="https://forgetfulengineer.github.io/tags/json-ld/"/>
+    <category term="structured data" scheme="https://forgetfulengineer.github.io/tags/structured-data/"/>
+    <id>https://forgetfulengineer.github.io/Other/Hexo/icarus-json-ld-custom-structured-data-seo/</id>
+    <link href="https://forgetfulengineer.github.io/Other/Hexo/icarus-json-ld-custom-structured-data-seo/"/>
+    <published>2026-04-20T02:26:55.000Z</published>
+    <summary>1.覆寫 Icarus 預設 Structured Data，改為自訂元件控制 2.建立 structured_data.jsx，依頁面類型動態產生不同的 JSON-LD，提升 SEO 表現【Hexo】</summary>
+    <title>【Hexo】自訂 Icarus 主題的 JSON-LD 優化 SEO</title>
+    <updated>2026-04-20T02:26:55.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <category term="devops" scheme="https://forgetfulengineer.github.io/tags/devops/"/>
@@ -91,8 +110,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
     <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
     <link href="https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/"/>
@@ -109,8 +128,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/</id>
     <link href="https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/"/>
@@ -127,8 +146,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/</id>
     <link href="https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/"/>
@@ -198,8 +217,8 @@
       <email>thatforgetfulengineer@gmail.com</email>
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
     <category term="regex" scheme="https://forgetfulengineer.github.io/tags/regex/"/>
     <id>https://forgetfulengineer.github.io/Other/regex-non-capturing-and-assertions/</id>
@@ -326,16 +345,16 @@
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
     <category term="api" scheme="https://forgetfulengineer.github.io/tags/api/"/>
     <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
     <category term="ga" scheme="https://forgetfulengineer.github.io/tags/ga/"/>
-    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
     <id>https://forgetfulengineer.github.io/Other/Hexo/Icarus-Integrate-Ga-Api-Pv-Uv/</id>
     <link href="https://forgetfulengineer.github.io/Other/Hexo/Icarus-Integrate-Ga-Api-Pv-Uv/"/>
     <published>2025-07-30T09:22:17.000Z</published>
     <summary>1.如何修改 Icarus 主題、新增自訂插件 2.Icarus 主題串接 Google Analytics 顯示網站 PV 和 UV 3.使用 forgetfulengineer/google-analytics-data-api-netlify API 取得網站數據 4.使用 countUp.js 建立數字的動畫效果【Hexo】</summary>
     <title>【Hexo】Icarus 主題串接 GA 顯示網站 PV 和 UV</title>
-    <updated>2025-07-30T09:22:17.000Z</updated>
+    <updated>2026-04-20T03:22:17.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -356,25 +375,5 @@
     <summary>1.Google Analytics Data API 應用 2.在 GA 新增服務帳號，授權 API 存取 GA 數據 3.Fork GitHub 專案並部署至 Netlify，建立流量查詢 API 4.forgetfulengineer/google-analytics-data-api-netlify 使用方式【API】</summary>
     <title>【API】使用 Google Analytics Data API 架設網站流量查詢 API</title>
     <updated>2025-07-14T07:56:01.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
-    <category term="Html" scheme="https://forgetfulengineer.github.io/categories/Frontend/Html/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="html" scheme="https://forgetfulengineer.github.io/tags/html/"/>
-    <id>https://forgetfulengineer.github.io/Frontend/Html/Useful-Attributes-for-Input-Elements/</id>
-    <link href="https://forgetfulengineer.github.io/Frontend/Html/Useful-Attributes-for-Input-Elements/"/>
-    <published>2025-06-27T09:52:08.000Z</published>
-    <summary>
-      <![CDATA[1.了解各個場景適合的 <input> 屬性 2.移除 <input type="number"> 上下箭頭的方法 3.如何依需求控制行動裝置的鍵盤類型【HTML】]]>
-    </summary>
-    <title>
-      <![CDATA[【Html】實用的 <input> 表單屬性]]>
-    </title>
-    <updated>2025-06-27T09:52:08.000Z</updated>
   </entry>
 </feed>
