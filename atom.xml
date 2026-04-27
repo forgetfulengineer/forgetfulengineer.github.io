@@ -38,8 +38,8 @@
       <email>thatforgetfulengineer@gmail.com</email>
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <category term="devops" scheme="https://forgetfulengineer.github.io/tags/devops/"/>
@@ -110,8 +110,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
     <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
     <link href="https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/"/>
@@ -128,8 +128,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/</id>
     <link href="https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/"/>
@@ -146,8 +146,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/</id>
     <link href="https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/"/>
@@ -165,8 +165,8 @@
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
     <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
     <category term="jsDelivr" scheme="https://forgetfulengineer.github.io/tags/jsDelivr/"/>
@@ -217,8 +217,8 @@
       <email>thatforgetfulengineer@gmail.com</email>
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
     <category term="regex" scheme="https://forgetfulengineer.github.io/tags/regex/"/>
     <id>https://forgetfulengineer.github.io/Other/regex-non-capturing-and-assertions/</id>
