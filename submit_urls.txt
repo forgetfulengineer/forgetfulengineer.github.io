@@ -1,3 +1,4 @@
+https://forgetfulengineer.github.io/Other/GitHub/github-pages-user-project-page-priority/
 https://forgetfulengineer.github.io/Other/Hexo/Icarus-Integrate-Ga-Api-Pv-Uv/
 https://forgetfulengineer.github.io/Other/Hexo/icarus-json-ld-custom-structured-data-seo/
 https://forgetfulengineer.github.io/Other/devops-ci-cd-pipeline/
@@ -7,4 +8,3 @@ https://forgetfulengineer.github.io/Other/Tool/build-running-pace-app-with-gemin
 https://forgetfulengineer.github.io/Other/analyzing-url-text-fragments/
 https://forgetfulengineer.github.io/Backend/MySQL/DQL-Execution-Order/
 https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/
-https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/

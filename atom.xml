@@ -12,7 +12,23 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-04-20T02:26:55.000Z</updated>
+  <updated>2026-05-04T05:46:59.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
+    <id>https://forgetfulengineer.github.io/Other/GitHub/github-pages-user-project-page-priority/</id>
+    <link href="https://forgetfulengineer.github.io/Other/GitHub/github-pages-user-project-page-priority/"/>
+    <published>2026-05-04T05:46:59.000Z</published>
+    <summary>1.GitHub Pages 分為 User Page 與 Project Page 兩種類型 2.User Page 與 Project Page 路徑重疊時，優先解析 Project Page 的內容【GitHub】</summary>
+    <title>【GitHub】User Page 與 Project Page 路徑解析優先級</title>
+    <updated>2026-05-04T05:46:59.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -109,8 +125,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
-    <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
@@ -127,8 +143,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/</id>
@@ -145,8 +161,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/</id>
@@ -165,8 +181,8 @@
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
     <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
     <category term="jsDelivr" scheme="https://forgetfulengineer.github.io/tags/jsDelivr/"/>
@@ -345,35 +361,15 @@
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
     <category term="api" scheme="https://forgetfulengineer.github.io/tags/api/"/>
     <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
     <category term="ga" scheme="https://forgetfulengineer.github.io/tags/ga/"/>
+    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
     <id>https://forgetfulengineer.github.io/Other/Hexo/Icarus-Integrate-Ga-Api-Pv-Uv/</id>
     <link href="https://forgetfulengineer.github.io/Other/Hexo/Icarus-Integrate-Ga-Api-Pv-Uv/"/>
     <published>2025-07-30T09:22:17.000Z</published>
     <summary>1.如何修改 Icarus 主題、新增自訂插件 2.Icarus 主題串接 Google Analytics 顯示網站 PV 和 UV 3.使用 forgetfulengineer/google-analytics-data-api-netlify API 取得網站數據 4.使用 countUp.js 建立數字的動畫效果【Hexo】</summary>
     <title>【Hexo】Icarus 主題串接 GA 顯示網站 PV 和 UV</title>
     <updated>2026-04-20T03:22:17.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
-    <category term="API" scheme="https://forgetfulengineer.github.io/categories/Backend/API/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
-    <category term="api" scheme="https://forgetfulengineer.github.io/tags/api/"/>
-    <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
-    <category term="ga" scheme="https://forgetfulengineer.github.io/tags/ga/"/>
-    <category term="netlify" scheme="https://forgetfulengineer.github.io/tags/netlify/"/>
-    <id>https://forgetfulengineer.github.io/Backend/API/Building-a-Traffic-API-with-GA-Data-API/</id>
-    <link href="https://forgetfulengineer.github.io/Backend/API/Building-a-Traffic-API-with-GA-Data-API/"/>
-    <published>2025-07-14T07:56:01.000Z</published>
-    <summary>1.Google Analytics Data API 應用 2.在 GA 新增服務帳號，授權 API 存取 GA 數據 3.Fork GitHub 專案並部署至 Netlify，建立流量查詢 API 4.forgetfulengineer/google-analytics-data-api-netlify 使用方式【API】</summary>
-    <title>【API】使用 Google Analytics Data API 架設網站流量查詢 API</title>
-    <updated>2025-07-14T07:56:01.000Z</updated>
   </entry>
 </feed>
