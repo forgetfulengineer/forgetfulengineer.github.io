@@ -12,7 +12,25 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-05-04T05:46:59.000Z</updated>
+  <updated>2026-05-20T06:52:57.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
+    <category term="ai" scheme="https://forgetfulengineer.github.io/tags/ai/"/>
+    <category term="gemini" scheme="https://forgetfulengineer.github.io/tags/gemini/"/>
+    <category term="antigravity" scheme="https://forgetfulengineer.github.io/tags/antigravity/"/>
+    <category term="ide" scheme="https://forgetfulengineer.github.io/tags/ide/"/>
+    <id>https://forgetfulengineer.github.io/Other/ide-disappeared-after-recovery/</id>
+    <link href="https://forgetfulengineer.github.io/Other/ide-disappeared-after-recovery/"/>
+    <published>2026-05-20T06:52:57.000Z</published>
+    <summary>1.Antigravity 2.0 不再以「AI IDE」為核心，而是改為 autonomous AI agent 平台 2.如何找回原本的 Antigravity IDE 3.如何恢復原本 IDE 設定與 AI 對話紀錄【Antigravity】</summary>
+    <title>【Antigravity】自動更新後編輯器因此消失，如何恢復原本的編輯器與設定</title>
+    <updated>2026-05-20T06:52:57.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -125,8 +143,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
@@ -143,8 +161,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/</id>
@@ -161,8 +179,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/</id>
@@ -351,25 +369,5 @@
     <summary>1.JavaScript 中「字串」與「數字」如何進行比較？ 2.字串之間的大小比較是依 Unicode 編碼，不是數值 3.字串與數字混合使用進行比較 4.避免型別產生的錯誤，提供處理方式 5.字串與數字在加減乘除的差異【JavaScript】</summary>
     <title>【JavaScript】字串比大小的型別陷阱</title>
     <updated>2025-08-14T02:47:21.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    <category term="api" scheme="https://forgetfulengineer.github.io/tags/api/"/>
-    <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
-    <category term="ga" scheme="https://forgetfulengineer.github.io/tags/ga/"/>
-    <category term="icarus" scheme="https://forgetfulengineer.github.io/tags/icarus/"/>
-    <id>https://forgetfulengineer.github.io/Other/Hexo/Icarus-Integrate-Ga-Api-Pv-Uv/</id>
-    <link href="https://forgetfulengineer.github.io/Other/Hexo/Icarus-Integrate-Ga-Api-Pv-Uv/"/>
-    <published>2025-07-30T09:22:17.000Z</published>
-    <summary>1.如何修改 Icarus 主題、新增自訂插件 2.Icarus 主題串接 Google Analytics 顯示網站 PV 和 UV 3.使用 forgetfulengineer/google-analytics-data-api-netlify API 取得網站數據 4.使用 countUp.js 建立數字的動畫效果【Hexo】</summary>
-    <title>【Hexo】Icarus 主題串接 GA 顯示網站 PV 和 UV</title>
-    <updated>2026-04-20T03:22:17.000Z</updated>
   </entry>
 </feed>
