@@ -12,7 +12,27 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-05-20T06:52:57.000Z</updated>
+  <updated>2026-06-02T03:50:24.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
+    <category term="Nodejs" scheme="https://forgetfulengineer.github.io/categories/Backend/Nodejs/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
+    <category term="js" scheme="https://forgetfulengineer.github.io/tags/js/"/>
+    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
+    <category term="cjs" scheme="https://forgetfulengineer.github.io/tags/cjs/"/>
+    <category term="esm" scheme="https://forgetfulengineer.github.io/tags/esm/"/>
+    <id>https://forgetfulengineer.github.io/Backend/Nodejs/-cjs-vs-esm-migration-guide/</id>
+    <link href="https://forgetfulengineer.github.io/Backend/Nodejs/-cjs-vs-esm-migration-guide/"/>
+    <published>2026-06-02T03:50:24.000Z</published>
+    <summary>1.解析 CommonJS（CJS）與 ES Modules（ESM）模組語法差異 2.CJS 使用 require() 與 module.exports，ESM 使用 import 與 export 3.CJS 採同步載入，ESM 採靜態分析與非同步初始化 4.ESM 天生支援 Tree Shaking，利於效能優化【Node.js】</summary>
+    <title>【Node.js】解析 CJS 與 ESM 核心差異和專案轉換</title>
+    <updated>2026-06-02T03:50:24.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -199,8 +219,8 @@
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
     <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
     <category term="jsDelivr" scheme="https://forgetfulengineer.github.io/tags/jsDelivr/"/>
@@ -352,22 +372,5 @@
     <summary>1.git revert 的用途以及使用情境 2.還原指定或多個提交的方法 3.調整容易混淆的還原範圍寫法 4.多個還原合併成一次提交 5.git revert 和 git reset 的差異【Git】</summary>
     <title>【Git】使用 git revert 一次性還原多個提交</title>
     <updated>2025-08-28T10:43:49.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
-    <category term="JavaScript" scheme="https://forgetfulengineer.github.io/categories/Frontend/JavaScript/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
-    <category term="js" scheme="https://forgetfulengineer.github.io/tags/js/"/>
-    <id>https://forgetfulengineer.github.io/Frontend/JavaScript/String-Comparison-Type-Gotchas/</id>
-    <link href="https://forgetfulengineer.github.io/Frontend/JavaScript/String-Comparison-Type-Gotchas/"/>
-    <published>2025-08-14T02:47:21.000Z</published>
-    <summary>1.JavaScript 中「字串」與「數字」如何進行比較？ 2.字串之間的大小比較是依 Unicode 編碼，不是數值 3.字串與數字混合使用進行比較 4.避免型別產生的錯誤，提供處理方式 5.字串與數字在加減乘除的差異【JavaScript】</summary>
-    <title>【JavaScript】字串比大小的型別陷阱</title>
-    <updated>2025-08-14T02:47:21.000Z</updated>
   </entry>
 </feed>
