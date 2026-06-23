@@ -12,7 +12,26 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-06-02T03:50:24.000Z</updated>
+  <updated>2026-06-23T07:49:47.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
+    <category term="Develop" scheme="https://forgetfulengineer.github.io/categories/Backend/Develop/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="database" scheme="https://forgetfulengineer.github.io/tags/database/"/>
+    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
+    <category term="search engine" scheme="https://forgetfulengineer.github.io/tags/search-engine/"/>
+    <category term="ai rag" scheme="https://forgetfulengineer.github.io/tags/ai-rag/"/>
+    <id>https://forgetfulengineer.github.io/Backend/Develop/search-engine-integration-for-better-performance/</id>
+    <link href="https://forgetfulengineer.github.io/Backend/Develop/search-engine-integration-for-better-performance/"/>
+    <published>2026-06-23T07:49:47.000Z</published>
+    <summary>1.搜尋引擎透過建立倒排索引（Inverted Index）來提升查詢效率 2.一般資料庫擅長資料儲存與交易處理，搜尋引擎則專注於資料檢索 3.搜尋引擎的優勢是全文檢索、模糊搜尋與相關性排序 4.適合導入搜尋引擎的場景有哪些 5.搜尋引擎可作為系統架構中的檢索層，降低資料庫查詢壓力【Develop】</summary>
+    <title>【Develop】介接搜尋引擎來提升查詢效率！</title>
+    <updated>2026-06-23T07:49:47.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -21,9 +40,9 @@
     <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
     <category term="Nodejs" scheme="https://forgetfulengineer.github.io/categories/Backend/Nodejs/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
     <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
     <category term="js" scheme="https://forgetfulengineer.github.io/tags/js/"/>
+    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
     <category term="cjs" scheme="https://forgetfulengineer.github.io/tags/cjs/"/>
     <category term="esm" scheme="https://forgetfulengineer.github.io/tags/esm/"/>
     <id>https://forgetfulengineer.github.io/Backend/Nodejs/-cjs-vs-esm-migration-guide/</id>
@@ -218,9 +237,9 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
     <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
     <category term="jsDelivr" scheme="https://forgetfulengineer.github.io/tags/jsDelivr/"/>
@@ -345,32 +364,15 @@
     </author>
     <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
     <category term="MySQL" scheme="https://forgetfulengineer.github.io/categories/Backend/MySQL/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="mysql" scheme="https://forgetfulengineer.github.io/tags/mysql/"/>
     <category term="database" scheme="https://forgetfulengineer.github.io/tags/database/"/>
     <category term="db" scheme="https://forgetfulengineer.github.io/tags/db/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <id>https://forgetfulengineer.github.io/Backend/MySQL/column-collation-case-sensitivity/</id>
     <link href="https://forgetfulengineer.github.io/Backend/MySQL/column-collation-case-sensitivity/"/>
     <published>2025-09-15T10:14:52.000Z</published>
     <summary>1.不同 collation 對查詢的影響 2.如何確認欄位 collation 3.設定 collation 的方法 4.查詢時強制區分大小寫【MySQL】</summary>
     <title>【MySQL】欄位編碼設定影響查詢的大小寫敏感</title>
     <updated>2025-09-15T10:14:52.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    <id>https://forgetfulengineer.github.io/Other/Git/Git-Revert-Multiple-Commits/</id>
-    <link href="https://forgetfulengineer.github.io/Other/Git/Git-Revert-Multiple-Commits/"/>
-    <published>2025-08-28T10:43:49.000Z</published>
-    <summary>1.git revert 的用途以及使用情境 2.還原指定或多個提交的方法 3.調整容易混淆的還原範圍寫法 4.多個還原合併成一次提交 5.git revert 和 git reset 的差異【Git】</summary>
-    <title>【Git】使用 git revert 一次性還原多個提交</title>
-    <updated>2025-08-28T10:43:49.000Z</updated>
   </entry>
 </feed>

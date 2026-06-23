@@ -1,3 +1,4 @@
+https://forgetfulengineer.github.io/Backend/Develop/search-engine-integration-for-better-performance/
 https://forgetfulengineer.github.io/Backend/Nodejs/-cjs-vs-esm-migration-guide/
 https://forgetfulengineer.github.io/Other/ide-disappeared-after-recovery/
 https://forgetfulengineer.github.io/Other/GitHub/github-pages-user-project-page-priority/
@@ -7,4 +8,3 @@ https://forgetfulengineer.github.io/Other/devops-ci-cd-pipeline/
 https://forgetfulengineer.github.io/Other/GitHub/jsdelivr-cdn-github-pages-hexo-acceleration-tutorial/
 https://forgetfulengineer.github.io/Other/analyzing-five-cloud-service-models/
 https://forgetfulengineer.github.io/Other/Tool/build-running-pace-app-with-gemini-canvas/
-https://forgetfulengineer.github.io/Other/analyzing-url-text-fragments/
