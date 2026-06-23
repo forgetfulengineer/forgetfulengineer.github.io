@@ -533,6 +533,20 @@
 
   
   <url>
+    <loc>https://forgetfulengineer.github.io/tags/php/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://forgetfulengineer.github.io/tags/backend/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://forgetfulengineer.github.io/tags/vscode/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -548,20 +562,6 @@
   
   <url>
     <loc>https://forgetfulengineer.github.io/tags/terminal/</loc>
-    <lastmod>2026-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://forgetfulengineer.github.io/tags/php/</loc>
-    <lastmod>2026-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://forgetfulengineer.github.io/tags/backend/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -778,20 +778,6 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/tags/devops/</loc>
-    <lastmod>2026-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://forgetfulengineer.github.io/tags/ci-cd/</loc>
-    <lastmod>2026-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://forgetfulengineer.github.io/tags/json-ld/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -806,14 +792,14 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/tags/cjs/</loc>
+    <loc>https://forgetfulengineer.github.io/tags/devops/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/tags/esm/</loc>
+    <loc>https://forgetfulengineer.github.io/tags/ci-cd/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -828,6 +814,20 @@
   
   <url>
     <loc>https://forgetfulengineer.github.io/tags/ide/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://forgetfulengineer.github.io/tags/cjs/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://forgetfulengineer.github.io/tags/esm/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -850,14 +850,14 @@
 
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Other/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Backend/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Backend/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Other/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -871,7 +871,14 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Other/VSCode/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Backend/PHP/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://forgetfulengineer.github.io/categories/Backend/MySQL/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -885,7 +892,7 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Backend/PHP/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Other/VSCode/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -913,7 +920,7 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Backend/MySQL/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Frontend/JQuery/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -927,14 +934,14 @@
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Frontend/JQuery/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Other/GitHub/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://forgetfulengineer.github.io/categories/Other/GitHub/</loc>
+    <loc>https://forgetfulengineer.github.io/categories/Frontend/JavaScript/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -949,13 +956,6 @@
   
   <url>
     <loc>https://forgetfulengineer.github.io/categories/Other/Tool/</loc>
-    <lastmod>2026-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://forgetfulengineer.github.io/categories/Frontend/JavaScript/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
