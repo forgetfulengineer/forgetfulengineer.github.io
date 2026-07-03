@@ -12,7 +12,24 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-06-23T07:49:47.000Z</updated>
+  <updated>2026-07-02T03:06:59.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
+    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
+    <id>https://forgetfulengineer.github.io/Other/GitHub/github-reference-system/</id>
+    <link href="https://forgetfulengineer.github.io/Other/GitHub/github-reference-system/"/>
+    <published>2026-07-02T03:06:59.000Z</published>
+    <summary>1.Reference System 透過簡單的語法讓內容建立關聯 2.同一個 Repository 內的所有 Issue 和 PR 共用同一組遞增的流水號 3.如何跨儲存庫參照 4.雙向追蹤機制自動建立雙向提交紀錄和通知 5.利用 Closing Keywords 關閉 issue【GitHub】</summary>
+    <title>【GitHub】解析 Reference System：Issue、Pull Request、Commit 如何建立關聯</title>
+    <updated>2026-07-02T03:06:59.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -356,23 +373,5 @@
     <summary>1.Netlify function 更新程式碼後，新設定的環境變數未被正確讀取 2.檢查環境變數是否設定在正確的環境 3.確認環境變數名稱是否正確 4.透過 Deploy project without cache 解決問題【Netlify】</summary>
     <title>【Netlify】環境變數更新無效的除錯流程</title>
     <updated>2025-09-24T10:30:01.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
-    <category term="MySQL" scheme="https://forgetfulengineer.github.io/categories/Backend/MySQL/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="mysql" scheme="https://forgetfulengineer.github.io/tags/mysql/"/>
-    <category term="database" scheme="https://forgetfulengineer.github.io/tags/database/"/>
-    <category term="db" scheme="https://forgetfulengineer.github.io/tags/db/"/>
-    <id>https://forgetfulengineer.github.io/Backend/MySQL/column-collation-case-sensitivity/</id>
-    <link href="https://forgetfulengineer.github.io/Backend/MySQL/column-collation-case-sensitivity/"/>
-    <published>2025-09-15T10:14:52.000Z</published>
-    <summary>1.不同 collation 對查詢的影響 2.如何確認欄位 collation 3.設定 collation 的方法 4.查詢時強制區分大小寫【MySQL】</summary>
-    <title>【MySQL】欄位編碼設定影響查詢的大小寫敏感</title>
-    <updated>2025-09-15T10:14:52.000Z</updated>
   </entry>
 </feed>
