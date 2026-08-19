@@ -12,7 +12,25 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-08-05T01:30:23.000Z</updated>
+  <updated>2026-08-19T02:09:00.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
+    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
+    <category term="ci/cd" scheme="https://forgetfulengineer.github.io/tags/ci-cd/"/>
+    <id>https://forgetfulengineer.github.io/Other/Git/conventional-commits-commit-message-guide/</id>
+    <link href="https://forgetfulengineer.github.io/Other/Git/conventional-commits-commit-message-guide/"/>
+    <published>2026-08-19T02:09:00.000Z</published>
+    <summary>1.Conventional Commits 讓 Commit 同時具有人類與機器可讀的結構 2.彙整主要 commit type 類型及其適用情境 3.Conventional Commits 能提供 Changelog、Semantic Versioning、Release 與 CI/CD 自動化所需的結構化資訊【Git】</summary>
+    <title>【Git】使用 Conventional Commits 規範優化 commit message</title>
+    <updated>2026-08-19T02:09:00.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -236,8 +254,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
@@ -254,8 +272,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/</id>
@@ -272,8 +290,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/</id>
@@ -356,26 +374,5 @@
     </summary>
     <title>【Regex】解析非捕獲分組與斷言語法</title>
     <updated>2025-11-12T09:36:55.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Frontend" scheme="https://forgetfulengineer.github.io/categories/Frontend/"/>
-    <category term="Html" scheme="https://forgetfulengineer.github.io/categories/Frontend/Html/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="html" scheme="https://forgetfulengineer.github.io/tags/html/"/>
-    <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
-    <id>https://forgetfulengineer.github.io/Frontend/Html/script-loading-defer-async/</id>
-    <link href="https://forgetfulengineer.github.io/Frontend/Html/script-loading-defer-async/"/>
-    <published>2025-10-29T02:57:33.000Z</published>
-    <summary>
-      <![CDATA[1.&lt;script&gt; 的載入與執行特性 2.defer 和 async 的功能與特性 3.type=&quot;module&quot; 與 defer 的關係【HTML】]]>
-    </summary>
-    <title>
-      <![CDATA[【Html】解析 <script> 載入機制與 defer、async 屬性]]>
-    </title>
-    <updated>2025-10-29T02:57:33.000Z</updated>
   </entry>
 </feed>
