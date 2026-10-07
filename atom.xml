@@ -12,7 +12,27 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-09-18T05:28:01.000Z</updated>
+  <updated>2026-10-07T07:08:05.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    <category term="AI" scheme="https://forgetfulengineer.github.io/categories/AI/"/>
+    <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
+    <category term="ai" scheme="https://forgetfulengineer.github.io/tags/ai/"/>
+    <category term="gemini" scheme="https://forgetfulengineer.github.io/tags/gemini/"/>
+    <category term="antigravity ide" scheme="https://forgetfulengineer.github.io/tags/antigravity-ide/"/>
+    <category term="agy" scheme="https://forgetfulengineer.github.io/tags/agy/"/>
+    <category term="ai agent" scheme="https://forgetfulengineer.github.io/tags/ai-agent/"/>
+    <id>https://forgetfulengineer.github.io/AI/antigravity-ide-conversation-recovery/</id>
+    <link href="https://forgetfulengineer.github.io/AI/antigravity-ide-conversation-recovery/"/>
+    <published>2026-10-07T07:08:05.000Z</published>
+    <summary>1.antigravity 對話紀錄消失不一定代表實際資料遺失 2.刪除舊對話、重新啟動 IDE，以及建立新 AI agent 對話，都出現對話紀錄無法持續保存的問題 3.antigravity-conversation-fix 可掃描既有對話資料並重建 Antigravity IDE 的 sidebar 對話索引【AI】</summary>
+    <title>【Antigravity IDE】恢復 AI agent 對話紀錄</title>
+    <updated>2026-10-07T07:08:05.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -345,8 +365,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
     <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
     <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
     <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
@@ -357,23 +377,5 @@
     <summary>1.jsDelivr 串接 GitHub Pages，延長快取時長、加速載入 2.GitHub Pages 與 jsDelivr 在快取、全球節點、資源更新速度上的差異 3.jsDelivr 串接原理與版本控制 4.Hexo 過濾器實現本地資源重寫 5.自動化佈署腳本與 CDN Tag 機制強制更新快取【GitHub、Hexo】</summary>
     <title>【GitHub、Hexo】jsDelivr CDN 加速 GitHub Pages 資源及 Hexo 實作</title>
     <updated>2026-03-31T06:38:50.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
-    <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
-    <category term="security" scheme="https://forgetfulengineer.github.io/tags/security/"/>
-    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
-    <id>https://forgetfulengineer.github.io/Backend/reverse-proxy-forward-proxy/</id>
-    <link href="https://forgetfulengineer.github.io/Backend/reverse-proxy-forward-proxy/"/>
-    <published>2025-12-03T06:30:37.000Z</published>
-    <summary>1.Reverse Proxy 反向代理是在保護與加速後端伺服器，扮演對外單一入口 2.Forward Proxy 正向代理是用於存取控制與匿名化，扮演用戶端請求的單一出口 3.Reverse Proxy 和 Load Balancer 的關係 4.Forward Proxy 和 VPN 的相似之處【Develop】</summary>
-    <title>【Develop】解析 Reverse Proxy 與 Forward Proxy</title>
-    <updated>2025-12-03T06:30:37.000Z</updated>
   </entry>
 </feed>

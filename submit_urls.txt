@@ -1,3 +1,4 @@
+https://forgetfulengineer.github.io/AI/antigravity-ide-conversation-recovery/
 https://forgetfulengineer.github.io/Backend/Linux/file-permissions-owner-management/
 https://forgetfulengineer.github.io/Frontend/JavaScript/variable-declarations-const-let-var/
 https://forgetfulengineer.github.io/Other/Git/conventional-commits-commit-message-guide/
@@ -7,4 +8,3 @@ https://forgetfulengineer.github.io/Backend/Nodejs/use-nvm-to-manage-nodejs-vers
 https://forgetfulengineer.github.io/Other/GitHub/github-reference-system/
 https://forgetfulengineer.github.io/Backend/Develop/search-engine-integration-for-better-performance/
 https://forgetfulengineer.github.io/Backend/Nodejs/-cjs-vs-esm-migration-guide/
-https://forgetfulengineer.github.io/Other/ide-disappeared-after-recovery/
