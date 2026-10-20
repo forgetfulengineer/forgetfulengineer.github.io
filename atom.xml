@@ -12,7 +12,24 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-10-07T07:08:05.000Z</updated>
+  <updated>2026-10-20T02:08:02.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
+    <category term="Git" scheme="https://forgetfulengineer.github.io/categories/Other/Git/"/>
+    <category term="git" scheme="https://forgetfulengineer.github.io/tags/git/"/>
+    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
+    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
+    <id>https://forgetfulengineer.github.io/Other/Git/reset-version-control-repository/</id>
+    <link href="https://forgetfulengineer.github.io/Other/Git/reset-version-control-repository/"/>
+    <published>2026-10-20T02:08:02.000Z</published>
+    <summary>1.移除專案根目錄的 .git，即可移除本機既有 Git Repository，並且不影響其他專案檔案 2. .git 移除後，原本的 commit history、branch、tag、remote 與 Repository 層級設定等都不再存在 3.重新初始化 git 版控流程【Git】</summary>
+    <title>【Git】如何重置版本控制專案</title>
+    <updated>2026-10-20T02:08:02.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -40,8 +57,8 @@
     </author>
     <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
     <category term="security" scheme="https://forgetfulengineer.github.io/tags/security/"/>
@@ -243,8 +260,8 @@
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
-    <category term="devops" scheme="https://forgetfulengineer.github.io/tags/devops/"/>
     <category term="ci/cd" scheme="https://forgetfulengineer.github.io/tags/ci-cd/"/>
+    <category term="devops" scheme="https://forgetfulengineer.github.io/tags/devops/"/>
     <id>https://forgetfulengineer.github.io/Other/devops-ci-cd-pipeline/</id>
     <link href="https://forgetfulengineer.github.io/Other/devops-ci-cd-pipeline/"/>
     <published>2026-04-08T03:19:21.000Z</published>
@@ -310,8 +327,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
@@ -328,8 +345,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/</id>
@@ -346,8 +363,8 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/</id>
@@ -356,26 +373,5 @@
     <summary>1.npm 常用指令速查表及各指令的詳細說明 2.說明 npm 從初始化到安裝到更新到移除等等實用指令 3.npm install 和 npm ci 的差異【NPM】</summary>
     <title>【NPM】常用指令速查表</title>
     <updated>2026-01-05T07:16:09.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="Hexo" scheme="https://forgetfulengineer.github.io/categories/Other/Hexo/"/>
-    <category term="GitHub" scheme="https://forgetfulengineer.github.io/categories/Other/GitHub/"/>
-    <category term="github" scheme="https://forgetfulengineer.github.io/tags/github/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="hexo" scheme="https://forgetfulengineer.github.io/tags/hexo/"/>
-    <category term="seo" scheme="https://forgetfulengineer.github.io/tags/seo/"/>
-    <category term="tool" scheme="https://forgetfulengineer.github.io/tags/tool/"/>
-    <category term="jsDelivr" scheme="https://forgetfulengineer.github.io/tags/jsDelivr/"/>
-    <id>https://forgetfulengineer.github.io/Other/GitHub/jsdelivr-cdn-github-pages-hexo-acceleration-tutorial/</id>
-    <link href="https://forgetfulengineer.github.io/Other/GitHub/jsdelivr-cdn-github-pages-hexo-acceleration-tutorial/"/>
-    <published>2025-12-21T05:38:55.000Z</published>
-    <summary>1.jsDelivr 串接 GitHub Pages，延長快取時長、加速載入 2.GitHub Pages 與 jsDelivr 在快取、全球節點、資源更新速度上的差異 3.jsDelivr 串接原理與版本控制 4.Hexo 過濾器實現本地資源重寫 5.自動化佈署腳本與 CDN Tag 機制強制更新快取【GitHub、Hexo】</summary>
-    <title>【GitHub、Hexo】jsDelivr CDN 加速 GitHub Pages 資源及 Hexo 實作</title>
-    <updated>2026-03-31T06:38:50.000Z</updated>
   </entry>
 </feed>
