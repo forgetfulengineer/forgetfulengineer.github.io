@@ -35,7 +35,6 @@
       <name>健忘工程師</name>
       <email>thatforgetfulengineer@gmail.com</email>
     </author>
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="AI" scheme="https://forgetfulengineer.github.io/categories/AI/"/>
     <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
     <category term="ai" scheme="https://forgetfulengineer.github.io/tags/ai/"/>
@@ -260,8 +259,8 @@
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
-    <category term="ci/cd" scheme="https://forgetfulengineer.github.io/tags/ci-cd/"/>
     <category term="devops" scheme="https://forgetfulengineer.github.io/tags/devops/"/>
+    <category term="ci/cd" scheme="https://forgetfulengineer.github.io/tags/ci-cd/"/>
     <id>https://forgetfulengineer.github.io/Other/devops-ci-cd-pipeline/</id>
     <link href="https://forgetfulengineer.github.io/Other/devops-ci-cd-pipeline/"/>
     <published>2026-04-08T03:19:21.000Z</published>
