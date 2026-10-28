@@ -12,7 +12,27 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-10-20T02:08:02.000Z</updated>
+  <updated>2026-10-28T02:58:16.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
+    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="security" scheme="https://forgetfulengineer.github.io/tags/security/"/>
+    <category term="php2shell" scheme="https://forgetfulengineer.github.io/tags/php2shell/"/>
+    <category term="php-fpm" scheme="https://forgetfulengineer.github.io/tags/php-fpm/"/>
+    <category term="vulnerability" scheme="https://forgetfulengineer.github.io/tags/vulnerability/"/>
+    <id>https://forgetfulengineer.github.io/Backend/PHP/php2shell-php-security-vulnerability/</id>
+    <link href="https://forgetfulengineer.github.io/Backend/PHP/php2shell-php-security-vulnerability/"/>
+    <published>2026-10-28T02:58:16.000Z</published>
+    <summary>1.PHP2Shell 包含 CVE-2026-109618 與 CVE-2026-109619 兩項高危險性核心漏洞 2.漏洞影響所有常見的 PHP 運行模式，攻擊者可無須驗證發動遠端程式碼執行（RCE） 3.官方已推出修補版本；EOL 版本需透過社群 Backport 處理【PHP】</summary>
+    <title>【PHP】10/21 重大資安漏洞：PHP2Shell</title>
+    <updated>2026-10-28T02:58:16.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -56,8 +76,8 @@
     </author>
     <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
     <category term="security" scheme="https://forgetfulengineer.github.io/tags/security/"/>
@@ -326,9 +346,9 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
-    <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
     <link href="https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/"/>
@@ -344,9 +364,9 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
     <id>https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/</id>
     <link href="https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/"/>
@@ -354,23 +374,5 @@
     <summary>1.npm install 行為機制 2.npm 設定檔的分工設計 3.npm 相依套件的分類 4.語意化版本（SemVer）、符號（^、~）的實際安裝範圍 5.npm update 是一個依版本規則自動前進的更新工具 6.npm 降版本需求使用 npm install，不能使用 npm update【NPM】</summary>
     <title>【NPM】解析 npm 安裝和更新的行為</title>
     <updated>2026-01-21T10:14:15.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
-    <id>https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/</id>
-    <link href="https://forgetfulengineer.github.io/Other/NPM/common-commands-cheat-sheet/"/>
-    <published>2026-01-05T07:16:09.000Z</published>
-    <summary>1.npm 常用指令速查表及各指令的詳細說明 2.說明 npm 從初始化到安裝到更新到移除等等實用指令 3.npm install 和 npm ci 的差異【NPM】</summary>
-    <title>【NPM】常用指令速查表</title>
-    <updated>2026-01-05T07:16:09.000Z</updated>
   </entry>
 </feed>
