@@ -12,7 +12,27 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-10-28T02:58:16.000Z</updated>
+  <updated>2026-11-12T01:34:57.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="AI" scheme="https://forgetfulengineer.github.io/categories/AI/"/>
+    <category term="netlify" scheme="https://forgetfulengineer.github.io/tags/netlify/"/>
+    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
+    <category term="ai" scheme="https://forgetfulengineer.github.io/tags/ai/"/>
+    <category term="antigravity ide" scheme="https://forgetfulengineer.github.io/tags/antigravity-ide/"/>
+    <category term="ai agent" scheme="https://forgetfulengineer.github.io/tags/ai-agent/"/>
+    <category term="skills" scheme="https://forgetfulengineer.github.io/tags/skills/"/>
+    <category term="codex" scheme="https://forgetfulengineer.github.io/tags/codex/"/>
+    <id>https://forgetfulengineer.github.io/AI/ai-agent-skills-guide/</id>
+    <link href="https://forgetfulengineer.github.io/AI/ai-agent-skills-guide/"/>
+    <published>2026-11-12T01:34:57.000Z</published>
+    <summary>1.AI Agent Skill 的標準目錄結構 2.透過 Vercel Skills CLI 與 skills.sh 進行社群 Skills 的搜尋、安裝及生命週期維護流程 3.簡介 Netlify Agent Skills 實務案例與日常開發情境的指令呼叫【AI】</summary>
+    <title>【AI】agent skills 安裝、管理、應用</title>
+    <updated>2026-11-12T01:34:57.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -76,8 +96,8 @@
     </author>
     <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
     <category term="Linux" scheme="https://forgetfulengineer.github.io/categories/Backend/Linux/"/>
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
     <category term="linux" scheme="https://forgetfulengineer.github.io/tags/linux/"/>
     <category term="system" scheme="https://forgetfulengineer.github.io/tags/system/"/>
     <category term="security" scheme="https://forgetfulengineer.github.io/tags/security/"/>
@@ -149,9 +169,9 @@
     <category term="Nodejs" scheme="https://forgetfulengineer.github.io/categories/Backend/Nodejs/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
     <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
     <category term="js" scheme="https://forgetfulengineer.github.io/tags/js/"/>
-    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
     <category term="nvm" scheme="https://forgetfulengineer.github.io/tags/nvm/"/>
     <id>https://forgetfulengineer.github.io/Backend/Nodejs/use-nvm-to-manage-nodejs-version/</id>
     <link href="https://forgetfulengineer.github.io/Backend/Nodejs/use-nvm-to-manage-nodejs-version/"/>
@@ -204,9 +224,9 @@
     <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
     <category term="Nodejs" scheme="https://forgetfulengineer.github.io/categories/Backend/Nodejs/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
     <category term="javascript" scheme="https://forgetfulengineer.github.io/tags/javascript/"/>
     <category term="js" scheme="https://forgetfulengineer.github.io/tags/js/"/>
-    <category term="nodejs" scheme="https://forgetfulengineer.github.io/tags/nodejs/"/>
     <category term="cjs" scheme="https://forgetfulengineer.github.io/tags/cjs/"/>
     <category term="esm" scheme="https://forgetfulengineer.github.io/tags/esm/"/>
     <id>https://forgetfulengineer.github.io/Backend/Nodejs/-cjs-vs-esm-migration-guide/</id>
@@ -223,10 +243,10 @@
     </author>
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="google" scheme="https://forgetfulengineer.github.io/tags/google/"/>
-    <category term="antigravity" scheme="https://forgetfulengineer.github.io/tags/antigravity/"/>
     <category term="ai" scheme="https://forgetfulengineer.github.io/tags/ai/"/>
-    <category term="ide" scheme="https://forgetfulengineer.github.io/tags/ide/"/>
     <category term="gemini" scheme="https://forgetfulengineer.github.io/tags/gemini/"/>
+    <category term="antigravity" scheme="https://forgetfulengineer.github.io/tags/antigravity/"/>
+    <category term="ide" scheme="https://forgetfulengineer.github.io/tags/ide/"/>
     <id>https://forgetfulengineer.github.io/Other/ide-disappeared-after-recovery/</id>
     <link href="https://forgetfulengineer.github.io/Other/ide-disappeared-after-recovery/"/>
     <published>2026-05-20T06:52:57.000Z</published>
@@ -347,8 +367,8 @@
     <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
     <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
     <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
     <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
     <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
     <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
     <link href="https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/"/>
@@ -356,23 +376,5 @@
     <summary>1.VSCode 可以在存檔時自動移除行尾空白（Trim Trailing Whitespace） 2.基礎設定為全域生效 3.settings.json 可進行語言層級的進階控制 4.Render Whitespace 設定可以輔助檢視空白位置【VSCode】</summary>
     <title>【VSCode】自動移除行尾空白</title>
     <updated>2026-02-03T04:56:37.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="NPM" scheme="https://forgetfulengineer.github.io/categories/Other/NPM/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="terminal" scheme="https://forgetfulengineer.github.io/tags/terminal/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="npm" scheme="https://forgetfulengineer.github.io/tags/npm/"/>
-    <id>https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/</id>
-    <link href="https://forgetfulengineer.github.io/Other/NPM/analyzing-npm-install-update-mechanism/"/>
-    <published>2026-01-21T10:14:15.000Z</published>
-    <summary>1.npm install 行為機制 2.npm 設定檔的分工設計 3.npm 相依套件的分類 4.語意化版本（SemVer）、符號（^、~）的實際安裝範圍 5.npm update 是一個依版本規則自動前進的更新工具 6.npm 降版本需求使用 npm install，不能使用 npm update【NPM】</summary>
-    <title>【NPM】解析 npm 安裝和更新的行為</title>
-    <updated>2026-01-21T10:14:15.000Z</updated>
   </entry>
 </feed>
