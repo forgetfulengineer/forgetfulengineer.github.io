@@ -12,7 +12,26 @@
   <rights>All rights reserved 2026, 健忘工程師</rights>
   <subtitle>forgetful engineer</subtitle>
   <title>健忘工程師</title>
-  <updated>2026-11-12T01:34:57.000Z</updated>
+  <updated>2026-11-23T11:04:22.000Z</updated>
+  <entry>
+    <author>
+      <name>健忘工程師</name>
+      <email>thatforgetfulengineer@gmail.com</email>
+    </author>
+    <category term="Backend" scheme="https://forgetfulengineer.github.io/categories/Backend/"/>
+    <category term="PHP" scheme="https://forgetfulengineer.github.io/categories/Backend/PHP/"/>
+    <category term="php" scheme="https://forgetfulengineer.github.io/tags/php/"/>
+    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
+    <category term="php-fpm" scheme="https://forgetfulengineer.github.io/tags/php-fpm/"/>
+    <category term="sapi" scheme="https://forgetfulengineer.github.io/tags/sapi/"/>
+    <category term="cgi" scheme="https://forgetfulengineer.github.io/tags/cgi/"/>
+    <id>https://forgetfulengineer.github.io/Backend/PHP/php-runtime-sapi/</id>
+    <link href="https://forgetfulengineer.github.io/Backend/PHP/php-runtime-sapi/"/>
+    <published>2026-11-23T11:04:22.000Z</published>
+    <summary>1.PHP 是程式語言，PHP Runtime 是實際提供程式執行能力的環境 2.Zend Engine 是 PHP Runtime 的核心，負責 PHP 程式碼的解析、編譯與執行 3.SAPI 是 PHP Runtime 與外部執行環境之間的整合介面 4.CLI、CGI、FPM 是不同的 SAPI 實作【PHP】</summary>
+    <title>【PHP】執行環境與 SAPI（Server API）</title>
+    <updated>2026-11-23T11:04:22.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>健忘工程師</name>
@@ -358,23 +377,5 @@
     <summary>1.Text Fragments 允許透過 URL 直接定位並 highlight 網頁中的特定文字，無需依賴 HTML ID 屬性 2.語法結構支援單詞、範圍及上下文定位 3.要求導航必須由使用者觸發（例如點擊連結或在網址列輸入） 4.可透過 ::target-text 客製化反白樣式，不影響 DOM 結構【Html】</summary>
     <title>【Develop】解析 URL Text Fragments #:~:text=</title>
     <updated>2026-02-24T05:31:53.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>健忘工程師</name>
-      <email>thatforgetfulengineer@gmail.com</email>
-    </author>
-    <category term="Other" scheme="https://forgetfulengineer.github.io/categories/Other/"/>
-    <category term="VSCode" scheme="https://forgetfulengineer.github.io/categories/Other/VSCode/"/>
-    <category term="backend" scheme="https://forgetfulengineer.github.io/tags/backend/"/>
-    <category term="vscode" scheme="https://forgetfulengineer.github.io/tags/vscode/"/>
-    <category term="frontend" scheme="https://forgetfulengineer.github.io/tags/frontend/"/>
-    <category term="develop" scheme="https://forgetfulengineer.github.io/tags/develop/"/>
-    <id>https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/</id>
-    <link href="https://forgetfulengineer.github.io/Other/VSCode/trim-trailing-whitespace/"/>
-    <published>2026-02-03T04:56:37.000Z</published>
-    <summary>1.VSCode 可以在存檔時自動移除行尾空白（Trim Trailing Whitespace） 2.基礎設定為全域生效 3.settings.json 可進行語言層級的進階控制 4.Render Whitespace 設定可以輔助檢視空白位置【VSCode】</summary>
-    <title>【VSCode】自動移除行尾空白</title>
-    <updated>2026-02-03T04:56:37.000Z</updated>
   </entry>
 </feed>
